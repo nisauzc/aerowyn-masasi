@@ -135,8 +135,8 @@ document.addEventListener("fullscreenchange", () => { if (!document.fullscreenEl
 /* ---------- report card ---------- */
 let foxImg = null;
 (function () { const i = new Image(); i.onload = () => { foxImg = i; }; i.src = FOX; })();
-const RC = { paper: "#F3EADB", ink: "#453D33", soft: "#8B806F", faint: "#B6A996", rule: "#DED0B9", acc: "#5E7546" };
-const DISP = 'Georgia, "Yu Mincho", "Hiragino Mincho ProN", serif', UIF = '"Segoe UI", "Yu Gothic UI", "Hiragino Sans", Helvetica, Arial, sans-serif';
+const RC = { paper: "#f6f5fb", ink: "#241f36", soft: "#7a7391", faint: "#b3adc8", rule: "#e7e3f2", acc: "#6d5ae0" };
+const DISP = '"Fredoka", "Nunito", "Hiragino Sans", sans-serif', UIF = '"Nunito", "Segoe UI", "Hiragino Sans", Helvetica, Arial, sans-serif';
 let repSize = 0;
 function drawCard(k) {
   const SZ = [{ w: 1080, h: 1350, label: "Threads" }, { w: 1280, h: 720, label: "YouTube" }][repSize];

@@ -364,3 +364,59 @@ body.words #main{padding:0}
   .nav{flex:0 0 auto;min-width:62px}
 }
 label.btn{cursor:pointer}
+
+/* ===================================================================
+   Kelime Kutusu görünümü: yumuşak lavanta zemin, beyaz kartlar,
+   mor vurgu, Fredoka başlıklar, Nunito metin, yuvarlak köşeler
+   =================================================================== */
+:root{
+  --bg:#f6f5fb; --surface:#ffffff; --sunk:#efedf8; --ink:#241f36; --soft:#7a7391; --faint:#b3adc8;
+  --rule:#e7e3f2; --accent:#6d5ae0; --accent-ink:#ffffff; --accent-soft:#eceafc; --accent-2:#ff9a76;
+  --warn:#e8617d; --ok:#2fb98a;
+  --shadow:0 10px 30px rgba(66,50,120,.14); --shadow-sm:0 2px 10px rgba(66,50,120,.07);
+  --f-display:"Fredoka","Nunito",system-ui,sans-serif;
+  --f-ui:"Nunito","Segoe UI",system-ui,"Noto Sans JP",sans-serif;
+  --r:20px;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#141221; --surface:#1e1b2e; --sunk:#181528; --ink:#eceaf6; --soft:#a09ab8; --faint:#6c6588;
+  --rule:#302a47; --accent:#9a8bff; --accent-ink:#141221; --accent-soft:#2a2440; --accent-2:#ffac8c;
+  --warn:#ff7d97; --ok:#4fd3a5; --shadow:0 10px 30px rgba(0,0,0,.45); --shadow-sm:0 2px 10px rgba(0,0,0,.3);
+}}
+:root[data-theme="dark"]{
+  --bg:#141221; --surface:#1e1b2e; --sunk:#181528; --ink:#eceaf6; --soft:#a09ab8; --faint:#6c6588;
+  --rule:#302a47; --accent:#9a8bff; --accent-ink:#141221; --accent-soft:#2a2440; --accent-2:#ffac8c;
+  --warn:#ff7d97; --ok:#4fd3a5; --shadow:0 10px 30px rgba(0,0,0,.45); --shadow-sm:0 2px 10px rgba(0,0,0,.3);
+}
+body.brk{--accent:#ff9a76;--accent-soft:#ffeee7}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) body.brk{--accent:#ffac8c;--accent-soft:#3a2a26}}
+:root[data-theme="dark"] body.brk{--accent:#ffac8c;--accent-soft:#3a2a26}
+
+body{font-size:15px}
+h1,h2,h3{font-weight:600;letter-spacing:0}
+.viewhead h1{font-weight:600}
+.stat b,.account b,.day .rec .ft,.dd2,.ftime{font-weight:500}
+.ftime{font-weight:400;letter-spacing:-.01em}
+#rail{background:var(--surface);border-right:1px solid var(--rule)}
+#brand{font-weight:600}
+.nav{border-radius:14px;font-weight:600}
+.nav[aria-current="page"]{background:var(--accent-soft);color:var(--accent)}
+.panel,.acstats .stat,.card,.day,.hcell,.col{border-radius:var(--r);box-shadow:var(--shadow-sm)}
+.card{border-radius:16px}
+.day{border-radius:14px}
+.col{background:var(--sunk);box-shadow:none}
+.btn{box-shadow:var(--shadow-sm);font-weight:700}
+.btn.ghost{box-shadow:none}
+.btn.primary{box-shadow:0 6px 16px color-mix(in srgb,var(--accent) 35%,transparent)}
+.seg{box-shadow:var(--shadow-sm)}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink)}
+.in{border-radius:12px;background:var(--bg)}
+.chip{font-weight:700}
+.check{border-radius:7px}
+.glass.on .gl{stroke:var(--accent)}
+.glass.on .wt{fill:var(--accent)}
+.hbar i{background:var(--accent)}
+.track .line{height:4px}
+.track .fill{height:4px}
+#modal .box{border-radius:24px}
+#toast{font-weight:700}
