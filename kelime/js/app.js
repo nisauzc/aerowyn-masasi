@@ -47,6 +47,13 @@
 
     /* çalış */
     $("#startBtn").onclick = UI.startSession;
+    $("#moreBtn").onclick = function () {
+      var dl = Store.state.daily;
+      dl.extra = (dl.extra || 0) + 10;
+      Store.save();
+      UI.render();
+      UI.toast("Bugün için 10 yeni kelime eklendi");
+    };
     $("#quitBtn").onclick = UI.endSession;
     $("#deckPicker").onclick = function (e) {
       var b = e.target.closest("[data-deck]");

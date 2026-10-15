@@ -35,7 +35,7 @@
       });
     });
 
-    var newLeft = Math.max(0, (settings.newPerDay || 10) - (daily.newDone || 0));
+    var newLeft = Math.max(0, (settings.newPerDay || 10) + (daily.extra || 0) - (daily.newDone || 0));
     shuffle(fresh); shuffle(due); shuffle(learning);
     fresh = fresh.slice(0, newLeft);
 

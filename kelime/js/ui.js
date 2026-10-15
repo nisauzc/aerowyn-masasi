@@ -81,13 +81,14 @@
     var all = Store.counts(st.decks);
 
     $("#streakNum").textContent = st.streak.count;
-    $("#cntNew").textContent = Math.max(0, Math.min(c.nw, (st.settings.newPerDay || 10) - st.daily.newDone));
+    $("#cntNew").textContent = Math.max(0, Math.min(c.nw, (st.settings.newPerDay || 10) + (st.daily.extra || 0) - st.daily.newDone));
     $("#cntDue").textContent = c.due;
     $("#cntLearned").textContent = all.learned + all.marked;
 
     var picker = $("#deckPicker");
     if (!st.decks.length) {
       picker.innerHTML = '<div class="empty"><b>Henüz deste yok</b>CSV yükleyerek ilk desteni ekle.</div>';
+      if ($("#moreBtn")) $("#moreBtn").hidden = true;
       $("#hello").textContent = "Hoş geldin";
       $("#todaySub").textContent = "Önce bir deste ekle, sonra başlayalım.";
       $("#startBtn").disabled = true;
@@ -104,15 +105,21 @@
         '<span class="badge">' + dc.due + " tekrar · " + dc.nw + " yeni</span></button>";
     }).join("");
 
-    var todo = c.due + Math.min(c.nw, Math.max(0, (st.settings.newPerDay || 10) - st.daily.newDone));
+    var todo = c.due + Math.min(c.nw, Math.max(0, (st.settings.newPerDay || 10) + (st.daily.extra || 0) - st.daily.newDone));
     $("#hello").textContent = todo ? "Bugün " + todo + " kelime seni bekliyor" : "Bugünlük bitti";
     $("#todaySub").textContent = todo
       ? "Hazırsan başlayalım."
-      : "Yeni kelime sınırını artırabilir ya da yarın devam edebilirsin.";
+      : "Aşağıdan 10 kelime daha açabilir ya da yarın devam edebilirsin.";
     $("#startBtn").disabled = todo === 0;
     $("#startHint").textContent = todo === 0 && c.nw > 0
       ? "Bu destede öğrenilmemiş " + c.nw + " kelime var, günlük sınır dolduğu için bekliyor."
       : "";
+    var newLeft = Math.max(0, (st.settings.newPerDay || 10) + (st.daily.extra || 0) - st.daily.newDone);
+    var more = $("#moreBtn");
+    if (more) {
+      more.hidden = c.nw <= newLeft;
+      more.textContent = "+" + Math.min(10, c.nw - newLeft) + " yeni kelime daha";
+    }
   }
 
   function renderDecks() {

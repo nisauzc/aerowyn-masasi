@@ -392,3 +392,6 @@ button.dw:hover{background:var(--wash,var(--accent-soft))}
 .embed body{display:flex;flex-direction:column;min-height:100vh}
 .embed .tabbar{order:-1}
 .embed main{width:100%}
+
+.more-btn{display:block;margin:.8rem auto 0;color:var(--accent);border-color:var(--accent-soft)}
+.more-btn:active{transform:scale(.98)}
