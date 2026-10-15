@@ -1,0 +1,16 @@
+{
+  "name": "Aerowyn Masası",
+  "short_name": "Aerowyn",
+  "description": "Bugün listesi, pano, takvim, pomodoro, akademik çalışma, kelimeler, sağlık, günlük ve yerler.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F3ECE0",
+  "theme_color": "#F3ECE0",
+  "lang": "tr",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
