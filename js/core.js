@@ -47,11 +47,8 @@ const S = {
   view: LS.get("masa.view", "today"),
   settings: null, tasks: {}, days: {}, academic: {},
   health: { day: todayKey(), exType: "gym" },
-  ac: { sel: LS.get("masa.acSel", ""), showArch: false, drill: null, talk: null, lastQ: "" },
   cal: { cursor: todayKey(), mode: LS.get("masa.calMode", "month"), layer: LS.get("masa.calLayer", "plan") },
-  board: { hidden: LS.get("masa.boardHidden", []), showOld: false },
-  journal: { day: todayKey(), mode: "day", series: "", type: "note", star: false, seriesPick: "" },
-  places: { parsed: null, from: addDays(todayKey(), -30), to: todayKey(), busy: "" }
+  board: { hidden: LS.get("masa.boardHidden", []), showOld: false, col: LS.get("masa.boardCol", "today") }
 };
 function cfg() {
   const s = S.settings || {};
@@ -84,8 +81,7 @@ function occursOn(tk, k) {
   return false;
 }
 function itemsOn(k) {
-  const ac = hiddenView("academic") ? [] : Object.values(S.academic).filter(w => !w.archived && w.date === k).map(w => ({ id: "ac:" + w.id, kind: "event", title: w.title, cat: "akademik", date: w.date, time: w.time || "" }));
-  return Object.values(S.tasks).filter(x => occursOn(x, k)).concat(ac).sort((a, b) => (a.time || "99").localeCompare(b.time || "99") || (a.title || "").localeCompare(b.title || ""));
+  return Object.values(S.tasks).filter(x => occursOn(x, k)).sort((a, b) => (a.time || "99").localeCompare(b.time || "99") || (a.title || "").localeCompare(b.title || ""));
 }
 function hiddenView(v) { return cfg().hidden.includes(v); }
 function focusSec(k) { return (day(k).sessions || []).reduce((s, x) => s + (x.sec || 0), 0); }

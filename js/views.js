@@ -4,14 +4,11 @@ const ICONS = {
   board: '<rect x="3" y="4" width="5" height="16" rx="1.5"/><rect x="10" y="4" width="5" height="11" rx="1.5"/><rect x="17" y="4" width="4" height="7" rx="1.5"/>',
   calendar: '<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/>',
   focus: '<circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5M9 2h6"/>',
-  journal: '<path d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3z"/><path d="M5 17a3 3 0 0 1 3-3h11M9 8h6"/>',
   words: '<rect x="4" y="7" width="14" height="13" rx="2"/><path d="M8 4h10a2 2 0 0 1 2 2v10"/><path d="M8 12h6M8 15.5h4"/>',
-  academic: '<path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5M22 9v6"/>',
   health: '<path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/><path d="M8 12h2l1-2 2 4 1-2h2"/>',
-  places: '<path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/>',
   settings: '<path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/>'
 };
-const VIEWS = ["today", "board", "calendar", "focus", "academic", "words", "health", "journal", "places", "settings"];
+const VIEWS = ["today", "board", "calendar", "focus", "words", "health", "settings"];
 function shell() {
   document.getElementById("app").innerHTML =
     '<div id="shell"><nav id="rail" aria-label="menu">' +
@@ -58,12 +55,11 @@ function renderNow() {
   showWords(S.view === "words");
   if (S.view === "words") { pomoPip(); return; }
   const st = snapshotInputs();
-  const fn = { today: vToday, board: vBoard, calendar: vCalendar, focus: vFocus, academic: vAcademic, health: vHealth, journal: vJournal, places: vPlaces, settings: vSettings }[S.view] || vToday;
+  const fn = { today: vToday, board: vBoard, calendar: vCalendar, focus: vFocus, health: vHealth, settings: vSettings }[S.view] || vToday;
   $("#view").innerHTML = fn();
   restoreInputs(st);
   if (S.view === "focus") pomoPaint();
   if (S.view === "board") wireBoard();
-  if (S.view === "places") wirePlaces();
   hydratePhotos();
   pomoPip();
 }
@@ -130,7 +126,6 @@ function vToday() {
   const up = [];
   for (let i = 1; i <= 21; i++) { const d = addDays(k, i); itemsOn(d).forEach(x => { if (x.col !== "done") up.push([d, x]); }); }
   const late = Object.values(S.tasks).filter(x => x.kind !== "event" && x.col !== "done" && x.date && x.date < k);
-  const dj = day(k);
   let h = head(t("nav_today"), fmtDate(k), '<span class="muted">' + esc(syncLabel()) + "</span>");
   h += '<div class="today"><section>';
   h += '<form class="quick" data-form="quick"><input class="in grow" id="qTitle" placeholder="' + esc(t("quickPh")) + '" autocomplete="off">' + catSelect("qCat", LS.get("masa.qcat", "ielts"), true) + '<button class="btn primary" type="submit">' + esc(t("add")) + "</button></form>";
@@ -151,7 +146,6 @@ function vToday() {
     h += "</div>";
   }
   if (!hiddenView("health")) h += healthTodayPanel();
-  h += '<div class="panel"><h2>' + esc(t("todayRecord")) + '</h2><div class="muted">' + esc(t("recordLine").replace("{e}", (dj.entries || []).length).replace("{p}", dj.places && dj.places.visits ? dj.places.visits.length : 0)) + '</div><div class="row" style="margin-top:10px"><button class="btn" data-jday="' + k + '">' + esc(t("writeJournal")) + "</button></div></div>";
   h += "</aside></div>";
   return h;
 }
@@ -168,7 +162,10 @@ function vBoard() {
   const hidden = S.board.hidden || [];
   let h = head(t("nav_board"), t("boardEyebrow"), '<button class="btn primary" data-newtask="later">+ ' + esc(t("newCard")) + "</button>");
   h += '<div class="filters"><span class="eyebrow">' + esc(t("filter")) + '</span><div class="chips">' + cfg().cats.map(c => '<button class="chip" style="--c:' + esc(c.color) + '" aria-pressed="' + (!hidden.includes(c.id)) + '" data-togglecat="' + esc(c.id) + '"><span class="d"></span>' + esc(nm(c.name)) + "</button>").join("") + "</div></div>";
-  h += '<div class="board">';
+  h += '<div class="colpick" role="group" aria-label="' + esc(t("nav_board")) + '">' +
+    COLS.map(col => { const n = tasksIn(col).filter(x => !hidden.includes(x.cat || "")).length;
+      return '<button data-boardcol="' + col + '" aria-pressed="' + (S.board.col === col) + '">' + esc(t("col_" + col)) + ' <span class="n">' + n + "</span></button>"; }).join("") + "</div>";
+  h += '<div class="board" data-only="' + esc(S.board.col) + '">';
   const cutoff = Date.now() - 14 * 864e5;
   COLS.forEach(col => {
     let list = tasksIn(col).filter(x => !hidden.includes(x.cat || ""));
@@ -273,10 +270,10 @@ function vCalendar() {
       const a = s ? Math.min(0.55, 0.08 + 0.47 * s / maxSec) : 0;
       if (a) style = ' style="background:color-mix(in srgb,var(--accent) ' + Math.round(a * 100) + '%,var(--surface))"';
       const by = focusByCat([k]); const ks = Object.keys(by).filter(x => by[x] >= 60).sort((x, y) => by[y] - by[x]); const sum = ks.reduce((q, x) => q + by[x], 0);
-      const stars = (dj.entries || []).filter(e => e.star).length, ents = (dj.entries || []).length, pl = dj.places && dj.places.visits ? dj.places.visits.length : 0;
+      const hx = hday(k), hc = checksOf(hx), hn = hc.water + hc.ex + hc.supp;
       inner += '<div class="rec">' + (s ? '<span class="ft num">' + esc(fmtDur(s)) + "</span>" : "") +
         (sum ? '<div class="catbar" style="margin:2px 0;height:5px">' + ks.map(x => '<i style="width:' + (by[x] / sum * 100).toFixed(1) + "%;background:" + esc(cat(x).color) + '"></i>').join("") + "</div>" : "") +
-        '<div class="ic">' + (ents ? "<span>" + esc(t("nEntries").replace("{n}", ents)) + (stars ? " ★" + stars : "") + "</span>" : "") + (pl ? "<span>" + esc(t("nPlaces").replace("{n}", pl)) + "</span>" : "") + "</div>";
+        '<div class="ic">' + (hn ? "<span>" + esc(t("hDoneN").replace("{n}", hn)) + "</span>" : "") + "</div>";
       if (week) inner += (dj.sessions || []).map(x => '<div class="ev" style="--c:' + esc(cat(x.cat).color) + '"><span>' + esc(x.title || nm(cat(x.cat).name)) + '</span><span class="tm">' + esc(hhmm(x.start)) + "</span></div>").join("");
       inner += "</div>";
     } else {
@@ -284,7 +281,7 @@ function vCalendar() {
       inner += items.slice(0, lim).map(x => '<button class="ev' + (x.col === "done" ? " done" : "") + '" style="--c:' + esc(cat(x.cat).color) + '" data-edit="' + x.id + '"><span>' + esc(x.title) + "</span>" + (x.time ? '<span class="tm">' + esc(x.time) + "</span>" : "") + "</button>").join("");
       if (items.length > lim) inner += '<span class="more">' + esc(t("more").replace("{n}", items.length - lim)) + "</span>";
     }
-    h += '<div class="day' + (out ? " out" : "") + (k === k0 ? " is-today" : "") + '" data-jday="' + k + '" tabindex="0"' + style + ">" + inner + "</div>";
+    h += '<div class="day' + (out ? " out" : "") + (k === k0 ? " is-today" : "") + '"' + style + ">" + inner + "</div>";
   }
   h += "</div></div><p class=\"muted\" style=\"margin-top:10px\">" + esc(t("calHint")) + "</p>";
   return h;

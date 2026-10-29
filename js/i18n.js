@@ -221,6 +221,8 @@ Object.assign(T.ja, {
   acLinks: "資料", acNoLinks: "まだリンクはありません。", acLinkTPh: "タイトル（例：スライド）", acNotes: "メモ", acNotesPh: "指導教員に言われたこと、自分へのメモ…"
 });
 Object.assign(T.tr, {
+  hChecklist: "Bugünün takibi", hq_water: "Yeterli su içtin mi?", hq_ex: "Egzersiz yaptın mı?", hq_supp: "Takviyelerini aldın mı?",
+  hHistory: "Günlük takip", hHistoryHint: "Son beş hafta · koyu kare, üçünün de yapıldığı gün", hDoneN: "{n}/3 tik",
   nav_health: "Sağlık", hWeek: "Bu hafta", hWeekEx: "egzersiz {a} / {b} dk", hWater: "Su", hGlass: "bardak", hGlassN: "{n}. bardak", hGlassSize: "1 bardak = {n} ml",
   hWaterToast: "Bir bardak su eklendi", hSupps: "Takviyeler", hNoSupps: "Aldığın takviyeleri bir kez ekle; sonra her gün işaretlersin.", hSuppPh: "Takviye adı",
   hAnyTime: "Saat fark etmez", when_morning: "sabah", when_noon: "öğle", when_evening: "akşam", hRemoveSupp: "Listeden çıkar",
@@ -232,6 +234,8 @@ Object.assign(T.tr, {
   hGoals: "Hedefler", hWaterGoal: "Günlük su (bardak)", hGlassMl: "Bardak boyu (ml)", hWeeklyEx: "Haftalık egzersiz (dk)", hOpen: "Aç"
 });
 Object.assign(T.en, {
+  hChecklist: "Today's check", hq_water: "Did you drink enough water?", hq_ex: "Did you exercise?", hq_supp: "Did you take your supplements?",
+  hHistory: "Daily tracking", hHistoryHint: "Last five weeks · darker means all three done", hDoneN: "{n}/3 ticks",
   nav_health: "Health", hWeek: "This week", hWeekEx: "exercise {a} / {b} min", hWater: "Water", hGlass: "glass", hGlassN: "glass {n}", hGlassSize: "1 glass = {n} ml",
   hWaterToast: "Added a glass of water", hSupps: "Supplements", hNoSupps: "Add the supplements you take once; then tick them off each day.", hSuppPh: "Supplement name",
   hAnyTime: "Any time", when_morning: "morning", when_noon: "noon", when_evening: "evening", hRemoveSupp: "Remove from list",
@@ -243,6 +247,8 @@ Object.assign(T.en, {
   hGoals: "Goals", hWaterGoal: "Daily water (glasses)", hGlassMl: "Glass size (ml)", hWeeklyEx: "Weekly exercise (min)", hOpen: "Open"
 });
 Object.assign(T.ja, {
+  hChecklist: "今日のチェック", hq_water: "水は十分に飲んだ？", hq_ex: "運動はした？", hq_supp: "サプリは飲んだ？",
+  hHistory: "毎日の記録", hHistoryHint: "直近5週間・濃い色は3つとも達成した日", hDoneN: "{n}/3",
   nav_health: "健康", hWeek: "今週", hWeekEx: "運動 {a}／{b}分", hWater: "水", hGlass: "杯", hGlassN: "{n}杯目", hGlassSize: "1杯 = {n}ml",
   hWaterToast: "水を1杯追加しました", hSupps: "サプリ", hNoSupps: "飲んでいるサプリを一度登録すれば、毎日チェックできます。", hSuppPh: "サプリの名前",
   hAnyTime: "いつでも", when_morning: "朝", when_noon: "昼", when_evening: "夜", hRemoveSupp: "リストから外す",

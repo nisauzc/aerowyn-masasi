@@ -1,6 +1,6 @@
 /* Çevrimdışı kullanım için önbellek. Dosya değişince SURUM'u artır. */
-var SURUM = "aerowyn-v4";
-var FILES = ["./", "./css/style.css", "./icons/apple-touch-icon.png", "./icons/fox.png", "./icons/icon-192.png", "./icons/icon-512.png", "./icons/icon-maskable.png", "./index.html", "./js/academic.js", "./js/core.js", "./js/events.js", "./js/health.js", "./js/i18n.js", "./js/journal.js", "./js/pomo.js", "./js/store.js", "./js/views.js", "./js/words.js", "./kelime/css/style.css", "./kelime/data/starter.js", "./kelime/index.html", "./kelime/js/app.js", "./kelime/js/csv.js", "./kelime/js/srs.js", "./kelime/js/store.js", "./kelime/js/study.js", "./kelime/js/ui.js", "./manifest.json"];
+var SURUM = "aerowyn-v5";
+var FILES = ["./", "./css/style.css", "./icons/apple-touch-icon.png", "./icons/fox.png", "./icons/icon-192.png", "./icons/icon-512.png", "./icons/icon-maskable.png", "./index.html", "./js/core.js", "./js/events.js", "./js/health.js", "./js/settings.js", "./js/i18n.js", "./js/pomo.js", "./js/store.js", "./js/views.js", "./js/words.js", "./kelime/css/style.css", "./kelime/data/starter.js", "./kelime/index.html", "./kelime/js/app.js", "./kelime/js/csv.js", "./kelime/js/srs.js", "./kelime/js/store.js", "./kelime/js/study.js", "./kelime/js/ui.js", "./manifest.json"];
 self.addEventListener("install", function (e) {
   e.waitUntil(caches.open(SURUM).then(function (c) {
     return Promise.all(FILES.map(function (f) { return c.add(new Request(f, { cache: "reload" })).catch(function () {}); }));

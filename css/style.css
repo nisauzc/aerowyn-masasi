@@ -420,3 +420,47 @@ h1,h2,h3{font-weight:600;letter-spacing:0}
 .track .fill{height:4px}
 #modal .box{border-radius:24px}
 #toast{font-weight:700}
+
+/* ---------- pano: telefonda tek sütun ---------- */
+.colpick{display:none;gap:6px;margin-bottom:12px;background:var(--sunk);border-radius:999px;padding:4px}
+.colpick button{flex:1;border:0;background:none;border-radius:999px;padding:8px 4px;font-size:13px;font-weight:600;color:var(--soft);display:flex;align-items:center;justify-content:center;gap:5px}
+.colpick button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink)}
+.colpick .n{font-variant-numeric:tabular-nums;opacity:.75;font-weight:500}
+@media (max-width:820px){
+  .colpick{display:flex}
+  .board{grid-template-columns:1fr;overflow-x:visible}
+  .board[data-only] .col{display:none}
+  .board[data-only="later"] .col[data-col="later"],
+  .board[data-only="next"] .col[data-col="next"],
+  .board[data-only="today"] .col[data-col="today"],
+  .board[data-only="done"] .col[data-col="done"]{display:flex}
+  .board .col{min-height:auto}
+  .board .colhead h3{font-size:18px}
+  .card .acts{gap:8px}
+  .card .acts .btn{padding:9px 14px}
+}
+
+/* ---------- sağlık: üç soru ---------- */
+.qlist{display:flex;flex-direction:column;gap:2px}
+.qrow{display:flex;align-items:center;gap:12px;padding:12px 2px;border-top:1px solid var(--rule)}
+.qrow:first-child{border-top:0}
+.qrow .q{font-size:15.5px}
+.check.big{width:26px;height:26px;border-radius:9px;border-width:2px}
+.check.big.on::after{width:12px;height:6px;border-width:2.5px}
+.hcell .dots{display:flex;gap:3px}
+.hcell .dots i{flex:1;height:5px;border-radius:3px;background:var(--rule)}
+.hcell .dots i.on{background:var(--accent)}
+.hcell .he{font-size:11px;color:var(--soft)}
+
+/* ---------- sağlık: günlük takip haritası ---------- */
+.hgridmap{display:flex;flex-direction:column;gap:5px;margin-top:4px}
+.hgm-head,.hgm-row{display:grid;grid-template-columns:62px repeat(7,minmax(0,1fr));gap:5px;align-items:center}
+.hgm-head span{font-size:10.5px;color:var(--faint);text-align:center}
+.hgm-row .wk{font-size:11px;color:var(--soft);font-variant-numeric:tabular-nums}
+.hgm{aspect-ratio:1;border:1px solid var(--rule);border-radius:7px;background:var(--sunk);padding:0}
+.hgm.n1{background:color-mix(in srgb,var(--accent) 22%,var(--surface))}
+.hgm.n2{background:color-mix(in srgb,var(--accent) 50%,var(--surface))}
+.hgm.n3{background:var(--accent);border-color:var(--accent)}
+.hgm.future{opacity:.35}
+.hgm.sel{box-shadow:0 0 0 2px var(--ink)}
+@media (max-width:560px){.hgm-head,.hgm-row{grid-template-columns:48px repeat(7,minmax(0,1fr));gap:4px}.hgm{border-radius:6px}}
