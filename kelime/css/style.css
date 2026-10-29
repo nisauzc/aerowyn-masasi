@@ -395,3 +395,70 @@ button.dw:hover{background:var(--wash,var(--accent-soft))}
 
 .more-btn{display:block;margin:.8rem auto 0;color:var(--accent);border-color:var(--accent-soft)}
 .more-btn:active{transform:scale(.98)}
+/* ---- mod seçimi, bölüm seçimi ---- */
+.seg{
+  display:inline-flex;gap:.25rem;padding:.25rem;
+  background:var(--surface);border:1px solid var(--line);border-radius:999px;
+  box-shadow:var(--shadow);
+}
+.seg button{
+  background:none;border:0;border-radius:999px;
+  padding:.45rem .9rem;font-size:.9rem;font-weight:600;color:var(--muted);
+}
+.seg button[aria-pressed="true"]{background:var(--accent);color:#fff}
+.seg.modes{display:grid;grid-template-columns:repeat(3,1fr);width:100%}
+.seg.modes button{padding:.55rem .3rem;text-align:center}
+
+.scope-row{display:flex;gap:.6rem;flex-wrap:wrap}
+.field.inline{flex:1;min-width:150px;margin-bottom:0}
+.field.inline select{
+  background:var(--surface);border:1px solid var(--line);border-radius:12px;
+  padding:.6rem .7rem;width:100%;
+}
+#deckTarget{
+  background:var(--bg);border:1px solid var(--line);border-radius:12px;
+  padding:.65rem .8rem;width:100%;
+}
+
+/* ---- deste içindeki bölümler ---- */
+.ds-h{font-family:var(--font-head);font-size:1rem;margin:1.1rem 0 .5rem}
+.ds-groups{display:flex;flex-direction:column;gap:.6rem}
+.gr{background:var(--bg);border:1px solid var(--line);border-radius:14px;padding:.7rem .8rem}
+.gr-top{display:flex;align-items:baseline;gap:.5rem}
+.gr-top b{flex:1;min-width:0;font-size:.95rem}
+.gr-top small{color:var(--muted);font-size:.8rem;white-space:nowrap}
+.gr .mini-bar{margin:.45rem 0 .55rem}
+.gr-btns{display:flex;gap:.4rem;flex-wrap:wrap}
+.pill-btn.sm{padding:.35rem .7rem;font-size:.82rem;box-shadow:none}
+.pill-btn.sm:disabled{opacity:.45}
+
+/* ---- cümle sorusu ---- */
+.sent-prompt{text-align:left;padding:1.2rem 1.1rem}
+.sent{font-size:1.15rem;line-height:1.55}
+.sent b{color:var(--accent);font-weight:700}
+.opt.sent-opt{font-weight:600;line-height:1.45;font-size:.97rem}
+
+.preview td:last-child{white-space:normal;max-width:240px}
+
+/* ---- grup katmanı (kitap) ---- */
+.coll{display:flex;flex-direction:column;gap:.45rem;margin-bottom:.8rem}
+.coll-head{
+  display:flex;align-items:center;gap:.6rem;width:100%;text-align:left;
+  background:none;border:0;border-bottom:1px solid var(--line);
+  padding:.2rem .2rem .35rem;font-family:var(--font-head);font-size:.95rem;color:var(--ink);
+}
+.coll-head.on .nm{color:var(--accent)}
+.coll-head .nm{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.coll-head .badge{font-size:.76rem;color:var(--muted);white-space:nowrap}
+.coll-head.plain{margin:0;color:var(--muted);font-size:.85rem;border-bottom:1px solid var(--line);padding-bottom:.35rem}
+.coll .pick{margin-left:.6rem}
+
+.coll-block{display:flex;flex-direction:column;gap:.7rem;margin-bottom:1.2rem}
+.coll-title{display:flex;align-items:baseline;gap:.6rem;flex-wrap:wrap}
+.coll-title b{font-family:var(--font-head);font-size:1.05rem}
+.coll-title small{color:var(--muted);font-size:.8rem}
+
+.ds-head-text{flex:1;min-width:0}
+.ds-head-text h2{font-size:1.1rem}
+.ds-head-text small{color:var(--muted);font-size:.8rem}
+#deckColl{background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:.65rem .8rem;width:100%}

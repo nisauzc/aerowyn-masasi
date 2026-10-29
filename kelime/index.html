@@ -55,7 +55,29 @@
       <div class="stat"><b id="cntLearned">0</b><small>öğrenilen</small></div>
     </div>
 
+    <div class="seg modes" id="modePicker" role="group" aria-label="Çalışma biçimi">
+      <button type="button" data-mode="learn" aria-pressed="true">Yeni öğren</button>
+      <button type="button" data-mode="revise" aria-pressed="false">Tekrar</button>
+      <button type="button" data-mode="sentence" aria-pressed="false">Cümleler</button>
+    </div>
+
     <div id="deckPicker" class="deck-picker"></div>
+
+    <div id="scopeRow" class="scope-row" hidden>
+      <label class="field inline" id="groupWrap">
+        <span>Bölüm</span>
+        <select id="groupSel"></select>
+      </label>
+      <label class="field inline" id="sizeWrap">
+        <span>Kaç kelime</span>
+        <select id="reviseSize">
+          <option value="20">20</option>
+          <option value="30">30</option>
+          <option value="50">50</option>
+          <option value="0">Hepsi</option>
+        </select>
+      </label>
+    </div>
 
     <button id="startBtn" class="big-btn" type="button">Çalışmaya başla</button>
     <button id="moreBtn" class="pill-btn more-btn" type="button" hidden>+10 yeni kelime daha</button>
@@ -136,6 +158,23 @@
     </div>
 
     <div class="card pad">
+      <h3>Tekrar ve cümleler</h3>
+      <label class="switch">
+        <input type="checkbox" id="setReviseKnown">
+        <span>Tekrarda "biliyorum" dediklerim de sorulsun</span>
+      </label>
+      <label class="switch">
+        <input type="checkbox" id="setWrongBack">
+        <span>Tekrarda yanlış bildiğim kelime bugünkü tekrara geri gelsin</span>
+      </label>
+      <label class="switch">
+        <input type="checkbox" id="setSentenceAfter">
+        <span>Bir bölüm bitince cümle turu önerilsin</span>
+      </label>
+      <p class="hint">Tekrar ve cümle turu, kelimelerin tekrar takvimini ileri taşımaz.</p>
+    </div>
+
+    <div class="card pad">
       <h3>Yedek</h3>
       <p class="hint">İlerlemen bu tarayıcıda saklanıyor. Başka bir cihaza geçerken yedek al.</p>
       <div class="btn-row">
@@ -155,7 +194,7 @@
       </span>
     </div>
 
-    <p class="version">Kelime Kutusu · <span id="verText">v1.0</span></p>
+    <p class="version">Kelime Kutusu · <span id="verText">v1.3</span></p>
   </section>
 
 </main>
@@ -185,22 +224,35 @@
       <button id="sheetClose" class="icon-btn" type="button" aria-label="Kapat">&#10005;</button>
     </div>
     <div class="sheet-body">
-      <label class="field">
+      <label class="field" id="deckTargetWrap" hidden>
+        <span>Nereye</span>
+        <select id="deckTarget"></select>
+      </label>
+
+      <label class="field" id="collWrap">
+        <span>Grup (kitap adı)</span>
+        <input type="text" id="deckColl" list="collList" placeholder="Howl's Moving Castle" autocomplete="off">
+        <datalist id="collList"></datalist>
+      </label>
+
+      <label class="field" id="nameWrap">
         <span>Deste adı</span>
         <input type="text" id="deckName" placeholder="Howl B1" autocomplete="off">
       </label>
 
-      <span class="field-label">Deste türü</span>
-      <div class="chips" id="typeChips">
-        <button type="button" class="chip active" data-type="en-tr">İngilizce → Türkçe</button>
-        <button type="button" class="chip" data-type="ja-tr">Japonca → Türkçe</button>
-        <button type="button" class="chip" data-type="ja-en">Japonca → İngilizce</button>
+      <div id="typeWrap">
+        <span class="field-label">Deste türü</span>
+        <div class="chips" id="typeChips">
+          <button type="button" class="chip active" data-type="en-tr">İngilizce → Türkçe</button>
+          <button type="button" class="chip" data-type="ja-tr">Japonca → Türkçe</button>
+          <button type="button" class="chip" data-type="ja-en">Japonca → İngilizce</button>
+        </div>
       </div>
 
       <div class="csv-help">
         <b>CSV düzeni</b>
-        <p id="csvCols">kelime , anlam , telaffuz</p>
-        <p class="hint">Üçüncü sütun isteğe bağlı. Dördüncü sütuna grup adı yazarsan desteler grup grup ayrılır. Ayraç olarak virgül, noktalı virgül veya sekme olabilir. Başlık satırı varsa kendisi anlar.</p>
+        <p id="csvCols">kelime , anlam , telaffuz , bölüm , cümle , cümlenin Türkçesi</p>
+        <p class="hint">İlk iki sütun şart, kalanı isteğe bağlı. Dördüncü sütun bölüm adı: deste bölüm bölüm ayrılır, her bölümü ayrı çalışabilirsin. Beşinci ve altıncı sütuna örnek cümleyi ve Türkçesini yazarsan bölüm sonunda cümle turu açılır. Var olan bir desteyi seçersen kelimeler silinmez, eksikler tazelenir.</p>
       </div>
 
       <div class="btn-row">
@@ -225,15 +277,23 @@
 <div id="deckSheet" class="sheet" hidden>
   <div class="sheet-card">
     <div class="sheet-head">
-      <h2 id="dsTitle">Deste</h2>
+      <div class="ds-head-text">
+        <h2 id="dsTitle">Deste</h2>
+        <small id="dsColl"></small>
+      </div>
       <button id="dsClose" class="icon-btn" type="button" aria-label="Kapat">&#10005;</button>
     </div>
     <div class="sheet-body">
       <div class="btn-row">
+        <button id="dsAdd" class="pill-btn" type="button">Kelime / cümle ekle</button>
         <button id="dsRename" class="pill-btn" type="button">Adını değiştir</button>
+        <button id="dsGroup" class="pill-btn" type="button">Grubu değiştir</button>
         <button id="dsReset" class="pill-btn" type="button">İlerlemeyi sıfırla</button>
         <button id="dsDelete" class="pill-btn danger" type="button">Desteyi sil</button>
       </div>
+
+      <h3 class="ds-h" id="dsGroupsHead" hidden>Bölümler</h3>
+      <div id="dsGroups" class="ds-groups"></div>
       <input type="search" id="dsSearch" class="search" placeholder="Kelime ara ya da grup adı yaz">
       <div class="ds-tools">
         <p class="hint" id="dsHint">Bildiğin kelimeye dokun, bir daha karşına çıkmasın.</p>

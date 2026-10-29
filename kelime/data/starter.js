@@ -2,6 +2,7 @@
 window.STARTER = [
  {
   "name": "Howl B1",
+  "collection": "Howl's Moving Castle",
   "type": "en-tr",
   "cards": [
    {
@@ -776,6 +777,7 @@ window.STARTER = [
  },
  {
   "name": "Howl B2",
+  "collection": "Howl's Moving Castle",
   "type": "en-tr",
   "cards": [
    {
@@ -1772,6 +1774,7 @@ window.STARTER = [
  },
  {
   "name": "Günlük Japonca",
+  "collection": "Japonca",
   "type": "ja-tr",
   "cards": [
    {

@@ -56,14 +56,14 @@
       .trim();
   }
 
-  var HEAD = /^(kelime|word|term|front|ön|on|anlam|meaning|back|arka|türkçe|turkce|telaffuz|okunuş|okunus|reading|pronunciation|grup|group|tag|etiket|japonca|japanese)$/i;
+  var HEAD = /^(kelime|word|term|front|ön|on|anlam|meaning|back|arka|türkçe|turkce|telaffuz|okunuş|okunus|reading|pronunciation|grup|group|bölüm|bolum|tag|etiket|japonca|japanese|cümle|cumle|örnek|ornek|sentence|example|cümle çevirisi|cumle cevirisi|çeviri|ceviri|translation)$/i;
 
   function looksLikeHeader(row) {
     var hits = row.filter(function (c) { return HEAD.test(clean(c)); }).length;
     return hits >= Math.max(2, Math.ceil(row.length / 2));
   }
 
-  /* Satırları karta çevirir: kelime, anlam, telaffuz, grup */
+  /* Satırları karta çevirir: kelime, anlam, telaffuz, grup, cümle, cümlenin Türkçesi */
   function toCards(text) {
     var rows = parse(text);
     if (!rows.length) return { cards: [], skipped: 0, hadHeader: false };
@@ -81,7 +81,9 @@
         term: term,
         meaning: meaning,
         reading: clean(r[2]),
-        group: clean(r[3])
+        group: clean(r[3]),
+        ex: clean(r[4]),
+        exTr: clean(r[5])
       });
     });
     return { cards: cards, skipped: skipped, hadHeader: hadHeader };

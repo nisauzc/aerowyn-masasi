@@ -19,7 +19,7 @@
 
     /* ilk açılışta hazır desteler */
     if (!Store.state.seededStarter && !Store.state.decks.length && w.STARTER) {
-      w.STARTER.forEach(function (s) { Store.addDeck(s.name, s.type, s.cards); });
+      w.STARTER.forEach(function (s) { Store.addDeck(s.name, s.type, s.cards, s.collection); });
       Store.state.seededStarter = true;
       Store.state.settings.selected = Store.state.decks.length ? [Store.state.decks[0].id] : [];
       Store.save();
@@ -46,7 +46,7 @@
     };
 
     /* çalış */
-    $("#startBtn").onclick = UI.startSession;
+    $("#startBtn").onclick = function () { UI.startSession(); };
     $("#moreBtn").onclick = function () {
       var dl = Store.state.daily;
       dl.extra = (dl.extra || 0) + 10;
@@ -55,7 +55,18 @@
       UI.toast("Bugün için 10 yeni kelime eklendi");
     };
     $("#quitBtn").onclick = UI.endSession;
+    d.querySelectorAll("#modePicker button").forEach(function (b) {
+      b.onclick = function () { UI.setMode(b.dataset.mode); };
+    });
+    $("#groupSel").onchange = function () { UI.setScope(this.value); };
+    $("#reviseSize").onchange = function () { UI.setReviseSize(this.value); };
     $("#deckPicker").onclick = function (e) {
+      var g = e.target.closest("[data-coll]");
+      if (g) {
+        Store.selectCollection(g.dataset.coll, !g.classList.contains("on"));
+        UI.render();
+        return;
+      }
       var b = e.target.closest("[data-deck]");
       if (!b) return;
       Store.toggleSelected(b.dataset.deck);
@@ -108,6 +119,12 @@
       if (b) UI.toggleKnown(b.dataset.card);
     };
     $("#dsKnowAll").onclick = UI.knowAllShown;
+    $("#dsAdd").onclick = function () { UI.openSheetFor(UI.currentDeck()); };
+    $("#dsGroups").onclick = function (e) {
+      var b = e.target.closest("[data-g-act]");
+      if (b && !b.disabled) UI.groupAction(b.dataset.gAct, b.dataset.g);
+    };
+    $("#deckTarget").onchange = function () { UI.setTarget(this.value); };
 
     /* takip çizelgesi */
     d.querySelectorAll("[data-range]").forEach(function (b) {
@@ -123,9 +140,22 @@
       var name = w.prompt("Yeni ad", dk.name);
       if (name && name.trim()) { dk.name = name.trim(); Store.save(); $("#dsTitle").textContent = dk.name; UI.render(); }
     };
+    $("#dsGroup").onclick = function () {
+      var dk = Store.deck(UI.currentDeck());
+      if (!dk) return;
+      var varOlan = Store.collectionNames().join(", ");
+      var ad = w.prompt("Bu deste hangi grupta olsun?" + (varOlan ? "\nVar olan gruplar: " + varOlan : "") +
+        "\n(boş bırakırsan gruptan çıkar)", dk.collection || "");
+      if (ad === null) return;
+      Store.setCollection(dk.id, ad);
+      $("#dsColl").textContent = dk.collection ? dk.collection : "grupsuz";
+      UI.toast(dk.collection ? dk.collection + " grubuna alındı" : "Gruptan çıkarıldı");
+      UI.render();
+    };
     $("#dsReset").onclick = function () {
       Store.resetDeck(UI.currentDeck());
       UI.drawWords($("#dsSearch").value);
+      UI.drawGroups();
       UI.toast("İlerleme sıfırlandı");
       UI.render();
     };
@@ -160,6 +190,9 @@
     };
     $("#setTyping").onchange = function () { Store.state.settings.typing = this.checked; Store.save(); };
     $("#setSound").onchange = function () { Store.state.settings.sound = this.checked; Store.save(); };
+    $("#setReviseKnown").onchange = function () { Store.state.settings.reviseKnown = this.checked; Store.save(); };
+    $("#setWrongBack").onchange = function () { Store.state.settings.reviseWrongBack = this.checked; Store.save(); };
+    $("#setSentenceAfter").onchange = function () { Store.state.settings.sentenceAfterGroup = this.checked; Store.save(); };
 
     $("#exportBtn").onclick = function () {
       var blob = new Blob([Store.exportJSON()], { type: "application/json" });
