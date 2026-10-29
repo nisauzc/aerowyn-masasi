@@ -9,7 +9,8 @@
     prog: {},
     settings: {
       newPerDay: 10, sessionSize: 30, typing: true, sound: true, theme: null, selected: [],
-      reviseSize: 30, reviseKnown: false, reviseWrongBack: true, sentenceAfterGroup: true
+      reviseSize: 30, reviseKnown: false, reviseWrongBack: true, sentenceAfterGroup: true,
+      askKana: false
     },
     daily: { date: "", newDone: 0 },
     streak: { count: 0, last: "" },

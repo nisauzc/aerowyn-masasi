@@ -190,6 +190,7 @@
     };
     $("#setTyping").onchange = function () { Store.state.settings.typing = this.checked; Store.save(); };
     $("#setSound").onchange = function () { Store.state.settings.sound = this.checked; Store.save(); };
+    if ($("#setAskKana")) $("#setAskKana").onchange = function () { Store.state.settings.askKana = this.checked; Store.save(); };
     $("#setReviseKnown").onchange = function () { Store.state.settings.reviseKnown = this.checked; Store.save(); };
     $("#setWrongBack").onchange = function () { Store.state.settings.reviseWrongBack = this.checked; Store.save(); };
     $("#setSentenceAfter").onchange = function () { Store.state.settings.sentenceAfterGroup = this.checked; Store.save(); };

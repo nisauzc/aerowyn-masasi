@@ -374,6 +374,7 @@
     $("#setReviseKnown").checked = !!s.reviseKnown;
     $("#setWrongBack").checked = !!s.reviseWrongBack;
     $("#setSentenceAfter").checked = !!s.sentenceAfterGroup;
+    if ($("#setAskKana")) $("#setAskKana").checked = !!s.askKana;
   }
 
   /* ---------------- deste ekleme ---------------- */
@@ -812,6 +813,7 @@
         '<p class="q-kind">' + tag + (q.reverse ? "HANGİSİ?" : "ANLAMI NE?") + "</p>" +
         '<div class="prompt"><div class="term' + (q.reverse ? "" : jp) + '">' + esc(q.ask) + "</div>" +
         (q.askReading ? '<div class="read">' + esc(q.askReading) + "</div>" : "") + "</div>" +
+        (q.showKana ? '<div class="read jp" id="kanaPeek" hidden>' + esc(q.showKana) + "</div>" : "") +
         '<div class="opts">' + q.options.map(function (o, i) {
           return '<button class="opt' + (q.optionsAreJa ? " jp" : "") + '" type="button" data-i="' + i + '">' + esc(o) + "</button>";
         }).join("") + "</div>" +
@@ -824,6 +826,7 @@
             if (q.options[+x.dataset.i] === q.answer) x.classList.add("right");
           });
           if (!ok) b.classList.add("wrong");
+          if (q.showKana && $("#kanaPeek")) $("#kanaPeek").hidden = false;
           afterAnswer(q, ok);
         };
       });

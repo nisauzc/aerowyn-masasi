@@ -117,7 +117,7 @@
     if (stage === S.STAGE.MEET) return { kind: "meet", item: item, ja: ja };
 
     if (stage === S.STAGE.CHOICE || stage === S.STAGE.REVERSE) {
-      var q = choiceQuestion(item, stage === S.STAGE.REVERSE, ja);
+      var q = choiceQuestion(item, stage === S.STAGE.REVERSE, ja, settings && settings.askKana);
       return q || { kind: "type", item: item, ja: ja, target: targetFor(item, ja), thin: true };
     }
 
@@ -137,15 +137,19 @@
     if (pickKind === 2) {
       return { kind: "type", item: item, ja: ja, target: targetFor(item, ja), free: true };
     }
-    var q = choiceQuestion(item, pickKind === 1, ja);
+    var q = choiceQuestion(item, pickKind === 1, ja, settings && settings.askKana);
     if (!q) return { kind: "type", item: item, ja: ja, target: targetFor(item, ja), free: true };
     q.free = true;
     return q;
   }
 
-  function choiceQuestion(item, reverse, ja) {
+  function choiceQuestion(item, reverse, ja, askKana) {
     var askField = reverse ? "meaning" : "term";
     var ansField = reverse ? "term" : "meaning";
+    /* Japonca destelerde ters soru, ayar kapaliyken yazilisi degil okunusu sorar.
+       Kana yine gosterilir (showKana), sadece cevap olarak istenmez. */
+    var readingMode = ja && reverse && !askKana && !!item.card.reading;
+    if (readingMode) ansField = "reading";
     var wrong = distractors(item, ansField, 3);
     if (wrong.length < 2) return null;
     return {
@@ -154,7 +158,8 @@
       askReading: reverse ? "" : item.card.reading,
       answer: item.card[ansField],
       options: shuffle([item.card[ansField]].concat(wrong)),
-      optionsAreJa: ja && ansField === "term"
+      optionsAreJa: ja && ansField === "term",
+      showKana: readingMode ? item.card.term : ""
     };
   }
 
