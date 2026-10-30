@@ -23,11 +23,11 @@
   function pick(decks, opts) {
     opts = opts || {};
     var out = [];
-    decks.forEach(function (d) {
+    decks.forEach(function (d, di) {
       if (opts.deckId && d.id !== opts.deckId) return;
-      d.cards.forEach(function (c) {
+      d.cards.forEach(function (c, ci) {
         if (opts.group != null && (c.group || "") !== opts.group) return;
-        out.push({ card: c, deck: d });
+        out.push({ card: c, deck: d, di: di, ci: ci });
       });
     });
     return out;
@@ -47,7 +47,11 @@
     });
 
     var newLeft = Math.max(0, (settings.newPerDay || 10) + (daily.extra || 0) - (daily.newDone || 0));
-    shuffle(fresh); shuffle(due); shuffle(learning);
+    shuffle(due); shuffle(learning);
+    /* Yeni kartlar: sirali desteler (alfabe gibi) icin deste sirasi korunur,
+       yoksa 1. gunu bitirmeden 6. gunden kart gelebiliyor. */
+    if (settings.orderedNew === false) shuffle(fresh);
+    else fresh.sort(function (a, b) { return a.di - b.di || a.ci - b.ci; });
     /* bir bölüm çalışılırken günlük sınır yolu kapatmasın */
     if (!(opts && opts.ignoreDailyCap)) fresh = fresh.slice(0, newLeft);
 

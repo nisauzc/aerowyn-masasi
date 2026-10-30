@@ -212,6 +212,7 @@
       UI.render();
     };
     if ($("#setAskKana")) $("#setAskKana").onchange = function () { Store.state.settings.askKana = this.checked; Store.save(); };
+    if ($("#setOrderedNew")) $("#setOrderedNew").onchange = function () { Store.state.settings.orderedNew = this.checked; Store.save(); };
     $("#setReviseKnown").onchange = function () { Store.state.settings.reviseKnown = this.checked; Store.save(); };
     $("#setWrongBack").onchange = function () { Store.state.settings.reviseWrongBack = this.checked; Store.save(); };
     $("#setSentenceAfter").onchange = function () { Store.state.settings.sentenceAfterGroup = this.checked; Store.save(); };

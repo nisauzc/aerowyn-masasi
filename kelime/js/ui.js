@@ -375,6 +375,7 @@
     $("#setWrongBack").checked = !!s.reviseWrongBack;
     $("#setSentenceAfter").checked = !!s.sentenceAfterGroup;
     if ($("#setAskKana")) $("#setAskKana").checked = !!s.askKana;
+    if ($("#setOrderedNew")) $("#setOrderedNew").checked = s.orderedNew !== false;
   }
 
   /* ---------------- deste ekleme ---------------- */
