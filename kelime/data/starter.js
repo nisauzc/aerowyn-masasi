@@ -2129,1677 +2129,3155 @@ window.STARTER = [
  },
  {
   "name": "Hiragana",
-  "collection": "Kana",
+  "collection": "Alfabe",
   "type": "ja-tr",
   "cards": [
    {
     "term": "あ",
     "meaning": "a",
-    "reading": "a",
+    "reading": "",
     "group": "1. gün · a-ka satırı",
-    "ex": "",
+    "ex": "Üstte artı, altta halka: 'A' harfini aralarında ara.",
     "exTr": ""
    },
    {
     "term": "い",
     "meaning": "i",
-    "reading": "i",
+    "reading": "",
     "group": "1. gün · a-ka satırı",
-    "ex": "",
+    "ex": "İki damla, ikisi de yukarı bakıyor: ikinin i'si.",
     "exTr": ""
    },
    {
     "term": "う",
     "meaning": "u",
-    "reading": "u",
+    "reading": "",
     "group": "1. gün · a-ka satırı",
-    "ex": "",
+    "ex": "Üstte küçük şapka, altta kıvrım: utanıp başını eğmiş biri.",
     "exTr": ""
    },
    {
     "term": "え",
     "meaning": "e",
-    "reading": "e",
+    "reading": "",
     "group": "1. gün · a-ka satırı",
-    "ex": "",
+    "ex": "Boynu uzun bir kuş, yumurtanın üstünde: e diye bakıyor.",
     "exTr": ""
    },
    {
     "term": "お",
     "meaning": "o",
-    "reading": "o",
+    "reading": "",
     "group": "1. gün · a-ka satırı",
-    "ex": "",
+    "ex": "あ'ya benzer ama kuyruğu var: o kuyruk 'o' yapar.",
     "exTr": ""
    },
    {
     "term": "か",
     "meaning": "ka",
-    "reading": "ka",
+    "reading": "",
     "group": "1. gün · a-ka satırı",
-    "ex": "",
+    "ex": "Bir kazık ve yanında kesik: kazığın ka'sı.",
     "exTr": ""
    },
    {
     "term": "き",
     "meaning": "ki",
-    "reading": "ki",
+    "reading": "",
     "group": "1. gün · a-ka satırı",
-    "ex": "",
+    "ex": "Anahtar: üstte iki diş, altta sap. Key, ki.",
     "exTr": ""
    },
    {
     "term": "く",
     "meaning": "ku",
-    "reading": "ku",
+    "reading": "",
     "group": "1. gün · a-ka satırı",
-    "ex": "",
+    "ex": "Açılmış bir gaga ya da kuş pençesi: ku diye öter.",
     "exTr": ""
    },
    {
     "term": "け",
     "meaning": "ke",
-    "reading": "ke",
+    "reading": "",
     "group": "1. gün · a-ka satırı",
-    "ex": "",
+    "ex": "Bir kepçe sapı ile yanında çizgi: kepçenin ke'si.",
     "exTr": ""
    },
    {
     "term": "こ",
     "meaning": "ko",
-    "reading": "ko",
+    "reading": "",
     "group": "1. gün · a-ka satırı",
-    "ex": "",
+    "ex": "İki kısa çizgi, üst üste: ko-ko diye duran tavuk.",
     "exTr": ""
    },
    {
     "term": "さ",
     "meaning": "sa",
-    "reading": "sa",
+    "reading": "",
     "group": "2. gün · sa-ta satırı",
-    "ex": "",
+    "ex": "Balık oltası, ucunda kanca: sapan gibi, sa.",
     "exTr": ""
    },
    {
     "term": "し",
     "meaning": "shi (şi)",
-    "reading": "shi",
+    "reading": "",
     "group": "2. gün · sa-ta satırı",
-    "ex": "",
+    "ex": "Uzun bir kanca, aşağıdan yukarı kıvrılıyor: şişenin şi'si.",
     "exTr": ""
    },
    {
     "term": "す",
     "meaning": "su",
-    "reading": "su",
+    "reading": "",
     "group": "2. gün · sa-ta satırı",
-    "ex": "",
+    "ex": "Yuvarlak bir ilmek ve aşağı inen çizgi: su damlıyor.",
     "exTr": ""
    },
    {
     "term": "せ",
     "meaning": "se",
-    "reading": "se",
+    "reading": "",
     "group": "2. gün · sa-ta satırı",
-    "ex": "",
+    "ex": "Yere saplanmış çatal: sePeti deviriyor, se.",
     "exTr": ""
    },
    {
     "term": "そ",
     "meaning": "so",
-    "reading": "so",
+    "reading": "",
     "group": "2. gün · sa-ta satırı",
-    "ex": "",
+    "ex": "Zikzak çizgi, dikiş gibi: so diye ilerliyor.",
     "exTr": ""
    },
    {
     "term": "た",
     "meaning": "ta",
-    "reading": "ta",
+    "reading": "",
     "group": "2. gün · sa-ta satırı",
-    "ex": "",
+    "ex": "Sol tarafta た'nın 't'si, sağda iki çizgi: 'ta' diye tak tak.",
     "exTr": ""
    },
    {
     "term": "ち",
     "meaning": "chi (çi)",
-    "reading": "chi",
+    "reading": "",
     "group": "2. gün · sa-ta satırı",
-    "ex": "",
+    "ex": "Ters dönmüş 5 rakamı gibi: çizilmiş çember, çi.",
     "exTr": ""
    },
    {
     "term": "つ",
-    "meaning": "tsu (tsu, ts sesi)",
-    "reading": "tsu",
+    "meaning": "tsu (ts)",
+    "reading": "",
     "group": "2. gün · sa-ta satırı",
-    "ex": "",
+    "ex": "Yan yatmış dalga: tsunaminin tsu'su.",
     "exTr": ""
    },
    {
     "term": "て",
     "meaning": "te",
-    "reading": "te",
+    "reading": "",
     "group": "2. gün · sa-ta satırı",
-    "ex": "",
+    "ex": "Düz çizgi ve altında kıvrım: tezgaha uzanan el, te.",
     "exTr": ""
    },
    {
     "term": "と",
     "meaning": "to",
-    "reading": "to",
+    "reading": "",
     "group": "2. gün · sa-ta satırı",
-    "ex": "",
+    "ex": "Dikey çizgi ve iğne batmış gibi küçük çıkıntı: toplu iğne, to.",
     "exTr": ""
    },
    {
     "term": "な",
     "meaning": "na",
-    "reading": "na",
+    "reading": "",
     "group": "3. gün · na-ha satırı",
-    "ex": "",
+    "ex": "Soldaki çarpı, sağdaki ilmek: naneli şeker düğümü.",
     "exTr": ""
    },
    {
     "term": "に",
     "meaning": "ni",
-    "reading": "ni",
+    "reading": "",
     "group": "3. gün · na-ha satırı",
-    "ex": "",
+    "ex": "Soldaki dik çizgi, sağdaki iki çizgi: iki iplik, ni.",
     "exTr": ""
    },
    {
     "term": "ぬ",
     "meaning": "nu",
-    "reading": "nu",
+    "reading": "",
     "group": "3. gün · na-ha satırı",
-    "ex": "",
+    "ex": "ね ile kardeş ama kuyruğu düğümlü: noodle, erişte düğümü, nu.",
     "exTr": ""
    },
    {
     "term": "ね",
     "meaning": "ne",
-    "reading": "ne",
+    "reading": "",
     "group": "3. gün · na-ha satırı",
-    "ex": "",
+    "ex": "Dik çizgi ve kıvrık kuyruk: kedinin kuyruğu, neko, ne.",
     "exTr": ""
    },
    {
     "term": "の",
     "meaning": "no",
-    "reading": "no",
+    "reading": "",
     "group": "3. gün · na-ha satırı",
-    "ex": "",
+    "ex": "Tek bir sarmal: burun deliği gibi, no.",
     "exTr": ""
    },
    {
     "term": "は",
     "meaning": "ha",
-    "reading": "ha",
+    "reading": "",
     "group": "3. gün · na-ha satırı",
-    "ex": "",
+    "ex": "Soldaki dik çizgi, sağdaki 'H': H + a = ha.",
     "exTr": ""
    },
    {
     "term": "ひ",
     "meaning": "hi",
-    "reading": "hi",
+    "reading": "",
     "group": "3. gün · na-ha satırı",
-    "ex": "",
+    "ex": "Geniş bir gülümseme ya da büyük burun: hi hi diye gülüyor.",
     "exTr": ""
    },
    {
     "term": "ふ",
-    "meaning": "fu (fu, hafif f)",
-    "reading": "fu",
+    "meaning": "fu (hafif f)",
+    "reading": "",
     "group": "3. gün · na-ha satırı",
-    "ex": "",
+    "ex": "Dağılmış birkaç parça: dans eden bir figür, fu.",
     "exTr": ""
    },
    {
     "term": "へ",
     "meaning": "he",
-    "reading": "he",
+    "reading": "",
     "group": "3. gün · na-ha satırı",
-    "ex": "",
+    "ex": "Küçük bir tepe: Fuji'nin tepesi gibi, he.",
     "exTr": ""
    },
    {
     "term": "ほ",
     "meaning": "ho",
-    "reading": "ho",
+    "reading": "",
     "group": "3. gün · na-ha satırı",
-    "ex": "",
+    "ex": "は gibi ama üstte fazladan çizgi: ha'ya şapka takınca ho olur.",
     "exTr": ""
    },
    {
     "term": "ま",
     "meaning": "ma",
-    "reading": "ma",
+    "reading": "",
     "group": "4. gün · ma-ya satırı",
-    "ex": "",
+    "ex": "İki yatay çizgi ve ilmek: masa üstünde düğüm, ma.",
     "exTr": ""
    },
    {
     "term": "み",
     "meaning": "mi",
-    "reading": "mi",
+    "reading": "",
     "group": "4. gün · ma-ya satırı",
-    "ex": "",
+    "ex": "21 rakamına benzer: 21 yaşında 'me', mi.",
     "exTr": ""
    },
    {
     "term": "む",
     "meaning": "mu",
-    "reading": "mu",
+    "reading": "",
     "group": "4. gün · ma-ya satırı",
-    "ex": "",
+    "ex": "İnek gibi: mö diyor, mu.",
     "exTr": ""
    },
    {
     "term": "め",
     "meaning": "me",
-    "reading": "me",
+    "reading": "",
     "group": "4. gün · ma-ya satırı",
-    "ex": "",
+    "ex": "Düğüm, göz çizgisi gibi: göz Japoncada 'me'.",
     "exTr": ""
    },
    {
     "term": "も",
     "meaning": "mo",
-    "reading": "mo",
+    "reading": "",
     "group": "4. gün · ma-ya satırı",
-    "ex": "",
+    "ex": "Olta ve iki yem çizgisi: daha çok balık, mo.",
     "exTr": ""
    },
    {
     "term": "や",
     "meaning": "ya",
-    "reading": "ya",
+    "reading": "",
     "group": "4. gün · ma-ya satırı",
-    "ex": "",
+    "ex": "Bir yat, direği eğik: yatın ya'sı.",
     "exTr": ""
    },
    {
     "term": "ゆ",
     "meaning": "yu",
-    "reading": "yu",
+    "reading": "",
     "group": "4. gün · ma-ya satırı",
-    "ex": "",
+    "ex": "Balık gibi kıvrımlı: yunus, yu.",
     "exTr": ""
    },
    {
     "term": "よ",
     "meaning": "yo",
-    "reading": "yo",
+    "reading": "",
     "group": "4. gün · ma-ya satırı",
-    "ex": "",
+    "ex": "Dikey çizgi ve kanca: yo diye seslenen el.",
     "exTr": ""
    },
    {
     "term": "ら",
     "meaning": "ra",
-    "reading": "ra",
+    "reading": "",
     "group": "5. gün · ra-wa-n",
-    "ex": "",
+    "ex": "Küçük bir çengel ve altında kıvrım: tavşan oturmuş, ra.",
     "exTr": ""
    },
    {
     "term": "り",
     "meaning": "ri",
-    "reading": "ri",
+    "reading": "",
     "group": "5. gün · ra-wa-n",
-    "ex": "",
+    "ex": "İki paralel çizgi, sağdaki uzun: rüzgarda sazlar, ri.",
     "exTr": ""
    },
    {
     "term": "る",
     "meaning": "ru",
-    "reading": "ru",
+    "reading": "",
     "group": "5. gün · ra-wa-n",
-    "ex": "",
+    "ex": "Sonu ilmekli yol: dolambaçlı rota, ru.",
     "exTr": ""
    },
    {
     "term": "れ",
     "meaning": "re",
-    "reading": "re",
+    "reading": "",
     "group": "5. gün · ra-wa-n",
-    "ex": "",
+    "ex": "る gibi başlar ama kuyruk düz dışa: rahat durmuyor, re.",
     "exTr": ""
    },
    {
     "term": "ろ",
     "meaning": "ro",
-    "reading": "ro",
+    "reading": "",
     "group": "5. gün · ra-wa-n",
-    "ex": "",
+    "ex": "る'nun ilmeksizi: düz yol, ro.",
     "exTr": ""
    },
    {
     "term": "わ",
     "meaning": "wa",
-    "reading": "wa",
+    "reading": "",
     "group": "5. gün · ra-wa-n",
-    "ex": "",
+    "ex": "ね ve れ'nin akrabası, kuyruğu içe kıvrık: vazo gibi, wa.",
     "exTr": ""
    },
    {
     "term": "を",
     "meaning": "wo (o okunur)",
-    "reading": "wo",
+    "reading": "",
     "group": "5. gün · ra-wa-n",
-    "ex": "",
+    "ex": "Üstte çizgi, altta kıvrım: ağzında bumerang, wo (o okunur).",
     "exTr": ""
    },
    {
     "term": "ん",
     "meaning": "n (genizden n)",
-    "reading": "n",
+    "reading": "",
     "group": "5. gün · ra-wa-n",
-    "ex": "",
+    "ex": "Latin 'n' harfinin el yazısı hali: n.",
     "exTr": ""
    },
    {
     "term": "が",
     "meaning": "ga",
-    "reading": "ga",
+    "reading": "",
     "group": "6. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Temel harfin sağ üstüne iki tırnak gelince ses yumuşar.",
     "exTr": ""
    },
    {
     "term": "ぎ",
     "meaning": "gi",
-    "reading": "gi",
+    "reading": "",
     "group": "6. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Temel harfin sağ üstüne iki tırnak gelince ses yumuşar.",
     "exTr": ""
    },
    {
     "term": "ぐ",
     "meaning": "gu",
-    "reading": "gu",
+    "reading": "",
     "group": "6. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Temel harfin sağ üstüne iki tırnak gelince ses yumuşar.",
     "exTr": ""
    },
    {
     "term": "げ",
     "meaning": "ge",
-    "reading": "ge",
+    "reading": "",
     "group": "6. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Temel harfin sağ üstüne iki tırnak gelince ses yumuşar.",
     "exTr": ""
    },
    {
     "term": "ご",
     "meaning": "go",
-    "reading": "go",
+    "reading": "",
     "group": "6. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Temel harfin sağ üstüne iki tırnak gelince ses yumuşar.",
     "exTr": ""
    },
    {
     "term": "ざ",
     "meaning": "za",
-    "reading": "za",
+    "reading": "",
     "group": "6. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Temel harfin sağ üstüne iki tırnak gelince ses yumuşar.",
     "exTr": ""
    },
    {
     "term": "じ",
     "meaning": "ji (ci)",
-    "reading": "ji",
+    "reading": "",
     "group": "6. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Temel harfin sağ üstüne iki tırnak gelince ses yumuşar.",
     "exTr": ""
    },
    {
     "term": "ず",
     "meaning": "zu",
-    "reading": "zu",
+    "reading": "",
     "group": "6. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Temel harfin sağ üstüne iki tırnak gelince ses yumuşar.",
     "exTr": ""
    },
    {
     "term": "ぜ",
     "meaning": "ze",
-    "reading": "ze",
+    "reading": "",
     "group": "6. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Temel harfin sağ üstüne iki tırnak gelince ses yumuşar.",
     "exTr": ""
    },
    {
     "term": "ぞ",
     "meaning": "zo",
-    "reading": "zo",
+    "reading": "",
     "group": "6. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Temel harfin sağ üstüne iki tırnak gelince ses yumuşar.",
     "exTr": ""
    },
    {
     "term": "だ",
     "meaning": "da",
-    "reading": "da",
+    "reading": "",
     "group": "6. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Temel harfin sağ üstüne iki tırnak gelince ses yumuşar.",
     "exTr": ""
    },
    {
     "term": "ぢ",
     "meaning": "ji (ci, nadir)",
-    "reading": "ji",
+    "reading": "",
     "group": "6. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Temel harfin sağ üstüne iki tırnak gelince ses yumuşar.",
     "exTr": ""
    },
    {
     "term": "づ",
     "meaning": "zu (nadir)",
-    "reading": "zu",
+    "reading": "",
     "group": "6. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Temel harfin sağ üstüne iki tırnak gelince ses yumuşar.",
     "exTr": ""
    },
    {
     "term": "で",
     "meaning": "de",
-    "reading": "de",
+    "reading": "",
     "group": "6. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Temel harfin sağ üstüne iki tırnak gelince ses yumuşar.",
     "exTr": ""
    },
    {
     "term": "ど",
     "meaning": "do",
-    "reading": "do",
+    "reading": "",
     "group": "6. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Temel harfin sağ üstüne iki tırnak gelince ses yumuşar.",
     "exTr": ""
    },
    {
     "term": "ば",
     "meaning": "ba",
-    "reading": "ba",
+    "reading": "",
     "group": "6. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Temel harfin sağ üstüne iki tırnak gelince ses yumuşar.",
     "exTr": ""
    },
    {
     "term": "び",
     "meaning": "bi",
-    "reading": "bi",
+    "reading": "",
     "group": "6. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Temel harfin sağ üstüne iki tırnak gelince ses yumuşar.",
     "exTr": ""
    },
    {
     "term": "ぶ",
     "meaning": "bu",
-    "reading": "bu",
+    "reading": "",
     "group": "6. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Temel harfin sağ üstüne iki tırnak gelince ses yumuşar.",
     "exTr": ""
    },
    {
     "term": "べ",
     "meaning": "be",
-    "reading": "be",
+    "reading": "",
     "group": "6. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Temel harfin sağ üstüne iki tırnak gelince ses yumuşar.",
     "exTr": ""
    },
    {
     "term": "ぼ",
     "meaning": "bo",
-    "reading": "bo",
+    "reading": "",
     "group": "6. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Temel harfin sağ üstüne iki tırnak gelince ses yumuşar.",
     "exTr": ""
    },
    {
     "term": "ぱ",
     "meaning": "pa",
-    "reading": "pa",
+    "reading": "",
     "group": "6. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Sağ üstteki küçük daire h sesini p yapar.",
     "exTr": ""
    },
    {
     "term": "ぴ",
     "meaning": "pi",
-    "reading": "pi",
+    "reading": "",
     "group": "6. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Sağ üstteki küçük daire h sesini p yapar.",
     "exTr": ""
    },
    {
     "term": "ぷ",
     "meaning": "pu",
-    "reading": "pu",
+    "reading": "",
     "group": "6. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Sağ üstteki küçük daire h sesini p yapar.",
     "exTr": ""
    },
    {
     "term": "ぺ",
     "meaning": "pe",
-    "reading": "pe",
+    "reading": "",
     "group": "6. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Sağ üstteki küçük daire h sesini p yapar.",
     "exTr": ""
    },
    {
     "term": "ぽ",
     "meaning": "po",
-    "reading": "po",
+    "reading": "",
     "group": "6. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Sağ üstteki küçük daire h sesini p yapar.",
     "exTr": ""
    },
    {
     "term": "きゃ",
     "meaning": "kya",
-    "reading": "kya",
+    "reading": "",
     "group": "7. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "き + küçük ゃ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "きゅ",
     "meaning": "kyu",
-    "reading": "kyu",
+    "reading": "",
     "group": "7. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "き + küçük ゅ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "きょ",
     "meaning": "kyo",
-    "reading": "kyo",
+    "reading": "",
     "group": "7. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "き + küçük ょ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "しゃ",
     "meaning": "sha (şa)",
-    "reading": "sha",
+    "reading": "",
     "group": "7. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "し + küçük ゃ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "しゅ",
     "meaning": "shu (şu)",
-    "reading": "shu",
+    "reading": "",
     "group": "7. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "し + küçük ゅ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "しょ",
     "meaning": "sho (şo)",
-    "reading": "sho",
+    "reading": "",
     "group": "7. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "し + küçük ょ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "ちゃ",
     "meaning": "cha (ça)",
-    "reading": "cha",
+    "reading": "",
     "group": "7. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "ち + küçük ゃ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "ちゅ",
     "meaning": "chu (çu)",
-    "reading": "chu",
+    "reading": "",
     "group": "7. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "ち + küçük ゅ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "ちょ",
     "meaning": "cho (ço)",
-    "reading": "cho",
+    "reading": "",
     "group": "7. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "ち + küçük ょ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "にゃ",
     "meaning": "nya",
-    "reading": "nya",
+    "reading": "",
     "group": "7. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "に + küçük ゃ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "にゅ",
     "meaning": "nyu",
-    "reading": "nyu",
+    "reading": "",
     "group": "7. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "に + küçük ゅ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "にょ",
     "meaning": "nyo",
-    "reading": "nyo",
+    "reading": "",
     "group": "7. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "に + küçük ょ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "ひゃ",
     "meaning": "hya",
-    "reading": "hya",
+    "reading": "",
     "group": "7. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "ひ + küçük ゃ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "ひゅ",
     "meaning": "hyu",
-    "reading": "hyu",
+    "reading": "",
     "group": "7. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "ひ + küçük ゅ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "ひょ",
     "meaning": "hyo",
-    "reading": "hyo",
+    "reading": "",
     "group": "7. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "ひ + küçük ょ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "みゃ",
     "meaning": "mya",
-    "reading": "mya",
+    "reading": "",
     "group": "7. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "み + küçük ゃ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "みゅ",
     "meaning": "myu",
-    "reading": "myu",
+    "reading": "",
     "group": "7. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "み + küçük ゅ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "みょ",
     "meaning": "myo",
-    "reading": "myo",
+    "reading": "",
     "group": "7. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "み + küçük ょ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "りゃ",
     "meaning": "rya",
-    "reading": "rya",
+    "reading": "",
     "group": "7. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "り + küçük ゃ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "りゅ",
     "meaning": "ryu",
-    "reading": "ryu",
+    "reading": "",
     "group": "7. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "り + küçük ゅ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "りょ",
     "meaning": "ryo",
-    "reading": "ryo",
+    "reading": "",
     "group": "7. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "り + küçük ょ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "ぎゃ",
     "meaning": "gya",
-    "reading": "gya",
+    "reading": "",
     "group": "7. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "ぎ + küçük ゃ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "ぎゅ",
     "meaning": "gyu",
-    "reading": "gyu",
+    "reading": "",
     "group": "7. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "ぎ + küçük ゅ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "ぎょ",
     "meaning": "gyo",
-    "reading": "gyo",
+    "reading": "",
     "group": "7. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "ぎ + küçük ょ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "じゃ",
     "meaning": "ja (ca)",
-    "reading": "ja",
+    "reading": "",
     "group": "7. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "じ + küçük ゃ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "じゅ",
     "meaning": "ju (cu)",
-    "reading": "ju",
+    "reading": "",
     "group": "7. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "じ + küçük ゅ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "じょ",
     "meaning": "jo (co)",
-    "reading": "jo",
+    "reading": "",
     "group": "7. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "じ + küçük ょ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "びゃ",
     "meaning": "bya",
-    "reading": "bya",
+    "reading": "",
     "group": "7. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "び + küçük ゃ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "びゅ",
     "meaning": "byu",
-    "reading": "byu",
+    "reading": "",
     "group": "7. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "び + küçük ゅ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "びょ",
     "meaning": "byo",
-    "reading": "byo",
+    "reading": "",
     "group": "7. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "び + küçük ょ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "ぴゃ",
     "meaning": "pya",
-    "reading": "pya",
+    "reading": "",
     "group": "7. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "ぴ + küçük ゃ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "ぴゅ",
     "meaning": "pyu",
-    "reading": "pyu",
+    "reading": "",
     "group": "7. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "ぴ + küçük ゅ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "ぴょ",
     "meaning": "pyo",
-    "reading": "pyo",
+    "reading": "",
     "group": "7. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "ぴ + küçük ょ birleşir, tek hece olur.",
     "exTr": ""
    }
   ]
  },
  {
   "name": "Katakana",
-  "collection": "Kana",
+  "collection": "Alfabe",
   "type": "ja-tr",
   "cards": [
    {
     "term": "ア",
     "meaning": "a",
-    "reading": "a",
+    "reading": "",
     "group": "8. gün · a-ka satırı",
-    "ex": "",
+    "ex": "Büyük 'A' harfinin sol köşesi içinde: A, a.",
     "exTr": ""
    },
    {
     "term": "イ",
     "meaning": "i",
-    "reading": "i",
+    "reading": "",
     "group": "8. gün · a-ka satırı",
-    "ex": "",
+    "ex": "Yukarıdan aşağı inen iki çizgi: 'i' harfinin noktasız hali.",
     "exTr": ""
    },
    {
     "term": "ウ",
     "meaning": "u",
-    "reading": "u",
+    "reading": "",
     "group": "8. gün · a-ka satırı",
-    "ex": "",
+    "ex": "Üstte küçük çatı, altında köşe: ev gibi, u.",
     "exTr": ""
    },
    {
     "term": "エ",
     "meaning": "e",
-    "reading": "e",
+    "reading": "",
     "group": "8. gün · a-ka satırı",
-    "ex": "",
+    "ex": "Yatay iki çizgi, arada direk: demir kiriş, 'E'.",
     "exTr": ""
    },
    {
     "term": "オ",
     "meaning": "o",
-    "reading": "o",
+    "reading": "",
     "group": "8. gün · a-ka satırı",
-    "ex": "",
+    "ex": "Dik çizgi, çarpı ve kuyruk: ちarkaya benzer, o.",
     "exTr": ""
    },
    {
     "term": "カ",
     "meaning": "ka",
-    "reading": "ka",
+    "reading": "",
     "group": "8. gün · a-ka satırı",
-    "ex": "",
+    "ex": "Hiragana か'nın sağ parçası yok: sade kazık, ka.",
     "exTr": ""
    },
    {
     "term": "キ",
     "meaning": "ki",
-    "reading": "ki",
+    "reading": "",
     "group": "8. gün · a-ka satırı",
-    "ex": "",
+    "ex": "Hiragana き'nin sadeleşmiş hali: aynı anahtar, ki.",
     "exTr": ""
    },
    {
     "term": "ク",
     "meaning": "ku",
-    "reading": "ku",
+    "reading": "",
     "group": "8. gün · a-ka satırı",
-    "ex": "",
+    "ex": "Açık bir ağız ya da aşçı şapkası: ku.",
     "exTr": ""
    },
    {
     "term": "ケ",
     "meaning": "ke",
-    "reading": "ke",
+    "reading": "",
     "group": "8. gün · a-ka satırı",
-    "ex": "",
+    "ex": "Latin 'K' harfine benziyor: ke.",
     "exTr": ""
    },
    {
     "term": "コ",
     "meaning": "ko",
-    "reading": "ko",
+    "reading": "",
     "group": "8. gün · a-ka satırı",
-    "ex": "",
+    "ex": "İki dik açı, kutu köşesi: ko.",
     "exTr": ""
    },
    {
     "term": "サ",
     "meaning": "sa",
-    "reading": "sa",
+    "reading": "",
     "group": "9. gün · sa-ta satırı",
-    "ex": "",
+    "ex": "Üç çizgi, şişe geçirilmiş gibi: sa.",
     "exTr": ""
    },
    {
     "term": "シ",
     "meaning": "shi (şi)",
-    "reading": "shi",
+    "reading": "",
     "group": "9. gün · sa-ta satırı",
-    "ex": "",
+    "ex": "İki nokta solda, kanca alttan yukarı: şi. (ツ ile karıştırma, bu soldan sağa.)",
     "exTr": ""
    },
    {
     "term": "ス",
     "meaning": "su",
-    "reading": "su",
+    "reading": "",
     "group": "9. gün · sa-ta satırı",
-    "ex": "",
+    "ex": "Üstte çizgi, aşağı inen bacak: süzülen biri, su.",
     "exTr": ""
    },
    {
     "term": "セ",
     "meaning": "se",
-    "reading": "se",
+    "reading": "",
     "group": "9. gün · sa-ta satırı",
-    "ex": "",
+    "ex": "Hiragana せ'ye çok benzer: aynı ses, se.",
     "exTr": ""
    },
    {
     "term": "ソ",
     "meaning": "so",
-    "reading": "so",
+    "reading": "",
     "group": "9. gün · sa-ta satırı",
-    "ex": "",
+    "ex": "Tek nokta ve aşağı inen çizgi: so. (ン ile karıştırma, bu yukarıdan aşağı.)",
     "exTr": ""
    },
    {
     "term": "タ",
     "meaning": "ta",
-    "reading": "ta",
+    "reading": "",
     "group": "9. gün · sa-ta satırı",
-    "ex": "",
+    "ex": "Üstte köşe, içinde çizgi: ク'ya benzer ama çizgili, ta.",
     "exTr": ""
    },
    {
     "term": "チ",
     "meaning": "chi (çi)",
-    "reading": "chi",
+    "reading": "",
     "group": "9. gün · sa-ta satırı",
-    "ex": "",
+    "ex": "Latin 'F' gibi ama fazladan çizgi: çi.",
     "exTr": ""
    },
    {
     "term": "ツ",
-    "meaning": "tsu (tsu, ts sesi)",
-    "reading": "tsu",
+    "meaning": "tsu (ts)",
+    "reading": "",
     "group": "9. gün · sa-ta satırı",
-    "ex": "",
+    "ex": "Üç çizgi yukarıdan aşağı: tsu. (シ ile karıştırma, bu yukarıdan aşağı.)",
     "exTr": ""
    },
    {
     "term": "テ",
     "meaning": "te",
-    "reading": "te",
+    "reading": "",
     "group": "9. gün · sa-ta satırı",
-    "ex": "",
+    "ex": "İki yatay çizgi ve dikey: telefon direği, te.",
     "exTr": ""
    },
    {
     "term": "ト",
     "meaning": "to",
-    "reading": "to",
+    "reading": "",
     "group": "9. gün · sa-ta satırı",
-    "ex": "",
+    "ex": "Dik çizgi ve sağda küçük çıkıntı: totem direği, to.",
     "exTr": ""
    },
    {
     "term": "ナ",
     "meaning": "na",
-    "reading": "na",
+    "reading": "",
     "group": "10. gün · na-ha satırı",
-    "ex": "",
+    "ex": "Artı işaretinin eğik hali: na.",
     "exTr": ""
    },
    {
     "term": "ニ",
     "meaning": "ni",
-    "reading": "ni",
+    "reading": "",
     "group": "10. gün · na-ha satırı",
-    "ex": "",
+    "ex": "İki yatay çizgi: ikinin ni'si.",
     "exTr": ""
    },
    {
     "term": "ヌ",
     "meaning": "nu",
-    "reading": "nu",
+    "reading": "",
     "group": "10. gün · na-ha satırı",
-    "ex": "",
+    "ex": "ス gibi ama üstü çaprazlı: erişte, nu.",
     "exTr": ""
    },
    {
     "term": "ネ",
     "meaning": "ne",
-    "reading": "ne",
+    "reading": "",
     "group": "10. gün · na-ha satırı",
-    "ex": "",
+    "ex": "Çatı altında çizgiler: ne.",
     "exTr": ""
    },
    {
     "term": "ノ",
     "meaning": "no",
-    "reading": "no",
+    "reading": "",
     "group": "10. gün · na-ha satırı",
-    "ex": "",
+    "ex": "Tek eğik çizgi: uzun bir burun, no.",
     "exTr": ""
    },
    {
     "term": "ハ",
     "meaning": "ha",
-    "reading": "ha",
+    "reading": "",
     "group": "10. gün · na-ha satırı",
-    "ex": "",
+    "ex": "İki ayrı çizgi, çatı gibi: şapka, ha.",
     "exTr": ""
    },
    {
     "term": "ヒ",
     "meaning": "hi",
-    "reading": "hi",
+    "reading": "",
     "group": "10. gün · na-ha satırı",
-    "ex": "",
+    "ex": "Dik çizgi ve yatay kanca: hi.",
     "exTr": ""
    },
    {
     "term": "フ",
-    "meaning": "fu (fu, hafif f)",
-    "reading": "fu",
+    "meaning": "fu (hafif f)",
+    "reading": "",
     "group": "10. gün · na-ha satırı",
-    "ex": "",
+    "ex": "Tek köşe, bayrak gibi: fu.",
     "exTr": ""
    },
    {
     "term": "ヘ",
     "meaning": "he",
-    "reading": "he",
+    "reading": "",
     "group": "10. gün · na-ha satırı",
-    "ex": "",
+    "ex": "Hiragana へ ile aynı: aynı tepe, he.",
     "exTr": ""
    },
    {
     "term": "ホ",
     "meaning": "ho",
-    "reading": "ho",
+    "reading": "",
     "group": "10. gün · na-ha satırı",
-    "ex": "",
+    "ex": "Artı ve iki yan çizgi: ho.",
     "exTr": ""
    },
    {
     "term": "マ",
     "meaning": "ma",
-    "reading": "ma",
+    "reading": "",
     "group": "11. gün · ma-ya satırı",
-    "ex": "",
+    "ex": "Köşe ve aşağı inen çizgi: ma.",
     "exTr": ""
    },
    {
     "term": "ミ",
     "meaning": "mi",
-    "reading": "mi",
+    "reading": "",
     "group": "11. gün · ma-ya satırı",
-    "ex": "",
+    "ex": "Üç yatay çizgi: üç füze, mi.",
     "exTr": ""
    },
    {
     "term": "ム",
     "meaning": "mu",
-    "reading": "mu",
+    "reading": "",
     "group": "11. gün · ma-ya satırı",
-    "ex": "",
+    "ex": "Küçük üçgen, altı açık: mu.",
     "exTr": ""
    },
    {
     "term": "メ",
     "meaning": "me",
-    "reading": "me",
+    "reading": "",
     "group": "11. gün · ma-ya satırı",
-    "ex": "",
+    "ex": "Çarpı işareti: göz üstünde X, 'me'.",
     "exTr": ""
    },
    {
     "term": "モ",
     "meaning": "mo",
-    "reading": "mo",
+    "reading": "",
     "group": "11. gün · ma-ya satırı",
-    "ex": "",
+    "ex": "Hiragana も'ya benzer: aynı olta, mo.",
     "exTr": ""
    },
    {
     "term": "ヤ",
     "meaning": "ya",
-    "reading": "ya",
+    "reading": "",
     "group": "11. gün · ma-ya satırı",
-    "ex": "",
+    "ex": "Hiragana や'nın sadesi: aynı yat, ya.",
     "exTr": ""
    },
    {
     "term": "ユ",
     "meaning": "yu",
-    "reading": "yu",
+    "reading": "",
     "group": "11. gün · ma-ya satırı",
-    "ex": "",
+    "ex": "Yatay taban ve kanca: yu.",
     "exTr": ""
    },
    {
     "term": "ヨ",
     "meaning": "yo",
-    "reading": "yo",
+    "reading": "",
     "group": "11. gün · ma-ya satırı",
-    "ex": "",
+    "ex": "Üç çizgili tarak, 'E' ters dönmüş: yo.",
     "exTr": ""
    },
    {
     "term": "ラ",
     "meaning": "ra",
-    "reading": "ra",
+    "reading": "",
     "group": "12. gün · ra-wa-n",
-    "ex": "",
+    "ex": "Üstte çizgi, altta köşe: ra.",
     "exTr": ""
    },
    {
     "term": "リ",
     "meaning": "ri",
-    "reading": "ri",
+    "reading": "",
     "group": "12. gün · ra-wa-n",
-    "ex": "",
+    "ex": "Hiragana り ile aynı: iki çizgi, ri.",
     "exTr": ""
    },
    {
     "term": "ル",
     "meaning": "ru",
-    "reading": "ru",
+    "reading": "",
     "group": "12. gün · ra-wa-n",
-    "ex": "",
+    "ex": "İki bacak, sağdaki kıvrık: iki yol, ru.",
     "exTr": ""
    },
    {
     "term": "レ",
     "meaning": "re",
-    "reading": "re",
+    "reading": "",
     "group": "12. gün · ra-wa-n",
-    "ex": "",
+    "ex": "Tek kıvrımlı çizgi: re.",
     "exTr": ""
    },
    {
     "term": "ロ",
     "meaning": "ro",
-    "reading": "ro",
+    "reading": "",
     "group": "12. gün · ra-wa-n",
-    "ex": "",
+    "ex": "Tam kare: kapalı kutu, ro.",
     "exTr": ""
    },
    {
     "term": "ワ",
     "meaning": "wa",
-    "reading": "wa",
+    "reading": "",
     "group": "12. gün · ra-wa-n",
-    "ex": "",
+    "ex": "Soru işaretinin köşeli hali: wa.",
     "exTr": ""
    },
    {
     "term": "ヲ",
-    "meaning": "wo (o okunur)",
-    "reading": "wo",
+    "meaning": "wo (o okunur, nadir)",
+    "reading": "",
     "group": "12. gün · ra-wa-n",
-    "ex": "",
+    "ex": "Üç çizgili, ağzı açık: wo (o okunur), çok nadir.",
     "exTr": ""
    },
    {
     "term": "ン",
     "meaning": "n (genizden n)",
-    "reading": "n",
+    "reading": "",
     "group": "12. gün · ra-wa-n",
-    "ex": "",
+    "ex": "İki çizgi, alttan yukarı: n. (ソ ile karıştırma, bu alttan yukarı.)",
     "exTr": ""
    },
    {
     "term": "ガ",
     "meaning": "ga",
-    "reading": "ga",
+    "reading": "",
     "group": "13. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Temel harfin sağ üstüne iki tırnak gelince ses yumuşar.",
     "exTr": ""
    },
    {
     "term": "ギ",
     "meaning": "gi",
-    "reading": "gi",
+    "reading": "",
     "group": "13. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Temel harfin sağ üstüne iki tırnak gelince ses yumuşar.",
     "exTr": ""
    },
    {
     "term": "グ",
     "meaning": "gu",
-    "reading": "gu",
+    "reading": "",
     "group": "13. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Temel harfin sağ üstüne iki tırnak gelince ses yumuşar.",
     "exTr": ""
    },
    {
     "term": "ゲ",
     "meaning": "ge",
-    "reading": "ge",
+    "reading": "",
     "group": "13. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Temel harfin sağ üstüne iki tırnak gelince ses yumuşar.",
     "exTr": ""
    },
    {
     "term": "ゴ",
     "meaning": "go",
-    "reading": "go",
+    "reading": "",
     "group": "13. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Temel harfin sağ üstüne iki tırnak gelince ses yumuşar.",
     "exTr": ""
    },
    {
     "term": "ザ",
     "meaning": "za",
-    "reading": "za",
+    "reading": "",
     "group": "13. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Temel harfin sağ üstüne iki tırnak gelince ses yumuşar.",
     "exTr": ""
    },
    {
     "term": "ジ",
     "meaning": "ji (ci)",
-    "reading": "ji",
+    "reading": "",
     "group": "13. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Temel harfin sağ üstüne iki tırnak gelince ses yumuşar.",
     "exTr": ""
    },
    {
     "term": "ズ",
     "meaning": "zu",
-    "reading": "zu",
+    "reading": "",
     "group": "13. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Temel harfin sağ üstüne iki tırnak gelince ses yumuşar.",
     "exTr": ""
    },
    {
     "term": "ゼ",
     "meaning": "ze",
-    "reading": "ze",
+    "reading": "",
     "group": "13. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Temel harfin sağ üstüne iki tırnak gelince ses yumuşar.",
     "exTr": ""
    },
    {
     "term": "ゾ",
     "meaning": "zo",
-    "reading": "zo",
+    "reading": "",
     "group": "13. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Temel harfin sağ üstüne iki tırnak gelince ses yumuşar.",
     "exTr": ""
    },
    {
     "term": "ダ",
     "meaning": "da",
-    "reading": "da",
+    "reading": "",
     "group": "13. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Temel harfin sağ üstüne iki tırnak gelince ses yumuşar.",
     "exTr": ""
    },
    {
     "term": "ヂ",
     "meaning": "ji (ci, nadir)",
-    "reading": "ji",
+    "reading": "",
     "group": "13. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Temel harfin sağ üstüne iki tırnak gelince ses yumuşar.",
     "exTr": ""
    },
    {
     "term": "ヅ",
     "meaning": "zu (nadir)",
-    "reading": "zu",
+    "reading": "",
     "group": "13. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Temel harfin sağ üstüne iki tırnak gelince ses yumuşar.",
     "exTr": ""
    },
    {
     "term": "デ",
     "meaning": "de",
-    "reading": "de",
+    "reading": "",
     "group": "13. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Temel harfin sağ üstüne iki tırnak gelince ses yumuşar.",
     "exTr": ""
    },
    {
     "term": "ド",
     "meaning": "do",
-    "reading": "do",
+    "reading": "",
     "group": "13. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Temel harfin sağ üstüne iki tırnak gelince ses yumuşar.",
     "exTr": ""
    },
    {
     "term": "バ",
     "meaning": "ba",
-    "reading": "ba",
+    "reading": "",
     "group": "13. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Temel harfin sağ üstüne iki tırnak gelince ses yumuşar.",
     "exTr": ""
    },
    {
     "term": "ビ",
     "meaning": "bi",
-    "reading": "bi",
+    "reading": "",
     "group": "13. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Temel harfin sağ üstüne iki tırnak gelince ses yumuşar.",
     "exTr": ""
    },
    {
     "term": "ブ",
     "meaning": "bu",
-    "reading": "bu",
+    "reading": "",
     "group": "13. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Temel harfin sağ üstüne iki tırnak gelince ses yumuşar.",
     "exTr": ""
    },
    {
     "term": "ベ",
     "meaning": "be",
-    "reading": "be",
+    "reading": "",
     "group": "13. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Temel harfin sağ üstüne iki tırnak gelince ses yumuşar.",
     "exTr": ""
    },
    {
     "term": "ボ",
     "meaning": "bo",
-    "reading": "bo",
+    "reading": "",
     "group": "13. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Temel harfin sağ üstüne iki tırnak gelince ses yumuşar.",
     "exTr": ""
    },
    {
     "term": "パ",
     "meaning": "pa",
-    "reading": "pa",
+    "reading": "",
     "group": "13. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Sağ üstteki küçük daire h sesini p yapar.",
     "exTr": ""
    },
    {
     "term": "ピ",
     "meaning": "pi",
-    "reading": "pi",
+    "reading": "",
     "group": "13. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Sağ üstteki küçük daire h sesini p yapar.",
     "exTr": ""
    },
    {
     "term": "プ",
     "meaning": "pu",
-    "reading": "pu",
+    "reading": "",
     "group": "13. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Sağ üstteki küçük daire h sesini p yapar.",
     "exTr": ""
    },
    {
     "term": "ペ",
     "meaning": "pe",
-    "reading": "pe",
+    "reading": "",
     "group": "13. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Sağ üstteki küçük daire h sesini p yapar.",
     "exTr": ""
    },
    {
     "term": "ポ",
     "meaning": "po",
-    "reading": "po",
+    "reading": "",
     "group": "13. gün · dakuten ve handakuten",
-    "ex": "",
+    "ex": "Sağ üstteki küçük daire h sesini p yapar.",
     "exTr": ""
    },
    {
     "term": "キャ",
     "meaning": "kya",
-    "reading": "kya",
+    "reading": "",
     "group": "14. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "キ + küçük ャ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "キュ",
     "meaning": "kyu",
-    "reading": "kyu",
+    "reading": "",
     "group": "14. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "キ + küçük ュ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "キョ",
     "meaning": "kyo",
-    "reading": "kyo",
+    "reading": "",
     "group": "14. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "キ + küçük ョ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "シャ",
     "meaning": "sha (şa)",
-    "reading": "sha",
+    "reading": "",
     "group": "14. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "シ + küçük ャ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "シュ",
     "meaning": "shu (şu)",
-    "reading": "shu",
+    "reading": "",
     "group": "14. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "シ + küçük ュ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "ショ",
     "meaning": "sho (şo)",
-    "reading": "sho",
+    "reading": "",
     "group": "14. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "シ + küçük ョ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "チャ",
     "meaning": "cha (ça)",
-    "reading": "cha",
+    "reading": "",
     "group": "14. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "チ + küçük ャ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "チュ",
     "meaning": "chu (çu)",
-    "reading": "chu",
+    "reading": "",
     "group": "14. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "チ + küçük ュ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "チョ",
     "meaning": "cho (ço)",
-    "reading": "cho",
+    "reading": "",
     "group": "14. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "チ + küçük ョ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "ニャ",
     "meaning": "nya",
-    "reading": "nya",
+    "reading": "",
     "group": "14. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "ニ + küçük ャ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "ニュ",
     "meaning": "nyu",
-    "reading": "nyu",
+    "reading": "",
     "group": "14. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "ニ + küçük ュ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "ニョ",
     "meaning": "nyo",
-    "reading": "nyo",
+    "reading": "",
     "group": "14. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "ニ + küçük ョ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "ヒャ",
     "meaning": "hya",
-    "reading": "hya",
+    "reading": "",
     "group": "14. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "ヒ + küçük ャ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "ヒュ",
     "meaning": "hyu",
-    "reading": "hyu",
+    "reading": "",
     "group": "14. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "ヒ + küçük ュ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "ヒョ",
     "meaning": "hyo",
-    "reading": "hyo",
+    "reading": "",
     "group": "14. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "ヒ + küçük ョ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "ミャ",
     "meaning": "mya",
-    "reading": "mya",
+    "reading": "",
     "group": "14. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "ミ + küçük ャ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "ミュ",
     "meaning": "myu",
-    "reading": "myu",
+    "reading": "",
     "group": "14. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "ミ + küçük ュ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "ミョ",
     "meaning": "myo",
-    "reading": "myo",
+    "reading": "",
     "group": "14. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "ミ + küçük ョ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "リャ",
     "meaning": "rya",
-    "reading": "rya",
+    "reading": "",
     "group": "14. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "リ + küçük ャ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "リュ",
     "meaning": "ryu",
-    "reading": "ryu",
+    "reading": "",
     "group": "14. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "リ + küçük ュ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "リョ",
     "meaning": "ryo",
-    "reading": "ryo",
+    "reading": "",
     "group": "14. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "リ + küçük ョ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "ギャ",
     "meaning": "gya",
-    "reading": "gya",
+    "reading": "",
     "group": "14. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "ギ + küçük ャ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "ギュ",
     "meaning": "gyu",
-    "reading": "gyu",
+    "reading": "",
     "group": "14. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "ギ + küçük ュ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "ギョ",
     "meaning": "gyo",
-    "reading": "gyo",
+    "reading": "",
     "group": "14. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "ギ + küçük ョ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "ジャ",
     "meaning": "ja (ca)",
-    "reading": "ja",
+    "reading": "",
     "group": "14. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "ジ + küçük ャ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "ジュ",
     "meaning": "ju (cu)",
-    "reading": "ju",
+    "reading": "",
     "group": "14. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "ジ + küçük ュ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "ジョ",
     "meaning": "jo (co)",
-    "reading": "jo",
+    "reading": "",
     "group": "14. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "ジ + küçük ョ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "ビャ",
     "meaning": "bya",
-    "reading": "bya",
+    "reading": "",
     "group": "14. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "ビ + küçük ャ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "ビュ",
     "meaning": "byu",
-    "reading": "byu",
+    "reading": "",
     "group": "14. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "ビ + küçük ュ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "ビョ",
     "meaning": "byo",
-    "reading": "byo",
+    "reading": "",
     "group": "14. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "ビ + küçük ョ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "ピャ",
     "meaning": "pya",
-    "reading": "pya",
+    "reading": "",
     "group": "14. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "ピ + küçük ャ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "ピュ",
     "meaning": "pyu",
-    "reading": "pyu",
+    "reading": "",
     "group": "14. gün · yōon (küçük ya-yu-yo)",
-    "ex": "",
+    "ex": "ピ + küçük ュ birleşir, tek hece olur.",
     "exTr": ""
    },
    {
     "term": "ピョ",
     "meaning": "pyo",
-    "reading": "pyo",
+    "reading": "",
     "group": "14. gün · yōon (küçük ya-yu-yo)",
+    "ex": "ピ + küçük ョ birleşir, tek hece olur.",
+    "exTr": ""
+   }
+  ]
+ },
+ {
+  "name": "Kanji N5",
+  "collection": "Alfabe",
+  "type": "ja-tr",
+  "cards": [
+   {
+    "term": "一",
+    "meaning": "bir",
+    "reading": "ichi (hito)",
+    "group": "Kanji · Sayılar",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "二",
+    "meaning": "iki",
+    "reading": "ni (futa)",
+    "group": "Kanji · Sayılar",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "三",
+    "meaning": "üç",
+    "reading": "san (mi)",
+    "group": "Kanji · Sayılar",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "四",
+    "meaning": "dört",
+    "reading": "yo (shi)",
+    "group": "Kanji · Sayılar",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "五",
+    "meaning": "beş",
+    "reading": "go (itsu)",
+    "group": "Kanji · Sayılar",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "六",
+    "meaning": "altı",
+    "reading": "roku (mu)",
+    "group": "Kanji · Sayılar",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "七",
+    "meaning": "yedi",
+    "reading": "nana (shichi)",
+    "group": "Kanji · Sayılar",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "八",
+    "meaning": "sekiz",
+    "reading": "hachi (ya)",
+    "group": "Kanji · Sayılar",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "九",
+    "meaning": "dokuz",
+    "reading": "kyuu (ku)",
+    "group": "Kanji · Sayılar",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "十",
+    "meaning": "on",
+    "reading": "juu (too)",
+    "group": "Kanji · Sayılar",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "百",
+    "meaning": "yüz",
+    "reading": "hyaku (byaku)",
+    "group": "Kanji · Sayılar",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "千",
+    "meaning": "bin",
+    "reading": "sen (chi)",
+    "group": "Kanji · Sayılar",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "万",
+    "meaning": "on bin",
+    "reading": "man (ban)",
+    "group": "Kanji · Sayılar",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "円",
+    "meaning": "yen, daire",
+    "reading": "en (maru)",
+    "group": "Kanji · Sayılar",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "日",
+    "meaning": "gün, güneş",
+    "reading": "hi (nichi)",
+    "group": "Kanji · Zaman",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "月",
+    "meaning": "ay",
+    "reading": "tsuki (getsu)",
+    "group": "Kanji · Zaman",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "年",
+    "meaning": "yıl",
+    "reading": "toshi (nen)",
+    "group": "Kanji · Zaman",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "時",
+    "meaning": "saat, zaman",
+    "reading": "ji (toki)",
+    "group": "Kanji · Zaman",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "分",
+    "meaning": "dakika, bölüm",
+    "reading": "fun (bun)",
+    "group": "Kanji · Zaman",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "半",
+    "meaning": "yarım",
+    "reading": "han (naka)",
+    "group": "Kanji · Zaman",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "今",
+    "meaning": "şimdi",
+    "reading": "ima (kon)",
+    "group": "Kanji · Zaman",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "前",
+    "meaning": "ön, önce",
+    "reading": "mae (zen)",
+    "group": "Kanji · Zaman",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "後",
+    "meaning": "sonra, arka",
+    "reading": "go (nochi)",
+    "group": "Kanji · Zaman",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "毎",
+    "meaning": "her",
+    "reading": "mai (goto)",
+    "group": "Kanji · Zaman",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "週",
+    "meaning": "hafta",
+    "reading": "shuu",
+    "group": "Kanji · Zaman",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "午",
+    "meaning": "öğle",
+    "reading": "go (uma)",
+    "group": "Kanji · Zaman",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "間",
+    "meaning": "ara, aralık",
+    "reading": "aida (kan)",
+    "group": "Kanji · Zaman",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "山",
+    "meaning": "dağ",
+    "reading": "yama (san)",
+    "group": "Kanji · Doğa",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "川",
+    "meaning": "nehir",
+    "reading": "kawa (sen)",
+    "group": "Kanji · Doğa",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "水",
+    "meaning": "su",
+    "reading": "mizu (sui)",
+    "group": "Kanji · Doğa",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "火",
+    "meaning": "ateş",
+    "reading": "hi (ka)",
+    "group": "Kanji · Doğa",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "木",
+    "meaning": "ağaç, odun",
+    "reading": "ki (moku)",
+    "group": "Kanji · Doğa",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "土",
+    "meaning": "toprak",
+    "reading": "tsuchi (do)",
+    "group": "Kanji · Doğa",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "天",
+    "meaning": "gökyüzü",
+    "reading": "ten (ame)",
+    "group": "Kanji · Doğa",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "気",
+    "meaning": "hava, ruh hali",
+    "reading": "ki (ke)",
+    "group": "Kanji · Doğa",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "雨",
+    "meaning": "yağmur",
+    "reading": "ame (u)",
+    "group": "Kanji · Doğa",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "空",
+    "meaning": "gökyüzü, boş",
+    "reading": "sora (kuu)",
+    "group": "Kanji · Doğa",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "花",
+    "meaning": "çiçek",
+    "reading": "hana (ka)",
+    "group": "Kanji · Doğa",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "魚",
+    "meaning": "balık",
+    "reading": "sakana (gyo)",
+    "group": "Kanji · Doğa",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "人",
+    "meaning": "insan",
+    "reading": "hito (jin)",
+    "group": "Kanji · İnsan ve aile",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "男",
+    "meaning": "erkek",
+    "reading": "otoko (dan)",
+    "group": "Kanji · İnsan ve aile",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "女",
+    "meaning": "kadın",
+    "reading": "onna (jo)",
+    "group": "Kanji · İnsan ve aile",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "子",
+    "meaning": "çocuk",
+    "reading": "ko (shi)",
+    "group": "Kanji · İnsan ve aile",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "父",
+    "meaning": "baba",
+    "reading": "chichi (fu)",
+    "group": "Kanji · İnsan ve aile",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "母",
+    "meaning": "anne",
+    "reading": "haha (bo)",
+    "group": "Kanji · İnsan ve aile",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "友",
+    "meaning": "arkadaş",
+    "reading": "tomo (yuu)",
+    "group": "Kanji · İnsan ve aile",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "先",
+    "meaning": "önce, ileri",
+    "reading": "saki (sen)",
+    "group": "Kanji · İnsan ve aile",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "生",
+    "meaning": "hayat, doğum",
+    "reading": "sei (shou)",
+    "group": "Kanji · İnsan ve aile",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "名",
+    "meaning": "isim",
+    "reading": "na (mei)",
+    "group": "Kanji · İnsan ve aile",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "上",
+    "meaning": "üst",
+    "reading": "ue (jou)",
+    "group": "Kanji · Yön ve yer",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "下",
+    "meaning": "alt",
+    "reading": "shita (ka)",
+    "group": "Kanji · Yön ve yer",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "中",
+    "meaning": "iç, orta",
+    "reading": "naka (chuu)",
+    "group": "Kanji · Yön ve yer",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "外",
+    "meaning": "dış",
+    "reading": "soto (gai)",
+    "group": "Kanji · Yön ve yer",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "右",
+    "meaning": "sağ",
+    "reading": "migi (u)",
+    "group": "Kanji · Yön ve yer",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "左",
+    "meaning": "sol",
+    "reading": "hidari (sa)",
+    "group": "Kanji · Yön ve yer",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "東",
+    "meaning": "doğu",
+    "reading": "higashi (tou)",
+    "group": "Kanji · Yön ve yer",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "西",
+    "meaning": "batı",
+    "reading": "nishi (sei)",
+    "group": "Kanji · Yön ve yer",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "南",
+    "meaning": "güney",
+    "reading": "minami (nan)",
+    "group": "Kanji · Yön ve yer",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "北",
+    "meaning": "kuzey",
+    "reading": "kita (hoku)",
+    "group": "Kanji · Yön ve yer",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "国",
+    "meaning": "ülke",
+    "reading": "kuni (koku)",
+    "group": "Kanji · Yerler",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "学",
+    "meaning": "öğrenim",
+    "reading": "gaku (mana)",
+    "group": "Kanji · Yerler",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "校",
+    "meaning": "okul",
+    "reading": "kou (kyou)",
+    "group": "Kanji · Yerler",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "大",
+    "meaning": "büyük",
+    "reading": "oo (dai)",
+    "group": "Kanji · Yerler",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "小",
+    "meaning": "küçük",
+    "reading": "chii (shou)",
+    "group": "Kanji · Yerler",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "高",
+    "meaning": "yüksek, pahalı",
+    "reading": "taka (kou)",
+    "group": "Kanji · Yerler",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "店",
+    "meaning": "dükkan",
+    "reading": "mise (ten)",
+    "group": "Kanji · Yerler",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "駅",
+    "meaning": "istasyon",
+    "reading": "eki",
+    "group": "Kanji · Yerler",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "社",
+    "meaning": "şirket",
+    "reading": "sha (yashiro)",
+    "group": "Kanji · Yerler",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "道",
+    "meaning": "yol",
+    "reading": "michi (dou)",
+    "group": "Kanji · Yerler",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "行",
+    "meaning": "gitmek",
+    "reading": "i (kou)",
+    "group": "Kanji · Fiiller",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "来",
+    "meaning": "gelmek",
+    "reading": "kita (rai)",
+    "group": "Kanji · Fiiller",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "見",
+    "meaning": "görmek",
+    "reading": "mi (ken)",
+    "group": "Kanji · Fiiller",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "聞",
+    "meaning": "duymak, sormak",
+    "reading": "ki (bun)",
+    "group": "Kanji · Fiiller",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "言",
+    "meaning": "söylemek",
+    "reading": "i (gen)",
+    "group": "Kanji · Fiiller",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "話",
+    "meaning": "konuşmak",
+    "reading": "hana (wa)",
+    "group": "Kanji · Fiiller",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "読",
+    "meaning": "okumak",
+    "reading": "yo (doku)",
+    "group": "Kanji · Fiiller",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "書",
+    "meaning": "yazmak",
+    "reading": "ka (sho)",
+    "group": "Kanji · Fiiller",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "食",
+    "meaning": "yemek",
+    "reading": "shoku (ku)",
+    "group": "Kanji · Fiiller",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "飲",
+    "meaning": "içmek",
+    "reading": "no (in)",
+    "group": "Kanji · Fiiller",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "買",
+    "meaning": "satın almak",
+    "reading": "ka (bai)",
+    "group": "Kanji · Fiiller",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "入",
+    "meaning": "girmek",
+    "reading": "i (nyuu)",
+    "group": "Kanji · Fiiller",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "出",
+    "meaning": "çıkmak",
+    "reading": "de (shutsu)",
+    "group": "Kanji · Fiiller",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "立",
+    "meaning": "ayağa kalkmak",
+    "reading": "ta (ritsu)",
+    "group": "Kanji · Fiiller",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "休",
+    "meaning": "dinlenmek",
+    "reading": "yasu (kyuu)",
+    "group": "Kanji · Fiiller",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "会",
+    "meaning": "buluşmak",
+    "reading": "kai (a)",
+    "group": "Kanji · Fiiller",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "口",
+    "meaning": "ağız",
+    "reading": "kuchi (kou)",
+    "group": "Kanji · Vücut",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "手",
+    "meaning": "el",
+    "reading": "te (shu)",
+    "group": "Kanji · Vücut",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "足",
+    "meaning": "ayak, bacak",
+    "reading": "ashi (soku)",
+    "group": "Kanji · Vücut",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "目",
+    "meaning": "göz",
+    "reading": "me (moku)",
+    "group": "Kanji · Vücut",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "耳",
+    "meaning": "kulak",
+    "reading": "mimi (ji)",
+    "group": "Kanji · Vücut",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "長",
+    "meaning": "uzun",
+    "reading": "naga (chou)",
+    "group": "Kanji · Nitelikler",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "安",
+    "meaning": "ucuz, rahat",
+    "reading": "yasu (an)",
+    "group": "Kanji · Nitelikler",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "新",
+    "meaning": "yeni",
+    "reading": "atara (shin)",
+    "group": "Kanji · Nitelikler",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "古",
+    "meaning": "eski",
+    "reading": "furu (ko)",
+    "group": "Kanji · Nitelikler",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "多",
+    "meaning": "çok",
+    "reading": "oo (ta)",
+    "group": "Kanji · Nitelikler",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "少",
+    "meaning": "az",
+    "reading": "suku (shou)",
+    "group": "Kanji · Nitelikler",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "白",
+    "meaning": "beyaz",
+    "reading": "shiro (haku)",
+    "group": "Kanji · Nitelikler",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "本",
+    "meaning": "kitap, asıl",
+    "reading": "hon (moto)",
+    "group": "Kanji · Gündelik",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "語",
+    "meaning": "dil, söz",
+    "reading": "go (kata)",
+    "group": "Kanji · Gündelik",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "車",
+    "meaning": "araba",
+    "reading": "kuruma (sha)",
+    "group": "Kanji · Gündelik",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "電",
+    "meaning": "elektrik",
+    "reading": "den",
+    "group": "Kanji · Gündelik",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "金",
+    "meaning": "altın, para",
+    "reading": "kin (kane)",
+    "group": "Kanji · Gündelik",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "何",
+    "meaning": "ne",
+    "reading": "nani (nan)",
+    "group": "Kanji · Gündelik",
+    "ex": "",
+    "exTr": ""
+   }
+  ]
+ },
+ {
+  "name": "Günlük Konuşma",
+  "collection": "Konuşma",
+  "type": "ja-tr",
+  "cards": [
+   {
+    "term": "おはようございます",
+    "meaning": "Günaydın (kibar)",
+    "reading": "ohayou gozaimasu",
+    "group": "1 · Selamlaşma",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "こんにちは",
+    "meaning": "Merhaba",
+    "reading": "konnichiwa",
+    "group": "1 · Selamlaşma",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "こんばんは",
+    "meaning": "İyi akşamlar",
+    "reading": "konbanwa",
+    "group": "1 · Selamlaşma",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "おやすみなさい",
+    "meaning": "İyi geceler",
+    "reading": "oyasuminasai",
+    "group": "1 · Selamlaşma",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "さようなら",
+    "meaning": "Hoşça kal",
+    "reading": "sayounara",
+    "group": "1 · Selamlaşma",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "また あした",
+    "meaning": "Yarın görüşürüz",
+    "reading": "mata ashita",
+    "group": "1 · Selamlaşma",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "お元気ですか",
+    "meaning": "Nasılsınız?",
+    "reading": "ogenki desu ka",
+    "group": "1 · Selamlaşma",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "はい、元気です",
+    "meaning": "Evet, iyiyim",
+    "reading": "hai, genki desu",
+    "group": "1 · Selamlaşma",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "すみません",
+    "meaning": "Affedersiniz / pardon",
+    "reading": "sumimasen",
+    "group": "2 · Anlamadım",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ありがとうございます",
+    "meaning": "Teşekkür ederim",
+    "reading": "arigatou gozaimasu",
+    "group": "2 · Anlamadım",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "わかりません",
+    "meaning": "Anlamıyorum",
+    "reading": "wakarimasen",
+    "group": "2 · Anlamadım",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "わかりました",
+    "meaning": "Anladım",
+    "reading": "wakarimashita",
+    "group": "2 · Anlamadım",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "もう一度 お願いします",
+    "meaning": "Bir daha söyler misiniz",
+    "reading": "mou ichido onegaishimasu",
+    "group": "2 · Anlamadım",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ゆっくり お願いします",
+    "meaning": "Yavaş söyler misiniz",
+    "reading": "yukkuri onegaishimasu",
+    "group": "2 · Anlamadım",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "日本語が 少し わかります",
+    "meaning": "Biraz Japonca anlıyorum",
+    "reading": "nihongo ga sukoshi wakarimasu",
+    "group": "2 · Anlamadım",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "英語が できますか",
+    "meaning": "İngilizce biliyor musunuz?",
+    "reading": "eigo ga dekimasu ka",
+    "group": "2 · Anlamadım",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "はじめまして",
+    "meaning": "Memnun oldum (ilk tanışma)",
+    "reading": "hajimemashite",
+    "group": "3 · Tanışma",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ニサです",
+    "meaning": "Ben Nisa",
+    "reading": "nisa desu",
+    "group": "3 · Tanışma",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "トルコから 来ました",
+    "meaning": "Türkiye'den geldim",
+    "reading": "toruko kara kimashita",
+    "group": "3 · Tanışma",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "どうぞ よろしく お願いします",
+    "meaning": "Tanıştığımıza memnun oldum",
+    "reading": "douzo yoroshiku onegaishimasu",
+    "group": "3 · Tanışma",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "お名前は",
+    "meaning": "Adınız nedir?",
+    "reading": "onamae wa",
+    "group": "3 · Tanışma",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "学生です",
+    "meaning": "Öğrenciyim",
+    "reading": "gakusei desu",
+    "group": "3 · Tanışma",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "エンジニアです",
+    "meaning": "Mühendisim",
+    "reading": "enjinia desu",
+    "group": "3 · Tanışma",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "東京に 住んでいます",
+    "meaning": "Tokyo'da oturuyorum",
+    "reading": "toukyou ni sunde imasu",
+    "group": "4 · Kendimi anlatma",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "大学で 勉強しています",
+    "meaning": "Üniversitede okuyorum",
+    "reading": "daigaku de benkyou shite imasu",
+    "group": "4 · Kendimi anlatma",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "家族は 三人です",
+    "meaning": "Ailemiz üç kişi",
+    "reading": "kazoku wa sannin desu",
+    "group": "4 · Kendimi anlatma",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "うどんが 好きです",
+    "meaning": "Udon severim",
+    "reading": "udon ga suki desu",
+    "group": "5 · Beğeni",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "コーヒーが 好きです",
+    "meaning": "Kahve severim",
+    "reading": "koohii ga suki desu",
+    "group": "5 · Beğeni",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "あまり 好きじゃないです",
+    "meaning": "Pek sevmem",
+    "reading": "amari suki ja nai desu",
+    "group": "5 · Beğeni",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "とても おいしいです",
+    "meaning": "Çok lezzetli",
+    "reading": "totemo oishii desu",
+    "group": "5 · Beğeni",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "これを ください",
+    "meaning": "Bunu rica ediyorum",
+    "reading": "kore o kudasai",
+    "group": "6 · Sipariş",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "コーヒーを お願いします",
+    "meaning": "Bir kahve lütfen",
+    "reading": "koohii o onegaishimasu",
+    "group": "6 · Sipariş",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "メニューを 見せてください",
+    "meaning": "Menüyü görebilir miyim",
+    "reading": "menyuu o misete kudasai",
+    "group": "6 · Sipariş",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "持ち帰りです",
+    "meaning": "Paket olsun",
+    "reading": "mochikaeri desu",
+    "group": "6 · Sipariş",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "いただきます",
+    "meaning": "Afiyet olsun (yemeğe başlarken)",
+    "reading": "itadakimasu",
+    "group": "6 · Sipariş",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ごちそうさまでした",
+    "meaning": "Elinize sağlık (yemekten sonra)",
+    "reading": "gochisousama deshita",
+    "group": "6 · Sipariş",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "一つ ください",
+    "meaning": "Bir tane lütfen",
+    "reading": "hitotsu kudasai",
+    "group": "7 · Sayma",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "二つ ください",
+    "meaning": "İki tane lütfen",
+    "reading": "futatsu kudasai",
+    "group": "7 · Sayma",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "部屋が 四つ あります",
+    "meaning": "Dört oda var",
+    "reading": "heya ga yottsu arimasu",
+    "group": "7 · Sayma",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ありますか",
+    "meaning": "Var mı?",
+    "reading": "arimasu ka",
+    "group": "7 · Sayma",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "トイレは どこですか",
+    "meaning": "Tuvalet nerede?",
+    "reading": "toire wa doko desu ka",
+    "group": "8 · Yer sorma",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "駅は どこですか",
+    "meaning": "İstasyon nerede?",
+    "reading": "eki wa doko desu ka",
+    "group": "8 · Yer sorma",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "あそこです",
+    "meaning": "Şurada",
+    "reading": "asoko desu",
+    "group": "8 · Yer sorma",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "まっすぐです",
+    "meaning": "Dümdüz ileride",
+    "reading": "massugu desu",
+    "group": "8 · Yer sorma",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "右です",
+    "meaning": "Sağda",
+    "reading": "migi desu",
+    "group": "8 · Yer sorma",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "左です",
+    "meaning": "Solda",
+    "reading": "hidari desu",
+    "group": "8 · Yer sorma",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "今 何時ですか",
+    "meaning": "Saat kaç?",
+    "reading": "ima nanji desu ka",
+    "group": "9 · Saat",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "九時です",
+    "meaning": "Saat dokuz",
+    "reading": "kuji desu",
+    "group": "9 · Saat",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "十二時から 一時までです",
+    "meaning": "On ikiden bire kadar",
+    "reading": "juuniji kara ichiji made desu",
+    "group": "9 · Saat",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "いつですか",
+    "meaning": "Ne zaman?",
+    "reading": "itsu desu ka",
+    "group": "9 · Saat",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ちょっと いいですか",
+    "meaning": "Müsait misiniz?",
+    "reading": "chotto ii desu ka",
+    "group": "10 · Rica",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "貸してください",
+    "meaning": "Ödünç verir misiniz",
+    "reading": "kashite kudasai",
+    "group": "10 · Rica",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "手伝ってください",
+    "meaning": "Yardım eder misiniz",
+    "reading": "tetsudatte kudasai",
+    "group": "10 · Rica",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "もう一度 書いてください",
+    "meaning": "Bir daha yazar mısınız",
+    "reading": "mou ichido kaite kudasai",
+    "group": "10 · Rica",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "どんな 音楽が 好きですか",
+    "meaning": "Ne tür müzik seversiniz?",
+    "reading": "donna ongaku ga suki desu ka",
+    "group": "11 · Ne tür",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "そうですね",
+    "meaning": "Şöyle ki / hmm",
+    "reading": "sou desu ne",
+    "group": "11 · Ne tür",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "私も です",
+    "meaning": "Ben de",
+    "reading": "watashi mo desu",
+    "group": "11 · Ne tür",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "一緒に 行きませんか",
+    "meaning": "Birlikte gidelim mi?",
+    "reading": "issho ni ikimasen ka",
+    "group": "12 · Davet",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "いいですね",
+    "meaning": "Olur, güzel fikir",
+    "reading": "ii desu ne",
+    "group": "12 · Davet",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "すみません、ちょっと",
+    "meaning": "Kusura bakmayın, uygun değil",
+    "reading": "sumimasen, chotto",
+    "group": "12 · Davet",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "何時に しましょうか",
+    "meaning": "Saat kaçta yapalım?",
+    "reading": "nanji ni shimashou ka",
+    "group": "12 · Davet",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "このバスは 空港に 行きますか",
+    "meaning": "Bu otobüs havalimanına gider mi?",
+    "reading": "kono basu wa kuukou ni ikimasu ka",
+    "group": "13 · Ulaşım",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "切符を 買いたいです",
+    "meaning": "Bilet almak istiyorum",
+    "reading": "kippu o kaitai desu",
+    "group": "13 · Ulaşım",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "次の 電車は 何時ですか",
+    "meaning": "Sonraki tren saat kaçta?",
+    "reading": "tsugi no densha wa nanji desu ka",
+    "group": "13 · Ulaşım",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "大きいですね",
+    "meaning": "Büyükmüş",
+    "reading": "ookii desu ne",
+    "group": "14 · Betimleme",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "きれいですね",
+    "meaning": "Güzelmiş",
+    "reading": "kirei desu ne",
+    "group": "14 · Betimleme",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "新しいです",
+    "meaning": "Yeni",
+    "reading": "atarashii desu",
+    "group": "14 · Betimleme",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "古いです",
+    "meaning": "Eski",
+    "reading": "furui desu",
+    "group": "14 · Betimleme",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "電池が 要ります",
+    "meaning": "Pil lazım",
+    "reading": "denchi ga irimasu",
+    "group": "15 · İhtiyaç",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ちょっと 寒いです",
+    "meaning": "Biraz üşüdüm",
+    "reading": "chotto samui desu",
+    "group": "15 · İhtiyaç",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "大丈夫です",
+    "meaning": "Sorun değil / iyiyim",
+    "reading": "daijoubu desu",
+    "group": "15 · İhtiyaç",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "これは いくらですか",
+    "meaning": "Bu kaç para?",
+    "reading": "kore wa ikura desu ka",
+    "group": "16 · Fiyat",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "高いですね",
+    "meaning": "Pahalıymış",
+    "reading": "takai desu ne",
+    "group": "16 · Fiyat",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "安いですね",
+    "meaning": "Ucuzmuş",
+    "reading": "yasui desu ne",
+    "group": "16 · Fiyat",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "カードで いいですか",
+    "meaning": "Kartla ödeyebilir miyim?",
+    "reading": "kaado de ii desu ka",
+    "group": "16 · Fiyat",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "映画を 見に 行きました",
+    "meaning": "Film izlemeye gittim",
+    "reading": "eiga o mi ni ikimashita",
+    "group": "17 · Geçmiş",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "昨日 友だちに 会いました",
+    "meaning": "Dün arkadaşımla buluştum",
+    "reading": "kinou tomodachi ni aimashita",
+    "group": "17 · Geçmiş",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "楽しかったです",
+    "meaning": "Keyifliydi",
+    "reading": "tanoshikatta desu",
+    "group": "17 · Geçmiş",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "温泉に 行きたいです",
+    "meaning": "Kaplıcaya gitmek istiyorum",
+    "reading": "onsen ni ikitai desu",
+    "group": "18 · İstek",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "日本語が 上手に なりたいです",
+    "meaning": "Japoncamı ilerletmek istiyorum",
+    "reading": "nihongo ga jouzu ni naritai desu",
+    "group": "18 · İstek",
     "ex": "",
     "exTr": ""
    }
@@ -3807,7 +5285,7 @@ window.STARTER = [
  },
  {
   "name": "Kana Okuma",
-  "collection": "Kana",
+  "collection": "Konuşma",
   "type": "ja-tr",
   "cards": [
    {

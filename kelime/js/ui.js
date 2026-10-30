@@ -790,6 +790,7 @@
         '<div class="term' + jp + '">' + esc(c.term) + "</div>" +
         (c.reading ? '<div class="read">' + esc(c.reading) + "</div>" : "") +
         '<div class="mean">' + esc(c.meaning) + "</div>" +
+        (c.ex && !c.exTr ? '<div class="hint">' + esc(c.ex) + "</div>" : "") +
         (c.group ? '<div class="grp">' + esc(c.group) + "</div>" : "") +
         "</div>" +
         '<div class="next-btn">' +
@@ -914,8 +915,10 @@
 
     var fb = $("#fb");
     fb.className = "feedback " + (ok ? "ok" : "no");
+    var ipucu = q.item.card.ex && !q.item.card.exTr ? q.item.card.ex : "";
     fb.innerHTML = (ok ? "Doğru" : "Olmadı") +
       (!ok && showAnswer ? '<span class="answer">' + esc(showAnswer) + "</span>" : "") +
+      (!ok && ipucu ? '<span class="answer">' + esc(ipucu) + "</span>" : "") +
       (q.kind === "sentence"
         ? '<span class="answer">' + esc(q.item.card.term) + " · " + esc(q.item.card.meaning) + "</span>"
         : "");

@@ -220,7 +220,11 @@
   /* Yazım karşılaştırması: büyük/küçük, noktalama ve parantez içini yok sayar */
   function normalize(s) {
     return String(s || "")
-      .toLocaleLowerCase("tr")
+      /* Turkce kucultme "I" harfini "\u0131" yapar, bu da romaji cevaplari yanlis sayardi.
+         Noktali/noktasiz i ayrimini karsilastirmada yok sayiyoruz. */
+      .replace(/[I\u0130]/g, "i")
+      .toLowerCase()
+      .replace(/\u0131/g, "i")
       .replace(/\(.*?\)/g, " ")
       .replace(/\/[^/]*\//g, " ")
       .replace(/[.,;:!?'"“”‘’\-–—_]/g, " ")
