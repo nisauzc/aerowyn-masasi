@@ -14,12 +14,28 @@
     if (e.data.type === "kk-theme") { w.__embedTheme = e.data.theme; UI.applyTheme(); }
   });
 
+  /* Hazır desteleri ekler. Aynı ad + grup zaten varsa atlar, ilerlemeye dokunmaz. */
+  function seedStarter() {
+    if (!w.STARTER) return 0;
+    var n = 0;
+    w.STARTER.forEach(function (s) {
+      var var_ = Store.state.decks.some(function (d) {
+        return d.name === s.name && (d.collection || "") === (s.collection || "");
+      });
+      if (var_) return;
+      Store.addDeck(s.name, s.type, s.cards, s.collection);
+      n++;
+    });
+    if (n) Store.save();
+    return n;
+  }
+
   function boot() {
     Store.load();
 
     /* ilk açılışta hazır desteler */
     if (!Store.state.seededStarter && !Store.state.decks.length && w.STARTER) {
-      w.STARTER.forEach(function (s) { Store.addDeck(s.name, s.type, s.cards, s.collection); });
+      seedStarter();
       Store.state.seededStarter = true;
       Store.state.settings.selected = Store.state.decks.length ? [Store.state.decks[0].id] : [];
       Store.save();
@@ -190,6 +206,11 @@
     };
     $("#setTyping").onchange = function () { Store.state.settings.typing = this.checked; Store.save(); };
     $("#setSound").onchange = function () { Store.state.settings.sound = this.checked; Store.save(); };
+    if ($("#seedBtn")) $("#seedBtn").onclick = function () {
+      var eklenen = seedStarter();
+      UI.toast(eklenen ? eklenen + " deste eklendi" : "Hazır destelerin hepsi zaten yüklü");
+      UI.render();
+    };
     if ($("#setAskKana")) $("#setAskKana").onchange = function () { Store.state.settings.askKana = this.checked; Store.save(); };
     $("#setReviseKnown").onchange = function () { Store.state.settings.reviseKnown = this.checked; Store.save(); };
     $("#setWrongBack").onchange = function () { Store.state.settings.reviseWrongBack = this.checked; Store.save(); };

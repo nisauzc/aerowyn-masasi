@@ -2126,5 +2126,2242 @@ window.STARTER = [
     "group": "temel ifadeler"
    }
   ]
+ },
+ {
+  "name": "Hiragana",
+  "collection": "Kana",
+  "type": "ja-tr",
+  "cards": [
+   {
+    "term": "あ",
+    "meaning": "a",
+    "reading": "a",
+    "group": "1. gün · a-ka satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "い",
+    "meaning": "i",
+    "reading": "i",
+    "group": "1. gün · a-ka satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "う",
+    "meaning": "u",
+    "reading": "u",
+    "group": "1. gün · a-ka satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "え",
+    "meaning": "e",
+    "reading": "e",
+    "group": "1. gün · a-ka satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "お",
+    "meaning": "o",
+    "reading": "o",
+    "group": "1. gün · a-ka satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "か",
+    "meaning": "ka",
+    "reading": "ka",
+    "group": "1. gün · a-ka satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "き",
+    "meaning": "ki",
+    "reading": "ki",
+    "group": "1. gün · a-ka satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "く",
+    "meaning": "ku",
+    "reading": "ku",
+    "group": "1. gün · a-ka satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "け",
+    "meaning": "ke",
+    "reading": "ke",
+    "group": "1. gün · a-ka satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "こ",
+    "meaning": "ko",
+    "reading": "ko",
+    "group": "1. gün · a-ka satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "さ",
+    "meaning": "sa",
+    "reading": "sa",
+    "group": "2. gün · sa-ta satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "し",
+    "meaning": "shi (şi)",
+    "reading": "shi",
+    "group": "2. gün · sa-ta satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "す",
+    "meaning": "su",
+    "reading": "su",
+    "group": "2. gün · sa-ta satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "せ",
+    "meaning": "se",
+    "reading": "se",
+    "group": "2. gün · sa-ta satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "そ",
+    "meaning": "so",
+    "reading": "so",
+    "group": "2. gün · sa-ta satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "た",
+    "meaning": "ta",
+    "reading": "ta",
+    "group": "2. gün · sa-ta satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ち",
+    "meaning": "chi (çi)",
+    "reading": "chi",
+    "group": "2. gün · sa-ta satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "つ",
+    "meaning": "tsu (tsu, ts sesi)",
+    "reading": "tsu",
+    "group": "2. gün · sa-ta satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "て",
+    "meaning": "te",
+    "reading": "te",
+    "group": "2. gün · sa-ta satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "と",
+    "meaning": "to",
+    "reading": "to",
+    "group": "2. gün · sa-ta satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "な",
+    "meaning": "na",
+    "reading": "na",
+    "group": "3. gün · na-ha satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "に",
+    "meaning": "ni",
+    "reading": "ni",
+    "group": "3. gün · na-ha satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ぬ",
+    "meaning": "nu",
+    "reading": "nu",
+    "group": "3. gün · na-ha satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ね",
+    "meaning": "ne",
+    "reading": "ne",
+    "group": "3. gün · na-ha satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "の",
+    "meaning": "no",
+    "reading": "no",
+    "group": "3. gün · na-ha satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "は",
+    "meaning": "ha",
+    "reading": "ha",
+    "group": "3. gün · na-ha satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ひ",
+    "meaning": "hi",
+    "reading": "hi",
+    "group": "3. gün · na-ha satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ふ",
+    "meaning": "fu (fu, hafif f)",
+    "reading": "fu",
+    "group": "3. gün · na-ha satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "へ",
+    "meaning": "he",
+    "reading": "he",
+    "group": "3. gün · na-ha satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ほ",
+    "meaning": "ho",
+    "reading": "ho",
+    "group": "3. gün · na-ha satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ま",
+    "meaning": "ma",
+    "reading": "ma",
+    "group": "4. gün · ma-ya satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "み",
+    "meaning": "mi",
+    "reading": "mi",
+    "group": "4. gün · ma-ya satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "む",
+    "meaning": "mu",
+    "reading": "mu",
+    "group": "4. gün · ma-ya satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "め",
+    "meaning": "me",
+    "reading": "me",
+    "group": "4. gün · ma-ya satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "も",
+    "meaning": "mo",
+    "reading": "mo",
+    "group": "4. gün · ma-ya satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "や",
+    "meaning": "ya",
+    "reading": "ya",
+    "group": "4. gün · ma-ya satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ゆ",
+    "meaning": "yu",
+    "reading": "yu",
+    "group": "4. gün · ma-ya satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "よ",
+    "meaning": "yo",
+    "reading": "yo",
+    "group": "4. gün · ma-ya satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ら",
+    "meaning": "ra",
+    "reading": "ra",
+    "group": "5. gün · ra-wa-n",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "り",
+    "meaning": "ri",
+    "reading": "ri",
+    "group": "5. gün · ra-wa-n",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "る",
+    "meaning": "ru",
+    "reading": "ru",
+    "group": "5. gün · ra-wa-n",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "れ",
+    "meaning": "re",
+    "reading": "re",
+    "group": "5. gün · ra-wa-n",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ろ",
+    "meaning": "ro",
+    "reading": "ro",
+    "group": "5. gün · ra-wa-n",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "わ",
+    "meaning": "wa",
+    "reading": "wa",
+    "group": "5. gün · ra-wa-n",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "を",
+    "meaning": "wo (o okunur)",
+    "reading": "wo",
+    "group": "5. gün · ra-wa-n",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ん",
+    "meaning": "n (genizden n)",
+    "reading": "n",
+    "group": "5. gün · ra-wa-n",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "が",
+    "meaning": "ga",
+    "reading": "ga",
+    "group": "6. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ぎ",
+    "meaning": "gi",
+    "reading": "gi",
+    "group": "6. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ぐ",
+    "meaning": "gu",
+    "reading": "gu",
+    "group": "6. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "げ",
+    "meaning": "ge",
+    "reading": "ge",
+    "group": "6. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ご",
+    "meaning": "go",
+    "reading": "go",
+    "group": "6. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ざ",
+    "meaning": "za",
+    "reading": "za",
+    "group": "6. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "じ",
+    "meaning": "ji (ci)",
+    "reading": "ji",
+    "group": "6. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ず",
+    "meaning": "zu",
+    "reading": "zu",
+    "group": "6. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ぜ",
+    "meaning": "ze",
+    "reading": "ze",
+    "group": "6. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ぞ",
+    "meaning": "zo",
+    "reading": "zo",
+    "group": "6. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "だ",
+    "meaning": "da",
+    "reading": "da",
+    "group": "6. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ぢ",
+    "meaning": "ji (ci, nadir)",
+    "reading": "ji",
+    "group": "6. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "づ",
+    "meaning": "zu (nadir)",
+    "reading": "zu",
+    "group": "6. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "で",
+    "meaning": "de",
+    "reading": "de",
+    "group": "6. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ど",
+    "meaning": "do",
+    "reading": "do",
+    "group": "6. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ば",
+    "meaning": "ba",
+    "reading": "ba",
+    "group": "6. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "び",
+    "meaning": "bi",
+    "reading": "bi",
+    "group": "6. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ぶ",
+    "meaning": "bu",
+    "reading": "bu",
+    "group": "6. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "べ",
+    "meaning": "be",
+    "reading": "be",
+    "group": "6. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ぼ",
+    "meaning": "bo",
+    "reading": "bo",
+    "group": "6. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ぱ",
+    "meaning": "pa",
+    "reading": "pa",
+    "group": "6. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ぴ",
+    "meaning": "pi",
+    "reading": "pi",
+    "group": "6. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ぷ",
+    "meaning": "pu",
+    "reading": "pu",
+    "group": "6. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ぺ",
+    "meaning": "pe",
+    "reading": "pe",
+    "group": "6. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ぽ",
+    "meaning": "po",
+    "reading": "po",
+    "group": "6. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "きゃ",
+    "meaning": "kya",
+    "reading": "kya",
+    "group": "7. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "きゅ",
+    "meaning": "kyu",
+    "reading": "kyu",
+    "group": "7. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "きょ",
+    "meaning": "kyo",
+    "reading": "kyo",
+    "group": "7. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "しゃ",
+    "meaning": "sha (şa)",
+    "reading": "sha",
+    "group": "7. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "しゅ",
+    "meaning": "shu (şu)",
+    "reading": "shu",
+    "group": "7. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "しょ",
+    "meaning": "sho (şo)",
+    "reading": "sho",
+    "group": "7. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ちゃ",
+    "meaning": "cha (ça)",
+    "reading": "cha",
+    "group": "7. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ちゅ",
+    "meaning": "chu (çu)",
+    "reading": "chu",
+    "group": "7. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ちょ",
+    "meaning": "cho (ço)",
+    "reading": "cho",
+    "group": "7. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "にゃ",
+    "meaning": "nya",
+    "reading": "nya",
+    "group": "7. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "にゅ",
+    "meaning": "nyu",
+    "reading": "nyu",
+    "group": "7. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "にょ",
+    "meaning": "nyo",
+    "reading": "nyo",
+    "group": "7. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ひゃ",
+    "meaning": "hya",
+    "reading": "hya",
+    "group": "7. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ひゅ",
+    "meaning": "hyu",
+    "reading": "hyu",
+    "group": "7. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ひょ",
+    "meaning": "hyo",
+    "reading": "hyo",
+    "group": "7. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "みゃ",
+    "meaning": "mya",
+    "reading": "mya",
+    "group": "7. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "みゅ",
+    "meaning": "myu",
+    "reading": "myu",
+    "group": "7. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "みょ",
+    "meaning": "myo",
+    "reading": "myo",
+    "group": "7. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "りゃ",
+    "meaning": "rya",
+    "reading": "rya",
+    "group": "7. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "りゅ",
+    "meaning": "ryu",
+    "reading": "ryu",
+    "group": "7. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "りょ",
+    "meaning": "ryo",
+    "reading": "ryo",
+    "group": "7. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ぎゃ",
+    "meaning": "gya",
+    "reading": "gya",
+    "group": "7. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ぎゅ",
+    "meaning": "gyu",
+    "reading": "gyu",
+    "group": "7. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ぎょ",
+    "meaning": "gyo",
+    "reading": "gyo",
+    "group": "7. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "じゃ",
+    "meaning": "ja (ca)",
+    "reading": "ja",
+    "group": "7. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "じゅ",
+    "meaning": "ju (cu)",
+    "reading": "ju",
+    "group": "7. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "じょ",
+    "meaning": "jo (co)",
+    "reading": "jo",
+    "group": "7. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "びゃ",
+    "meaning": "bya",
+    "reading": "bya",
+    "group": "7. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "びゅ",
+    "meaning": "byu",
+    "reading": "byu",
+    "group": "7. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "びょ",
+    "meaning": "byo",
+    "reading": "byo",
+    "group": "7. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ぴゃ",
+    "meaning": "pya",
+    "reading": "pya",
+    "group": "7. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ぴゅ",
+    "meaning": "pyu",
+    "reading": "pyu",
+    "group": "7. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ぴょ",
+    "meaning": "pyo",
+    "reading": "pyo",
+    "group": "7. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   }
+  ]
+ },
+ {
+  "name": "Katakana",
+  "collection": "Kana",
+  "type": "ja-tr",
+  "cards": [
+   {
+    "term": "ア",
+    "meaning": "a",
+    "reading": "a",
+    "group": "8. gün · a-ka satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "イ",
+    "meaning": "i",
+    "reading": "i",
+    "group": "8. gün · a-ka satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ウ",
+    "meaning": "u",
+    "reading": "u",
+    "group": "8. gün · a-ka satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "エ",
+    "meaning": "e",
+    "reading": "e",
+    "group": "8. gün · a-ka satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "オ",
+    "meaning": "o",
+    "reading": "o",
+    "group": "8. gün · a-ka satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "カ",
+    "meaning": "ka",
+    "reading": "ka",
+    "group": "8. gün · a-ka satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "キ",
+    "meaning": "ki",
+    "reading": "ki",
+    "group": "8. gün · a-ka satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ク",
+    "meaning": "ku",
+    "reading": "ku",
+    "group": "8. gün · a-ka satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ケ",
+    "meaning": "ke",
+    "reading": "ke",
+    "group": "8. gün · a-ka satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "コ",
+    "meaning": "ko",
+    "reading": "ko",
+    "group": "8. gün · a-ka satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "サ",
+    "meaning": "sa",
+    "reading": "sa",
+    "group": "9. gün · sa-ta satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "シ",
+    "meaning": "shi (şi)",
+    "reading": "shi",
+    "group": "9. gün · sa-ta satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ス",
+    "meaning": "su",
+    "reading": "su",
+    "group": "9. gün · sa-ta satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "セ",
+    "meaning": "se",
+    "reading": "se",
+    "group": "9. gün · sa-ta satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ソ",
+    "meaning": "so",
+    "reading": "so",
+    "group": "9. gün · sa-ta satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "タ",
+    "meaning": "ta",
+    "reading": "ta",
+    "group": "9. gün · sa-ta satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "チ",
+    "meaning": "chi (çi)",
+    "reading": "chi",
+    "group": "9. gün · sa-ta satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ツ",
+    "meaning": "tsu (tsu, ts sesi)",
+    "reading": "tsu",
+    "group": "9. gün · sa-ta satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "テ",
+    "meaning": "te",
+    "reading": "te",
+    "group": "9. gün · sa-ta satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ト",
+    "meaning": "to",
+    "reading": "to",
+    "group": "9. gün · sa-ta satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ナ",
+    "meaning": "na",
+    "reading": "na",
+    "group": "10. gün · na-ha satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ニ",
+    "meaning": "ni",
+    "reading": "ni",
+    "group": "10. gün · na-ha satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ヌ",
+    "meaning": "nu",
+    "reading": "nu",
+    "group": "10. gün · na-ha satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ネ",
+    "meaning": "ne",
+    "reading": "ne",
+    "group": "10. gün · na-ha satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ノ",
+    "meaning": "no",
+    "reading": "no",
+    "group": "10. gün · na-ha satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ハ",
+    "meaning": "ha",
+    "reading": "ha",
+    "group": "10. gün · na-ha satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ヒ",
+    "meaning": "hi",
+    "reading": "hi",
+    "group": "10. gün · na-ha satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "フ",
+    "meaning": "fu (fu, hafif f)",
+    "reading": "fu",
+    "group": "10. gün · na-ha satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ヘ",
+    "meaning": "he",
+    "reading": "he",
+    "group": "10. gün · na-ha satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ホ",
+    "meaning": "ho",
+    "reading": "ho",
+    "group": "10. gün · na-ha satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "マ",
+    "meaning": "ma",
+    "reading": "ma",
+    "group": "11. gün · ma-ya satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ミ",
+    "meaning": "mi",
+    "reading": "mi",
+    "group": "11. gün · ma-ya satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ム",
+    "meaning": "mu",
+    "reading": "mu",
+    "group": "11. gün · ma-ya satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "メ",
+    "meaning": "me",
+    "reading": "me",
+    "group": "11. gün · ma-ya satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "モ",
+    "meaning": "mo",
+    "reading": "mo",
+    "group": "11. gün · ma-ya satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ヤ",
+    "meaning": "ya",
+    "reading": "ya",
+    "group": "11. gün · ma-ya satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ユ",
+    "meaning": "yu",
+    "reading": "yu",
+    "group": "11. gün · ma-ya satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ヨ",
+    "meaning": "yo",
+    "reading": "yo",
+    "group": "11. gün · ma-ya satırı",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ラ",
+    "meaning": "ra",
+    "reading": "ra",
+    "group": "12. gün · ra-wa-n",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "リ",
+    "meaning": "ri",
+    "reading": "ri",
+    "group": "12. gün · ra-wa-n",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ル",
+    "meaning": "ru",
+    "reading": "ru",
+    "group": "12. gün · ra-wa-n",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "レ",
+    "meaning": "re",
+    "reading": "re",
+    "group": "12. gün · ra-wa-n",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ロ",
+    "meaning": "ro",
+    "reading": "ro",
+    "group": "12. gün · ra-wa-n",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ワ",
+    "meaning": "wa",
+    "reading": "wa",
+    "group": "12. gün · ra-wa-n",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ヲ",
+    "meaning": "wo (o okunur)",
+    "reading": "wo",
+    "group": "12. gün · ra-wa-n",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ン",
+    "meaning": "n (genizden n)",
+    "reading": "n",
+    "group": "12. gün · ra-wa-n",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ガ",
+    "meaning": "ga",
+    "reading": "ga",
+    "group": "13. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ギ",
+    "meaning": "gi",
+    "reading": "gi",
+    "group": "13. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "グ",
+    "meaning": "gu",
+    "reading": "gu",
+    "group": "13. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ゲ",
+    "meaning": "ge",
+    "reading": "ge",
+    "group": "13. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ゴ",
+    "meaning": "go",
+    "reading": "go",
+    "group": "13. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ザ",
+    "meaning": "za",
+    "reading": "za",
+    "group": "13. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ジ",
+    "meaning": "ji (ci)",
+    "reading": "ji",
+    "group": "13. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ズ",
+    "meaning": "zu",
+    "reading": "zu",
+    "group": "13. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ゼ",
+    "meaning": "ze",
+    "reading": "ze",
+    "group": "13. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ゾ",
+    "meaning": "zo",
+    "reading": "zo",
+    "group": "13. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ダ",
+    "meaning": "da",
+    "reading": "da",
+    "group": "13. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ヂ",
+    "meaning": "ji (ci, nadir)",
+    "reading": "ji",
+    "group": "13. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ヅ",
+    "meaning": "zu (nadir)",
+    "reading": "zu",
+    "group": "13. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "デ",
+    "meaning": "de",
+    "reading": "de",
+    "group": "13. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ド",
+    "meaning": "do",
+    "reading": "do",
+    "group": "13. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "バ",
+    "meaning": "ba",
+    "reading": "ba",
+    "group": "13. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ビ",
+    "meaning": "bi",
+    "reading": "bi",
+    "group": "13. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ブ",
+    "meaning": "bu",
+    "reading": "bu",
+    "group": "13. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ベ",
+    "meaning": "be",
+    "reading": "be",
+    "group": "13. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ボ",
+    "meaning": "bo",
+    "reading": "bo",
+    "group": "13. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "パ",
+    "meaning": "pa",
+    "reading": "pa",
+    "group": "13. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ピ",
+    "meaning": "pi",
+    "reading": "pi",
+    "group": "13. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "プ",
+    "meaning": "pu",
+    "reading": "pu",
+    "group": "13. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ペ",
+    "meaning": "pe",
+    "reading": "pe",
+    "group": "13. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ポ",
+    "meaning": "po",
+    "reading": "po",
+    "group": "13. gün · dakuten ve handakuten",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "キャ",
+    "meaning": "kya",
+    "reading": "kya",
+    "group": "14. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "キュ",
+    "meaning": "kyu",
+    "reading": "kyu",
+    "group": "14. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "キョ",
+    "meaning": "kyo",
+    "reading": "kyo",
+    "group": "14. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "シャ",
+    "meaning": "sha (şa)",
+    "reading": "sha",
+    "group": "14. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "シュ",
+    "meaning": "shu (şu)",
+    "reading": "shu",
+    "group": "14. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ショ",
+    "meaning": "sho (şo)",
+    "reading": "sho",
+    "group": "14. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "チャ",
+    "meaning": "cha (ça)",
+    "reading": "cha",
+    "group": "14. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "チュ",
+    "meaning": "chu (çu)",
+    "reading": "chu",
+    "group": "14. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "チョ",
+    "meaning": "cho (ço)",
+    "reading": "cho",
+    "group": "14. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ニャ",
+    "meaning": "nya",
+    "reading": "nya",
+    "group": "14. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ニュ",
+    "meaning": "nyu",
+    "reading": "nyu",
+    "group": "14. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ニョ",
+    "meaning": "nyo",
+    "reading": "nyo",
+    "group": "14. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ヒャ",
+    "meaning": "hya",
+    "reading": "hya",
+    "group": "14. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ヒュ",
+    "meaning": "hyu",
+    "reading": "hyu",
+    "group": "14. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ヒョ",
+    "meaning": "hyo",
+    "reading": "hyo",
+    "group": "14. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ミャ",
+    "meaning": "mya",
+    "reading": "mya",
+    "group": "14. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ミュ",
+    "meaning": "myu",
+    "reading": "myu",
+    "group": "14. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ミョ",
+    "meaning": "myo",
+    "reading": "myo",
+    "group": "14. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "リャ",
+    "meaning": "rya",
+    "reading": "rya",
+    "group": "14. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "リュ",
+    "meaning": "ryu",
+    "reading": "ryu",
+    "group": "14. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "リョ",
+    "meaning": "ryo",
+    "reading": "ryo",
+    "group": "14. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ギャ",
+    "meaning": "gya",
+    "reading": "gya",
+    "group": "14. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ギュ",
+    "meaning": "gyu",
+    "reading": "gyu",
+    "group": "14. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ギョ",
+    "meaning": "gyo",
+    "reading": "gyo",
+    "group": "14. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ジャ",
+    "meaning": "ja (ca)",
+    "reading": "ja",
+    "group": "14. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ジュ",
+    "meaning": "ju (cu)",
+    "reading": "ju",
+    "group": "14. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ジョ",
+    "meaning": "jo (co)",
+    "reading": "jo",
+    "group": "14. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ビャ",
+    "meaning": "bya",
+    "reading": "bya",
+    "group": "14. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ビュ",
+    "meaning": "byu",
+    "reading": "byu",
+    "group": "14. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ビョ",
+    "meaning": "byo",
+    "reading": "byo",
+    "group": "14. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ピャ",
+    "meaning": "pya",
+    "reading": "pya",
+    "group": "14. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ピュ",
+    "meaning": "pyu",
+    "reading": "pyu",
+    "group": "14. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ピョ",
+    "meaning": "pyo",
+    "reading": "pyo",
+    "group": "14. gün · yōon (küçük ya-yu-yo)",
+    "ex": "",
+    "exTr": ""
+   }
+  ]
+ },
+ {
+  "name": "Kana Okuma",
+  "collection": "Kana",
+  "type": "ja-tr",
+  "cards": [
+   {
+    "term": "みず",
+    "meaning": "su",
+    "reading": "mizu",
+    "group": "Market ve alışveriş",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "おかね",
+    "meaning": "para",
+    "reading": "okane",
+    "group": "Market ve alışveriş",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "いくら",
+    "meaning": "ne kadar (fiyat)",
+    "reading": "ikura",
+    "group": "Market ve alışveriş",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "たかい",
+    "meaning": "pahalı",
+    "reading": "takai",
+    "group": "Market ve alışveriş",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "やすい",
+    "meaning": "ucuz",
+    "reading": "yasui",
+    "group": "Market ve alışveriş",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "スーパー",
+    "meaning": "süpermarket",
+    "reading": "suupaa",
+    "group": "Market ve alışveriş",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "コンビニ",
+    "meaning": "market (24 saat açık)",
+    "reading": "konbini",
+    "group": "Market ve alışveriş",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ふくろ",
+    "meaning": "poşet",
+    "reading": "fukuro",
+    "group": "Market ve alışveriş",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "パン",
+    "meaning": "ekmek",
+    "reading": "pan",
+    "group": "Market ve alışveriş",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "たまご",
+    "meaning": "yumurta",
+    "reading": "tamago",
+    "group": "Market ve alışveriş",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ぎゅうにゅう",
+    "meaning": "süt",
+    "reading": "gyuunyuu",
+    "group": "Market ve alışveriş",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "やさい",
+    "meaning": "sebze",
+    "reading": "yasai",
+    "group": "Market ve alışveriş",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "くだもの",
+    "meaning": "meyve",
+    "reading": "kudamono",
+    "group": "Market ve alışveriş",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "にく",
+    "meaning": "et",
+    "reading": "niku",
+    "group": "Market ve alışveriş",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "さかな",
+    "meaning": "balık",
+    "reading": "sakana",
+    "group": "Market ve alışveriş",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "しお",
+    "meaning": "tuz",
+    "reading": "shio",
+    "group": "Market ve alışveriş",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "コーヒー",
+    "meaning": "kahve",
+    "reading": "koohii",
+    "group": "Market ve alışveriş",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "おちゃ",
+    "meaning": "çay",
+    "reading": "ocha",
+    "group": "Market ve alışveriş",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "へや",
+    "meaning": "oda",
+    "reading": "heya",
+    "group": "Yurt ve ev",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "かぎ",
+    "meaning": "anahtar",
+    "reading": "kagi",
+    "group": "Yurt ve ev",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "でんき",
+    "meaning": "elektrik, ışık",
+    "reading": "denki",
+    "group": "Yurt ve ev",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ごみ",
+    "meaning": "çöp",
+    "reading": "gomi",
+    "group": "Yurt ve ev",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "せんたく",
+    "meaning": "çamaşır yıkama",
+    "reading": "sentaku",
+    "group": "Yurt ve ev",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "おふろ",
+    "meaning": "banyo (küvet)",
+    "reading": "ofuro",
+    "group": "Yurt ve ev",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "トイレ",
+    "meaning": "tuvalet",
+    "reading": "toire",
+    "group": "Yurt ve ev",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "だいどころ",
+    "meaning": "mutfak",
+    "reading": "daidokoro",
+    "group": "Yurt ve ev",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "れいぞうこ",
+    "meaning": "buzdolabı",
+    "reading": "reizouko",
+    "group": "Yurt ve ev",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "エアコン",
+    "meaning": "klima",
+    "reading": "eakon",
+    "group": "Yurt ve ev",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "シャワー",
+    "meaning": "duş",
+    "reading": "shawaa",
+    "group": "Yurt ve ev",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ベッド",
+    "meaning": "yatak",
+    "reading": "beddo",
+    "group": "Yurt ve ev",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "まど",
+    "meaning": "pencere",
+    "reading": "mado",
+    "group": "Yurt ve ev",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "だいがく",
+    "meaning": "üniversite",
+    "reading": "daigaku",
+    "group": "Üniversite",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "がくせい",
+    "meaning": "öğrenci",
+    "reading": "gakusei",
+    "group": "Üniversite",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "せんせい",
+    "meaning": "hoca, öğretmen",
+    "reading": "sensei",
+    "group": "Üniversite",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "けんきゅうしつ",
+    "meaning": "araştırma odası, laboratuvar",
+    "reading": "kenkyuushitsu",
+    "group": "Üniversite",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "としょかん",
+    "meaning": "kütüphane",
+    "reading": "toshokan",
+    "group": "Üniversite",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "じゅぎょう",
+    "meaning": "ders",
+    "reading": "jugyou",
+    "group": "Üniversite",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "しけん",
+    "meaning": "sınav",
+    "reading": "shiken",
+    "group": "Üniversite",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "レポート",
+    "meaning": "ödev raporu",
+    "reading": "repooto",
+    "group": "Üniversite",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "パソコン",
+    "meaning": "bilgisayar",
+    "reading": "pasokon",
+    "group": "Üniversite",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "なまえ",
+    "meaning": "isim",
+    "reading": "namae",
+    "group": "Üniversite",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "しつもん",
+    "meaning": "soru",
+    "reading": "shitsumon",
+    "group": "Üniversite",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "えき",
+    "meaning": "istasyon, gar",
+    "reading": "eki",
+    "group": "Yol ve şehir",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "でんしゃ",
+    "meaning": "tren",
+    "reading": "densha",
+    "group": "Yol ve şehir",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "バス",
+    "meaning": "otobüs",
+    "reading": "basu",
+    "group": "Yol ve şehir",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "きっぷ",
+    "meaning": "bilet",
+    "reading": "kippu",
+    "group": "Yol ve şehir",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ひだり",
+    "meaning": "sol",
+    "reading": "hidari",
+    "group": "Yol ve şehir",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "みぎ",
+    "meaning": "sağ",
+    "reading": "migi",
+    "group": "Yol ve şehir",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "まえ",
+    "meaning": "ön, önünde",
+    "reading": "mae",
+    "group": "Yol ve şehir",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "うしろ",
+    "meaning": "arka, arkasında",
+    "reading": "ushiro",
+    "group": "Yol ve şehir",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "びょういん",
+    "meaning": "hastane",
+    "reading": "byouin",
+    "group": "Yol ve şehir",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ぎんこう",
+    "meaning": "banka",
+    "reading": "ginkou",
+    "group": "Yol ve şehir",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ゆうびんきょく",
+    "meaning": "postane",
+    "reading": "yuubinkyoku",
+    "group": "Yol ve şehir",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "じんじゃ",
+    "meaning": "şinto tapınağı",
+    "reading": "jinja",
+    "group": "Yol ve şehir",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "おてら",
+    "meaning": "budist tapınağı",
+    "reading": "otera",
+    "group": "Yol ve şehir",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ホテル",
+    "meaning": "otel",
+    "reading": "hoteru",
+    "group": "Yol ve şehir",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "こうえん",
+    "meaning": "park",
+    "reading": "kouen",
+    "group": "Yol ve şehir",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "ありがとう",
+    "meaning": "teşekkürler",
+    "reading": "arigatou",
+    "group": "Günlük ifadeler",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "すみません",
+    "meaning": "affedersiniz, pardon",
+    "reading": "sumimasen",
+    "group": "Günlük ifadeler",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "おはよう",
+    "meaning": "günaydın",
+    "reading": "ohayou",
+    "group": "Günlük ifadeler",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "こんにちは",
+    "meaning": "merhaba",
+    "reading": "konnichiwa",
+    "group": "Günlük ifadeler",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "こんばんは",
+    "meaning": "iyi akşamlar",
+    "reading": "konbanwa",
+    "group": "Günlük ifadeler",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "さようなら",
+    "meaning": "hoşça kal",
+    "reading": "sayounara",
+    "group": "Günlük ifadeler",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "はい",
+    "meaning": "evet",
+    "reading": "hai",
+    "group": "Günlük ifadeler",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "いいえ",
+    "meaning": "hayır",
+    "reading": "iie",
+    "group": "Günlük ifadeler",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "おねがいします",
+    "meaning": "rica ediyorum, lütfen",
+    "reading": "onegaishimasu",
+    "group": "Günlük ifadeler",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "だいじょうぶ",
+    "meaning": "sorun değil, iyiyim",
+    "reading": "daijoubu",
+    "group": "Günlük ifadeler",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "わかりました",
+    "meaning": "anladım",
+    "reading": "wakarimashita",
+    "group": "Günlük ifadeler",
+    "ex": "",
+    "exTr": ""
+   },
+   {
+    "term": "いただきます",
+    "meaning": "afiyet olsun (yemeğe başlarken)",
+    "reading": "itadakimasu",
+    "group": "Günlük ifadeler",
+    "ex": "",
+    "exTr": ""
+   }
+  ]
  }
 ];
