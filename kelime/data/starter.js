@@ -5841,5 +5841,1108 @@ window.STARTER = [
     "exTr": ""
    }
   ]
+ },
+ {
+  "name": "Liberal Arts",
+  "collection": "Liberal Arts",
+  "type": "en-tr",
+  "cards": [
+   {
+    "term": "transition",
+    "meaning": "geçiş",
+    "reading": "/tren-Zİ-şın/",
+    "group": "1. bölüm · 0-20 dk",
+    "ex": "Moving from a small town to a big campus is a hard transition.",
+    "exTr": "Küçük bir kasabadan büyük bir kampüse geçmek zor bir geçiştir."
+   },
+   {
+    "term": "incoming",
+    "meaning": "yeni gelen, yeni kayıt olan",
+    "reading": "/İN-ka-ming/",
+    "group": "1. bölüm · 0-20 dk",
+    "ex": "The college holds a picnic so incoming students can meet.",
+    "exTr": "Üniversite, yeni gelen öğrenciler tanışsın diye piknik düzenliyor."
+   },
+   {
+    "term": "acclimate",
+    "meaning": "alışmak, uyum sağlamak",
+    "reading": "/EK-li-meyt/",
+    "group": "1. bölüm · 0-20 dk",
+    "ex": "It takes a month to acclimate to a new campus.",
+    "exTr": "Yeni bir kampüse alışmak bir ay sürer."
+   },
+   {
+    "term": "put a dent in",
+    "meaning": "zarar vermek, gedik açmak",
+    "reading": "/put ı DENT in/",
+    "group": "1. bölüm · 0-20 dk",
+    "ex": "A thousand-page novel can put a dent in your social life.",
+    "exTr": "Bin sayfalık bir roman sosyal hayatında gedik açabilir."
+   },
+   {
+    "term": "catalog",
+    "meaning": "katalog, ders kataloğu",
+    "reading": "/KE-tı-log/",
+    "group": "1. bölüm · 0-20 dk",
+    "ex": "He had not opened the course catalog in fifteen years.",
+    "exTr": "On beş yıldır ders kataloğunu açmamıştı."
+   },
+   {
+    "term": "extracurricular",
+    "meaning": "ders dışı etkinlik",
+    "reading": "/eks-trı-kı-Rİ-kyu-lır/",
+    "group": "1. bölüm · 0-20 dk",
+    "ex": "Admissions officers always ask about extracurriculars.",
+    "exTr": "Kabul görevlileri hep ders dışı etkinlikleri sorar."
+   },
+   {
+    "term": "screw up",
+    "meaning": "çuvallamak, batırmak",
+    "reading": "/skru AP/",
+    "group": "1. bölüm · 0-20 dk",
+    "ex": "He screwed up the one evening that mattered.",
+    "exTr": "Önemli olan o tek akşamı batırdı."
+   },
+   {
+    "term": "glamorous",
+    "meaning": "göz alıcı, çekici",
+    "reading": "/GLE-mı-rıs/",
+    "group": "1. bölüm · 0-20 dk",
+    "ex": "A small college town is never glamorous in November.",
+    "exTr": "Küçük bir üniversite kasabası kasımda asla göz alıcı değildir."
+   },
+   {
+    "term": "retirement",
+    "meaning": "emeklilik",
+    "reading": "/ri-TAYIR-mınt/",
+    "group": "1. bölüm · 0-20 dk",
+    "ex": "The whole weekend was built around one retirement dinner.",
+    "exTr": "Bütün hafta sonu tek bir emeklilik yemeği etrafında kuruldu."
+   },
+   {
+    "term": "liar",
+    "meaning": "yalancı",
+    "reading": "/LA-yır/",
+    "group": "1. bölüm · 0-20 dk",
+    "ex": "He used to lie easily and had lost the talent.",
+    "exTr": "Eskiden kolay yalan söylerdi, bu yeteneğini kaybetmişti."
+   },
+   {
+    "term": "sophomore",
+    "meaning": "üniversitede ikinci sınıf öğrencisi",
+    "reading": "/SO-fı-mor/",
+    "group": "1. bölüm · 0-20 dk",
+    "ex": "She was only a sophomore but she read more than anyone.",
+    "exTr": "Daha ikinci sınıftaydı ama herkesten çok okuyordu."
+   },
+   {
+    "term": "hilarious",
+    "meaning": "çok komik",
+    "reading": "/hi-LE-ri-ıs/",
+    "group": "1. bölüm · 0-20 dk",
+    "ex": "The improvised scene was hilarious and lasted two minutes.",
+    "exTr": "Doğaçlama sahne çok komikti ve iki dakika sürdü."
+   },
+   {
+    "term": "filthy",
+    "meaning": "çok kirli, ağzı bozuk",
+    "reading": "/FİL-ti/",
+    "group": "1. bölüm · 0-20 dk",
+    "ex": "Her comedy group put on a filthy, very funny show.",
+    "exTr": "Komedi grubu ağzı bozuk ama çok eğlenceli bir gösteri yaptı."
+   },
+   {
+    "term": "counselor",
+    "meaning": "danışman, kamp sorumlusu",
+    "reading": "/KAUN-sı-lır/",
+    "group": "1. bölüm · 0-20 dk",
+    "ex": "Long before he taught, the man had worked as a camp counselor.",
+    "exTr": "Hocalık yapmadan çok önce o adam kamp sorumlusu olarak çalışmıştı."
+   },
+   {
+    "term": "faculty",
+    "meaning": "öğretim kadrosu",
+    "reading": "/FE-kıl-ti/",
+    "group": "1. bölüm · 0-20 dk",
+    "ex": "Half the faculty showed up only for the free dinner.",
+    "exTr": "Öğretim kadrosunun yarısı sadece bedava yemek için geldi."
+   },
+   {
+    "term": "admissions",
+    "meaning": "öğrenci kabul birimi",
+    "reading": "/ıd-Mİ-şınz/",
+    "group": "1. bölüm · 0-20 dk",
+    "ex": "He worked in admissions and read applications all day.",
+    "exTr": "Kabul biriminde çalışıyor, bütün gün başvuru okuyordu."
+   },
+   {
+    "term": "buddy",
+    "meaning": "ahbap, dostum",
+    "reading": "/BA-di/",
+    "group": "1. bölüm · 0-20 dk",
+    "ex": "His old professor still called him buddy on the phone.",
+    "exTr": "Eski hocası telefonda ona hâlâ dostum diyordu."
+   },
+   {
+    "term": "Romanticism",
+    "meaning": "Romantizm akımı",
+    "reading": "/rou-MEN-ti-si-zım/",
+    "group": "1. bölüm · 0-20 dk",
+    "ex": "Romanticism treats feeling as a kind of truth.",
+    "exTr": "Romantizm duyguyu bir tür hakikat sayar."
+   },
+   {
+    "term": "Romantic",
+    "meaning": "Romantik akıma ait",
+    "reading": "/rou-MEN-tik/",
+    "group": "1. bölüm · 0-20 dk",
+    "ex": "She signed up for a class on Romantic poetry.",
+    "exTr": "Romantik şiir üzerine bir derse yazıldı."
+   },
+   {
+    "term": "jerk",
+    "meaning": "pislik, kaba adam",
+    "reading": "/CÖRK/",
+    "group": "1. bölüm · 0-20 dk",
+    "ex": "He had been a real jerk that weekend.",
+    "exTr": "O hafta sonu tam bir pislikti."
+   },
+   {
+    "term": "graduation",
+    "meaning": "mezuniyet",
+    "reading": "/gre-cu-EY-şın/",
+    "group": "1. bölüm · 0-20 dk",
+    "ex": "He blamed his parents for graduation weekend.",
+    "exTr": "Mezuniyet hafta sonu için ailesini suçladı."
+   },
+   {
+    "term": "blame",
+    "meaning": "suçlamak",
+    "reading": "/BLEYM/",
+    "group": "1. bölüm · 0-20 dk",
+    "ex": "He blamed everyone except himself for the ending.",
+    "exTr": "Sonu için kendisi dışında herkesi suçladı."
+   },
+   {
+    "term": "terrifying",
+    "meaning": "dehşet verici, korkutucu",
+    "reading": "/TE-ri-fay-ing/",
+    "group": "1. bölüm · 0-20 dk",
+    "ex": "She liked improv precisely because it was terrifying.",
+    "exTr": "Doğaçlamayı tam da korkutucu olduğu için seviyordu."
+   },
+   {
+    "term": "nail it",
+    "meaning": "tam isabet, mükemmel yapmak",
+    "reading": "/NEYL it/",
+    "group": "1. bölüm · 0-20 dk",
+    "ex": "She finished the scene and knew she had nailed it.",
+    "exTr": "Sahneyi bitirdi ve tam yaptığını biliyordu."
+   },
+   {
+    "term": "thrilled",
+    "meaning": "çok sevinmiş, heyecanlı",
+    "reading": "/TRİLD/",
+    "group": "1. bölüm · 0-20 dk",
+    "ex": "Her father was less than thrilled about drama school.",
+    "exTr": "Babası tiyatro okuluna pek sevinmedi."
+   },
+   {
+    "term": "head out",
+    "meaning": "yola çıkmak, çıkmak",
+    "reading": "/hed AUT/",
+    "group": "1. bölüm · 0-20 dk",
+    "ex": "Her parents were ready to head out after brunch.",
+    "exTr": "Ailesi geç kahvaltıdan sonra yola çıkmaya hazırdı."
+   },
+   {
+    "term": "lately",
+    "meaning": "son zamanlarda",
+    "reading": "/LEYT-li/",
+    "group": "1. bölüm · 0-20 dk",
+    "ex": "Lately he had stopped finishing books.",
+    "exTr": "Son zamanlarda kitapları bitirmez olmuştu."
+   },
+   {
+    "term": "lousy",
+    "meaning": "berbat, beş para etmez",
+    "reading": "/LAU-zi/",
+    "group": "1. bölüm · 0-20 dk",
+    "ex": "He was afraid of being lousy at ordinary life.",
+    "exTr": "Sıradan hayatta beceriksiz olmaktan korkuyordu."
+   },
+   {
+    "term": "take off",
+    "meaning": "çekip gitmek, kalkmak",
+    "reading": "/teyk OF/",
+    "group": "1. bölüm · 0-20 dk",
+    "ex": "He decided to take off before the speeches started.",
+    "exTr": "Konuşmalar başlamadan çıkmaya karar verdi."
+   },
+   {
+    "term": "fortune",
+    "meaning": "talih, şans",
+    "reading": "/FOR-çın/",
+    "group": "1. bölüm · 0-20 dk",
+    "ex": "He had never believed that fortune rewards the bold.",
+    "exTr": "Talihin cesurdan yana olduğuna hiç inanmamıştı."
+   },
+   {
+    "term": "sucker",
+    "meaning": "enayi",
+    "reading": "/SA-kır/",
+    "group": "1. bölüm · 0-20 dk",
+    "ex": "He told everyone that worrying was for suckers.",
+    "exTr": "Herkese endişelenmenin enayilere göre olduğunu söylüyordu."
+   },
+   {
+    "term": "alum",
+    "meaning": "mezun (kısaltma)",
+    "reading": "/ı-LAM/",
+    "group": "1. bölüm · 0-20 dk",
+    "ex": "He came back as an alum, not as a student.",
+    "exTr": "Oraya öğrenci olarak değil, mezun olarak döndü."
+   },
+   {
+    "term": "brunch",
+    "meaning": "geç kahvaltı",
+    "reading": "/BRANÇ/",
+    "group": "1. bölüm · 0-20 dk",
+    "ex": "They met for brunch and talked about nothing serious.",
+    "exTr": "Geç kahvaltıda buluştular ve ciddi hiçbir şey konuşmadılar."
+   },
+   {
+    "term": "crush",
+    "meaning": "birine tutulma",
+    "reading": "/KRAŞ/",
+    "group": "1. bölüm · 0-20 dk",
+    "ex": "Her mother developed a small crush and did not hide it.",
+    "exTr": "Annesi ufak bir tutkunluk geliştirdi ve saklamadı."
+   },
+   {
+    "term": "likable",
+    "meaning": "sevilesi, cana yakın",
+    "reading": "/LAY-kı-bıl/",
+    "group": "1. bölüm · 0-20 dk",
+    "ex": "He could not explain why the stranger was so likable.",
+    "exTr": "Yabancının neden bu kadar cana yakın olduğunu açıklayamıyordu."
+   },
+   {
+    "term": "don't sweat it",
+    "meaning": "takma kafana",
+    "reading": "/dount SVET it/",
+    "group": "1. bölüm · 0-20 dk",
+    "ex": "Don't sweat it, she told him, and changed the subject.",
+    "exTr": "Takma kafana, dedi ve konuyu değiştirdi."
+   },
+   {
+    "term": "hyperbole",
+    "meaning": "abartı, mübalağa",
+    "reading": "/hay-PÖR-bı-li/",
+    "group": "2. bölüm · 20-40 dk",
+    "ex": "Students here describe every meal with wild hyperbole.",
+    "exTr": "Buradaki öğrenciler her yemeği aşırı abartıyla anlatıyor."
+   },
+   {
+    "term": "rude",
+    "meaning": "kaba",
+    "reading": "/RUD/",
+    "group": "2. bölüm · 20-40 dk",
+    "ex": "She wondered why she was being rude to him.",
+    "exTr": "Ona neden kaba davrandığını merak etti."
+   },
+   {
+    "term": "grade",
+    "meaning": "not",
+    "reading": "/GREYD/",
+    "group": "2. bölüm · 20-40 dk",
+    "ex": "Her grades slipped in the year she read the most.",
+    "exTr": "En çok okuduğu yıl notları düştü."
+   },
+   {
+    "term": "tank",
+    "meaning": "dibe vurmak",
+    "reading": "/TENK/",
+    "group": "2. bölüm · 20-40 dk",
+    "ex": "His grades tanked the year he stopped sleeping.",
+    "exTr": "Uyumayı bıraktığı yıl notları dibe vurdu."
+   },
+   {
+    "term": "loneliness",
+    "meaning": "yalnızlık",
+    "reading": "/LOUN-li-nıs/",
+    "group": "2. bölüm · 20-40 dk",
+    "ex": "He believed novels were written against loneliness.",
+    "exTr": "Romanların yalnızlığa karşı yazıldığına inanıyordu."
+   },
+   {
+    "term": "simultaneously",
+    "meaning": "aynı anda",
+    "reading": "/say-mıl-TEY-ni-ıs-li/",
+    "group": "2. bölüm · 20-40 dk",
+    "ex": "Reading made him feel less alone and more alone simultaneously.",
+    "exTr": "Okumak ona aynı anda hem daha az hem daha çok yalnız hissettirdi."
+   },
+   {
+    "term": "semester",
+    "meaning": "dönem, yarıyıl",
+    "reading": "/sı-MES-tır/",
+    "group": "2. bölüm · 20-40 dk",
+    "ex": "They had sat in the same classroom for one semester.",
+    "exTr": "Bir dönem boyunca aynı sınıfta oturmuşlardı."
+   },
+   {
+    "term": "manic",
+    "meaning": "taşkın, manik",
+    "reading": "/ME-nik/",
+    "group": "2. bölüm · 20-40 dk",
+    "ex": "A student she knew had come back after a manic episode.",
+    "exTr": "Tanıdığı bir öğrenci manik bir ataktan sonra geri dönmüştü."
+   },
+   {
+    "term": "fret",
+    "meaning": "endişelenmek, kaygılanmak",
+    "reading": "/FRET/",
+    "group": "2. bölüm · 20-40 dk",
+    "ex": "Don't fret about what people will say.",
+    "exTr": "İnsanların ne diyeceği konusunda kaygılanma."
+   },
+   {
+    "term": "annoying",
+    "meaning": "sinir bozucu",
+    "reading": "/ı-NO-ying/",
+    "group": "2. bölüm · 20-40 dk",
+    "ex": "He was annoying in the way only clever people are.",
+    "exTr": "Sadece zeki insanların olabileceği biçimde sinir bozucuydu."
+   },
+   {
+    "term": "classical",
+    "meaning": "klasik",
+    "reading": "/KLE-si-kıl/",
+    "group": "2. bölüm · 20-40 dk",
+    "ex": "She had never really listened to classical music.",
+    "exTr": "Daha önce klasik müziği hiç gerçekten dinlememişti."
+   },
+   {
+    "term": "old-fashioned",
+    "meaning": "eski kafalı, eski usul",
+    "reading": "/ould-FE-şınd/",
+    "group": "2. bölüm · 20-40 dk",
+    "ex": "Writing letters is old-fashioned and that is the point.",
+    "exTr": "Mektup yazmak eski usul, mesele de bu."
+   },
+   {
+    "term": "forgive",
+    "meaning": "affetmek",
+    "reading": "/fır-GİV/",
+    "group": "2. bölüm · 20-40 dk",
+    "ex": "He was waiting to be forgiven for being ordinary.",
+    "exTr": "Sıradan olduğu için affedilmeyi bekliyordu."
+   },
+   {
+    "term": "infinite",
+    "meaning": "sonsuz",
+    "reading": "/İN-fi-nit/",
+    "group": "2. bölüm · 20-40 dk",
+    "ex": "At nineteen the future looks infinite.",
+    "exTr": "On dokuzunda gelecek sonsuz görünür."
+   },
+   {
+    "term": "depressing",
+    "meaning": "iç karartıcı",
+    "reading": "/di-PRE-sing/",
+    "group": "2. bölüm · 20-40 dk",
+    "ex": "He found the whole town depressing by Sunday.",
+    "exTr": "Pazar günü bütün kasabayı iç karartıcı buldu."
+   },
+   {
+    "term": "romanticize",
+    "meaning": "aşırı güzelleştirmek, pembeye boyamak",
+    "reading": "/rou-MEN-ti-sayz/",
+    "group": "2. bölüm · 20-40 dk",
+    "ex": "We romanticize the years we did not enjoy at the time.",
+    "exTr": "O anda keyif almadığımız yılları sonradan pembeye boyarız."
+   },
+   {
+    "term": "baroque",
+    "meaning": "barok",
+    "reading": "/bı-ROUK/",
+    "group": "2. bölüm · 20-40 dk",
+    "ex": "Baroque music turned the bus ride into something else.",
+    "exTr": "Barok müzik otobüs yolculuğunu başka bir şeye çevirdi."
+   },
+   {
+    "term": "opera",
+    "meaning": "opera",
+    "reading": "/OP-rı/",
+    "group": "2. bölüm · 20-40 dk",
+    "ex": "He was snobbish about opera and knew it.",
+    "exTr": "Opera konusunda züppeydi ve bunu biliyordu."
+   },
+   {
+    "term": "obscure",
+    "meaning": "bilinmeyen, anlaşılması güç",
+    "reading": "/ıb-SKYUR/",
+    "group": "2. bölüm · 20-40 dk",
+    "ex": "He kept quoting an obscure writer nobody had read.",
+    "exTr": "Kimsenin okumadığı, pek bilinmeyen bir yazardan alıntı yapıp duruyordu."
+   },
+   {
+    "term": "rough",
+    "meaning": "zor, sert",
+    "reading": "/RAF/",
+    "group": "2. bölüm · 20-40 dk",
+    "ex": "She had a rough week and did not explain.",
+    "exTr": "Zor bir hafta geçirdi ve açıklamadı."
+   },
+   {
+    "term": "figure out",
+    "meaning": "çözmek, anlamak",
+    "reading": "/fi-gır AUT/",
+    "group": "2. bölüm · 20-40 dk",
+    "ex": "She figured out what he meant before he finished.",
+    "exTr": "Lafını bitirmeden ne demek istediğini anladı."
+   },
+   {
+    "term": "dorm",
+    "meaning": "yurt",
+    "reading": "/DORM/",
+    "group": "2. bölüm · 20-40 dk",
+    "ex": "He had not set foot in a dorm for fifteen years.",
+    "exTr": "On beş yıldır bir yurda adım atmamıştı."
+   },
+   {
+    "term": "thesis",
+    "meaning": "tez",
+    "reading": "/Tİ-sis/",
+    "group": "2. bölüm · 20-40 dk",
+    "ex": "Her thesis was due before anyone felt ready.",
+    "exTr": "Tezinin teslimi, kimse hazır hissetmeden geldi."
+   },
+   {
+    "term": "genuinely",
+    "meaning": "gerçekten, içtenlikle",
+    "reading": "/CEN-yu-in-li/",
+    "group": "2. bölüm · 20-40 dk",
+    "ex": "He was genuinely surprised by her letter.",
+    "exTr": "Mektubu karşısında gerçekten şaşırdı."
+   },
+   {
+    "term": "conflicted",
+    "meaning": "içi bölünmüş, kararsız",
+    "reading": "/kın-FLİK-tid/",
+    "group": "2. bölüm · 20-40 dk",
+    "ex": "He felt conflicted and said nothing.",
+    "exTr": "İçi bölünmüştü ve hiçbir şey söylemedi."
+   },
+   {
+    "term": "unbearably",
+    "meaning": "dayanılmaz biçimde",
+    "reading": "/an-BE-rı-bli/",
+    "group": "2. bölüm · 20-40 dk",
+    "ex": "The afternoon was unbearably slow.",
+    "exTr": "Öğleden sonra dayanılmaz derecede yavaş geçti."
+   },
+   {
+    "term": "rage",
+    "meaning": "öfke",
+    "reading": "/REYC/",
+    "group": "2. bölüm · 20-40 dk",
+    "ex": "There was old rage under his politeness.",
+    "exTr": "Nezaketinin altında eski bir öfke vardı."
+   },
+   {
+    "term": "compose",
+    "meaning": "bestelemek",
+    "reading": "/kım-POUZ/",
+    "group": "2. bölüm · 20-40 dk",
+    "ex": "He wondered how anyone could compose at twenty.",
+    "exTr": "Yirmi yaşında birinin nasıl beste yapabildiğini merak etti."
+   },
+   {
+    "term": "concerto",
+    "meaning": "konçerto",
+    "reading": "/kın-ÇER-tou/",
+    "group": "2. bölüm · 20-40 dk",
+    "ex": "The concerto filled the small room completely.",
+    "exTr": "Konçerto küçük odayı tamamen doldurdu."
+   },
+   {
+    "term": "sentiment",
+    "meaning": "duygu, düşünce",
+    "reading": "/SEN-ti-mınt/",
+    "group": "2. bölüm · 20-40 dk",
+    "ex": "The sentiment was kind even if the words were clumsy.",
+    "exTr": "Sözler beceriksizce olsa da duygu iyiydi."
+   },
+   {
+    "term": "elegant",
+    "meaning": "zarif",
+    "reading": "/E-lı-gınt/",
+    "group": "2. bölüm · 20-40 dk",
+    "ex": "Her argument was short and elegant.",
+    "exTr": "Savı kısa ve zarifti."
+   },
+   {
+    "term": "overture",
+    "meaning": "uvertür",
+    "reading": "/OU-vır-çur/",
+    "group": "2. bölüm · 20-40 dk",
+    "ex": "He played her an overture on a cheap stereo.",
+    "exTr": "Ucuz bir müzik setinde ona bir uvertür çaldı."
+   },
+   {
+    "term": "profane",
+    "meaning": "kutsala saygısız, bayağı",
+    "reading": "/prou-FEYN/",
+    "group": "2. bölüm · 20-40 dk",
+    "ex": "The sacred and the profane sat on the same shelf.",
+    "exTr": "Kutsal olanla bayağı olan aynı rafta duruyordu."
+   },
+   {
+    "term": "sacred",
+    "meaning": "kutsal",
+    "reading": "/SEYK-rid/",
+    "group": "2. bölüm · 20-40 dk",
+    "ex": "For him that library was almost sacred.",
+    "exTr": "Onun için o kütüphane neredeyse kutsaldı."
+   },
+   {
+    "term": "arguably",
+    "meaning": "tartışmalı olsa da, denebilir ki",
+    "reading": "/AR-gyu-ıb-li/",
+    "group": "2. bölüm · 20-40 dk",
+    "ex": "It was arguably the best class in the department.",
+    "exTr": "Denebilir ki bölümdeki en iyi dersti."
+   },
+   {
+    "term": "divine",
+    "meaning": "ilahi, tanrısal",
+    "reading": "/di-VAYN/",
+    "group": "2. bölüm · 20-40 dk",
+    "ex": "She described the music as divine and meant it.",
+    "exTr": "Müziği ilahi diye tanımladı ve ciddiydi."
+   },
+   {
+    "term": "reconsider",
+    "meaning": "yeniden düşünmek",
+    "reading": "/ri-kın-Sİ-dır/",
+    "group": "2. bölüm · 20-40 dk",
+    "ex": "She asked him to reconsider before he drove off.",
+    "exTr": "Arabaya binmeden önce yeniden düşünmesini istedi."
+   },
+   {
+    "term": "nowadays",
+    "meaning": "bugünlerde",
+    "reading": "/NAU-wı-deyz/",
+    "group": "2. bölüm · 20-40 dk",
+    "ex": "Nowadays he reads less than he pretends.",
+    "exTr": "Bugünlerde iddia ettiğinden az okuyor."
+   },
+   {
+    "term": "attracted",
+    "meaning": "çekim duyan",
+    "reading": "/ı-TREK-tid/",
+    "group": "2. bölüm · 20-40 dk",
+    "ex": "He was attracted to her mind first.",
+    "exTr": "Önce zihnine çekim duydu."
+   },
+   {
+    "term": "revisit",
+    "meaning": "yeniden ziyaret etmek, dönüp bakmak",
+    "reading": "/ri-Vİ-zit/",
+    "group": "3. bölüm · 40-60 dk",
+    "ex": "Revisiting the campus was harder than he expected.",
+    "exTr": "Kampüse dönüp bakmak beklediğinden zordu."
+   },
+   {
+    "term": "composer",
+    "meaning": "besteci",
+    "reading": "/kım-POU-zır/",
+    "group": "3. bölüm · 40-60 dk",
+    "ex": "She had never heard of the composer before.",
+    "exTr": "Besteciyi daha önce hiç duymamıştı."
+   },
+   {
+    "term": "psyched",
+    "meaning": "gaza gelmiş, heyecanlı",
+    "reading": "/SAYKT/",
+    "group": "3. bölüm · 40-60 dk",
+    "ex": "She was psyched about the show that night.",
+    "exTr": "O geceki gösteri için gaza gelmişti."
+   },
+   {
+    "term": "ill-equipped",
+    "meaning": "donanımsız, hazırlıksız",
+    "reading": "/il-i-KVİPT/",
+    "group": "3. bölüm · 40-60 dk",
+    "ex": "He was ill-equipped for the conversation.",
+    "exTr": "O konuşmaya hazırlıksız yakalandı."
+   },
+   {
+    "term": "insist",
+    "meaning": "ısrar etmek",
+    "reading": "/in-SİST/",
+    "group": "3. bölüm · 40-60 dk",
+    "ex": "She insisted on paying for her own coffee.",
+    "exTr": "Kendi kahvesini ödemekte ısrar etti."
+   },
+   {
+    "term": "enthusiasm",
+    "meaning": "heves, coşku",
+    "reading": "/in-SU-zi-ez-ım/",
+    "group": "3. bölüm · 40-60 dk",
+    "ex": "Her enthusiasm was impossible to argue with.",
+    "exTr": "Hevesiyle tartışmak imkânsızdı."
+   },
+   {
+    "term": "loathe",
+    "meaning": "nefret etmek",
+    "reading": "/LOUD/",
+    "group": "3. bölüm · 40-60 dk",
+    "ex": "She loathed being told what to read.",
+    "exTr": "Ne okuyacağının söylenmesinden nefret ediyordu."
+   },
+   {
+    "term": "fathom",
+    "meaning": "akıl erdirmek, kavramak",
+    "reading": "/FE-dım/",
+    "group": "3. bölüm · 40-60 dk",
+    "ex": "He could not fathom why she had written back.",
+    "exTr": "Neden cevap yazdığına akıl erdiremedi."
+   },
+   {
+    "term": "fancy",
+    "meaning": "süslü, lüks",
+    "reading": "/FEN-si/",
+    "group": "3. bölüm · 40-60 dk",
+    "ex": "It was not a fancy restaurant, just a loud one.",
+    "exTr": "Lüks bir restoran değildi, sadece gürültülüydü."
+   },
+   {
+    "term": "kidding",
+    "meaning": "şaka yapmak",
+    "reading": "/Kİ-ding/",
+    "group": "3. bölüm · 40-60 dk",
+    "ex": "You have to be kidding me, she said.",
+    "exTr": "Şaka yapıyor olmalısın, dedi."
+   },
+   {
+    "term": "overthink",
+    "meaning": "fazla düşünmek, kafayı takmak",
+    "reading": "/ou-vır-TİNK/",
+    "group": "3. bölüm · 40-60 dk",
+    "ex": "You are overthinking a cup of coffee.",
+    "exTr": "Bir fincan kahveyi fazla düşünüyorsun."
+   },
+   {
+    "term": "stunted",
+    "meaning": "gelişimi durmuş, kalmış",
+    "reading": "/STAN-tid/",
+    "group": "3. bölüm · 40-60 dk",
+    "ex": "He worried that he was emotionally stunted.",
+    "exTr": "Duygusal olarak gelişememiş olmaktan korktu."
+   },
+   {
+    "term": "poet",
+    "meaning": "şair",
+    "reading": "/POU-it/",
+    "group": "3. bölüm · 40-60 dk",
+    "ex": "She could name every Romantic poet on the list.",
+    "exTr": "Listedeki her Romantik şairin adını sayabiliyordu."
+   },
+   {
+    "term": "vampire",
+    "meaning": "vampir",
+    "reading": "/VEM-payır/",
+    "group": "3. bölüm · 40-60 dk",
+    "ex": "A vampire romance is still reading, she insisted.",
+    "exTr": "Vampir romanı da okumaktır, diye ısrar etti."
+   },
+   {
+    "term": "trilogy",
+    "meaning": "üçleme",
+    "reading": "/TRİ-lı-ci/",
+    "group": "3. bölüm · 40-60 dk",
+    "ex": "She finished the trilogy in four days.",
+    "exTr": "Üçlemeyi dört günde bitirdi."
+   },
+   {
+    "term": "dare",
+    "meaning": "cesaret etmek, kalkışmak",
+    "reading": "/DEYR/",
+    "group": "3. bölüm · 40-60 dk",
+    "ex": "He did not dare to finish the sentence.",
+    "exTr": "Cümleyi bitirmeye cesaret edemedi."
+   },
+   {
+    "term": "translated",
+    "meaning": "çevrilmiş",
+    "reading": "/TRENS-ley-tid/",
+    "group": "3. bölüm · 40-60 dk",
+    "ex": "He had read it translated and wanted the original.",
+    "exTr": "Onu çeviriden okumuştu ve aslını istiyordu."
+   },
+   {
+    "term": "offended",
+    "meaning": "alınmış, gücenmiş",
+    "reading": "/ı-FEN-did/",
+    "group": "3. bölüm · 40-60 dk",
+    "ex": "He was offended for about four seconds.",
+    "exTr": "Dört saniye kadar alındı."
+   },
+   {
+    "term": "snob",
+    "meaning": "züppe",
+    "reading": "/SNOB/",
+    "group": "3. bölüm · 40-60 dk",
+    "ex": "Don't be a snob about what other people read.",
+    "exTr": "Başkalarının okuduğu şeyler konusunda züppelik yapma."
+   },
+   {
+    "term": "verse",
+    "meaning": "şiir, dize",
+    "reading": "/VÖRS/",
+    "group": "3. bölüm · 40-60 dk",
+    "ex": "A few lines of verse changed the whole evening.",
+    "exTr": "Birkaç dize bütün akşamı değiştirdi."
+   },
+   {
+    "term": "mess up",
+    "meaning": "batırmak, karıştırmak",
+    "reading": "/mes AP/",
+    "group": "3. bölüm · 40-60 dk",
+    "ex": "I messed this up, he admitted on the phone.",
+    "exTr": "Bunu batırdım, diye kabul etti telefonda."
+   },
+   {
+    "term": "caterpillar",
+    "meaning": "tırtıl",
+    "reading": "/KE-tır-pi-lır/",
+    "group": "4. bölüm · 60-80 dk",
+    "ex": "Nobody asks the caterpillar to hurry.",
+    "exTr": "Kimse tırtıldan acele etmesini istemez."
+   },
+   {
+    "term": "show up",
+    "meaning": "gelmek, çıkagelmek",
+    "reading": "/şou AP/",
+    "group": "4. bölüm · 60-80 dk",
+    "ex": "He showed up at a party he had no business attending.",
+    "exTr": "Hiç işi olmayan bir partiye çıkageldi."
+   },
+   {
+    "term": "destiny",
+    "meaning": "kader, alınyazısı",
+    "reading": "/DES-tı-ni/",
+    "group": "4. bölüm · 60-80 dk",
+    "ex": "He did not believe in destiny until that weekend.",
+    "exTr": "O hafta sonuna kadar kadere inanmazdı."
+   },
+   {
+    "term": "cocoon",
+    "meaning": "koza",
+    "reading": "/kı-KUN/",
+    "group": "4. bölüm · 60-80 dk",
+    "ex": "Change takes longer inside the cocoon than outside.",
+    "exTr": "Değişim kozanın içinde dışarıdakinden uzun sürer."
+   },
+   {
+    "term": "bother",
+    "meaning": "rahatsız etmek, zahmet etmek",
+    "reading": "/BO-dır/",
+    "group": "4. bölüm · 60-80 dk",
+    "ex": "It bothered him more than it bothered her.",
+    "exTr": "Bu onu, kızı rahatsız ettiğinden çok rahatsız etti."
+   },
+   {
+    "term": "obsess",
+    "meaning": "takıntı yapmak",
+    "reading": "/ıb-SES/",
+    "group": "4. bölüm · 60-80 dk",
+    "ex": "He obsessed over one sentence in her letter.",
+    "exTr": "Mektubundaki tek bir cümleye takıntı yaptı."
+   },
+   {
+    "term": "reincarnation",
+    "meaning": "yeniden doğuş",
+    "reading": "/ri-in-kar-NEY-şın/",
+    "group": "4. bölüm · 60-80 dk",
+    "ex": "He listened to a stranger talk about reincarnation.",
+    "exTr": "Bir yabancının yeniden doğuş üzerine konuşmasını dinledi."
+   },
+   {
+    "term": "consequence",
+    "meaning": "sonuç, bedel",
+    "reading": "/KON-sı-kvıns/",
+    "group": "4. bölüm · 60-80 dk",
+    "ex": "Every easy choice had a quiet consequence.",
+    "exTr": "Her kolay seçimin sessiz bir bedeli vardı."
+   },
+   {
+    "term": "guilt",
+    "meaning": "suçluluk",
+    "reading": "/GİLT/",
+    "group": "4. bölüm · 60-80 dk",
+    "ex": "The guilt arrived the next morning.",
+    "exTr": "Suçluluk ertesi sabah geldi."
+   },
+   {
+    "term": "morality",
+    "meaning": "ahlak",
+    "reading": "/mo-RE-lı-ti/",
+    "group": "4. bölüm · 60-80 dk",
+    "ex": "They argued about morality until the coffee went cold.",
+    "exTr": "Kahve soğuyana kadar ahlak üzerine tartıştılar."
+   },
+   {
+    "term": "flattering",
+    "meaning": "gurur okşayan",
+    "reading": "/FLE-tı-ring/",
+    "group": "4. bölüm · 60-80 dk",
+    "ex": "It was flattering and slightly alarming at the same time.",
+    "exTr": "Hem gurur okşayıcıydı hem de biraz ürkütücüydü."
+   },
+   {
+    "term": "mentor",
+    "meaning": "yol gösteren, usta",
+    "reading": "/MEN-tor/",
+    "group": "4. bölüm · 60-80 dk",
+    "ex": "The old professor had been his mentor.",
+    "exTr": "Yaşlı hoca onun yol göstericisiydi."
+   },
+   {
+    "term": "mock",
+    "meaning": "alay etmek, taklidini yapmak",
+    "reading": "/MOK/",
+    "group": "4. bölüm · 60-80 dk",
+    "ex": "She mocked his serious voice and he laughed.",
+    "exTr": "Ciddi ses tonuyla dalga geçti, o da güldü."
+   },
+   {
+    "term": "vain",
+    "meaning": "kendini beğenmiş, boş",
+    "reading": "/VEYN/",
+    "group": "4. bölüm · 60-80 dk",
+    "ex": "He was vain about things nobody noticed.",
+    "exTr": "Kimsenin fark etmediği şeyler konusunda kendini beğenmişti."
+   },
+   {
+    "term": "recite",
+    "meaning": "ezbere okumak",
+    "reading": "/ri-SAYT/",
+    "group": "4. bölüm · 60-80 dk",
+    "ex": "He could recite whole pages from memory.",
+    "exTr": "Ezberden sayfalarca okuyabiliyordu."
+   },
+   {
+    "term": "immortal",
+    "meaning": "ölümsüz",
+    "reading": "/i-MOR-tıl/",
+    "group": "4. bölüm · 60-80 dk",
+    "ex": "The vampires in her book were beautiful and immortal.",
+    "exTr": "Kitabındaki vampirler güzel ve ölümsüzdü."
+   },
+   {
+    "term": "emergence",
+    "meaning": "ortaya çıkış, belirme",
+    "reading": "/i-MÖR-cıns/",
+    "group": "4. bölüm · 60-80 dk",
+    "ex": "The emergence of the new version took years.",
+    "exTr": "Yeni hâlin ortaya çıkışı yıllar aldı."
+   },
+   {
+    "term": "tenured",
+    "meaning": "kadrolu (akademik)",
+    "reading": "/TEN-yırd/",
+    "group": "4. bölüm · 60-80 dk",
+    "ex": "A tenured professor can say almost anything.",
+    "exTr": "Kadrolu bir hoca neredeyse her şeyi söyleyebilir."
+   },
+   {
+    "term": "prestigious",
+    "meaning": "saygın, itibarlı",
+    "reading": "/pres-Tİ-cıs/",
+    "group": "4. bölüm · 60-80 dk",
+    "ex": "A prestigious fellowship paid for his year abroad.",
+    "exTr": "Saygın bir burs yurt dışındaki yılının masrafını karşıladı."
+   },
+   {
+    "term": "assure",
+    "meaning": "temin etmek, güvence vermek",
+    "reading": "/ı-ŞUR/",
+    "group": "4. bölüm · 60-80 dk",
+    "ex": "I assure you it is not what it looks like.",
+    "exTr": "Seni temin ederim, göründüğü gibi değil."
+   },
+   {
+    "term": "sordid",
+    "meaning": "kirli, aşağılık",
+    "reading": "/SOR-did/",
+    "group": "4. bölüm · 60-80 dk",
+    "ex": "He called the plot sordid and she laughed at him.",
+    "exTr": "Konuya kirli dedi, kız da ona güldü."
+   },
+   {
+    "term": "discretion",
+    "meaning": "ağzı sıkılık, sağduyu",
+    "reading": "/dis-KRE-şın/",
+    "group": "4. bölüm · 60-80 dk",
+    "ex": "He asked for discretion and did not get it.",
+    "exTr": "Ağzı sıkı olunmasını istedi ama olmadı."
+   },
+   {
+    "term": "self-pity",
+    "meaning": "kendine acıma",
+    "reading": "/self-Pİ-ti/",
+    "group": "4. bölüm · 60-80 dk",
+    "ex": "There is a thin line between sadness and self-pity.",
+    "exTr": "Üzüntüyle kendine acıma arasında ince bir çizgi vardır."
+   },
+   {
+    "term": "optimistic",
+    "meaning": "iyimser",
+    "reading": "/op-ti-MİS-tik/",
+    "group": "4. bölüm · 60-80 dk",
+    "ex": "He was optimistic for about one afternoon.",
+    "exTr": "Bir öğleden sonra kadar iyimserdi."
+   },
+   {
+    "term": "miserable",
+    "meaning": "perişan, mutsuz",
+    "reading": "/Mİ-zı-rı-bıl/",
+    "group": "4. bölüm · 60-80 dk",
+    "ex": "He had been miserable in that job for years.",
+    "exTr": "O işte yıllardır perişandı."
+   },
+   {
+    "term": "transcendence",
+    "meaning": "aşkınlık, sıradanı aşma",
+    "reading": "/tren-SEN-dıns/",
+    "group": "4. bölüm · 60-80 dk",
+    "ex": "He was looking for transcendence in a college town.",
+    "exTr": "Küçük bir üniversite kasabasında aşkınlık arıyordu."
+   },
+   {
+    "term": "foresight",
+    "meaning": "öngörü, ileriyi görme",
+    "reading": "/FOR-sayt/",
+    "group": "4. bölüm · 60-80 dk",
+    "ex": "He had hindsight but never foresight.",
+    "exTr": "Sonradan anlardı ama hiç öngörüsü olmazdı."
+   },
+   {
+    "term": "irony",
+    "meaning": "ironi, alaycı çelişki",
+    "reading": "/AY-rı-ni/",
+    "group": "4. bölüm · 60-80 dk",
+    "ex": "The irony was not lost on either of them.",
+    "exTr": "İroni ikisinin de gözünden kaçmadı."
+   },
+   {
+    "term": "uninspired",
+    "meaning": "ilhamsız, sönük",
+    "reading": "/an-in-SPA-yırd/",
+    "group": "4. bölüm · 60-80 dk",
+    "ex": "His own writing felt uninspired next to hers.",
+    "exTr": "Kendi yazdıkları, onunkinin yanında sönük kaldı."
+   },
+   {
+    "term": "petty",
+    "meaning": "küçük, önemsiz, bayağı",
+    "reading": "/PE-ti/",
+    "group": "4. bölüm · 60-80 dk",
+    "ex": "His objection was petty and he knew it.",
+    "exTr": "İtirazı bayağıydı ve bunu biliyordu."
+   },
+   {
+    "term": "confusion",
+    "meaning": "kafa karışıklığı",
+    "reading": "/kın-FYU-jın/",
+    "group": "4. bölüm · 60-80 dk",
+    "ex": "There was more confusion than romance in it.",
+    "exTr": "İçinde romantizmden çok kafa karışıklığı vardı."
+   },
+   {
+    "term": "stirring",
+    "meaning": "insanı içten saran, coşturan",
+    "reading": "/STÖR-ring/",
+    "group": "4. bölüm · 60-80 dk",
+    "ex": "It was a stirring piece and nobody spoke after it.",
+    "exTr": "Coşturucu bir parçaydı, sonrasında kimse konuşmadı."
+   },
+   {
+    "term": "devastating",
+    "meaning": "yıkıcı",
+    "reading": "/DE-vıs-tey-ting/",
+    "group": "5. bölüm · 80-96 dk",
+    "ex": "A kind sentence can be devastating.",
+    "exTr": "Nazik bir cümle yıkıcı olabilir."
+   },
+   {
+    "term": "limitation",
+    "meaning": "sınır, kısıt",
+    "reading": "/li-mi-TEY-şın/",
+    "group": "5. bölüm · 80-96 dk",
+    "ex": "He was finally honest about his own limitations.",
+    "exTr": "Sonunda kendi sınırları konusunda dürüst oldu."
+   },
+   {
+    "term": "flaw",
+    "meaning": "kusur",
+    "reading": "/FLO/",
+    "group": "5. bölüm · 80-96 dk",
+    "ex": "The plan had one obvious flaw.",
+    "exTr": "Planın bir bariz kusuru vardı."
+   },
+   {
+    "term": "footnote",
+    "meaning": "dipnot",
+    "reading": "/FUT-nout/",
+    "group": "5. bölüm · 80-96 dk",
+    "ex": "The footnote was longer than the paragraph.",
+    "exTr": "Dipnot paragraftan uzundu."
+   },
+   {
+    "term": "contentment",
+    "meaning": "hoşnutluk, iç huzuru",
+    "reading": "/kın-TENT-mınt/",
+    "group": "5. bölüm · 80-96 dk",
+    "ex": "Contentment is quieter than happiness.",
+    "exTr": "Hoşnutluk mutluluktan daha sessizdir."
+   },
+   {
+    "term": "stumble",
+    "meaning": "tökezlemek, denk gelmek",
+    "reading": "/STAM-bıl/",
+    "group": "5. bölüm · 80-96 dk",
+    "ex": "He stumbled through the toast and sat down.",
+    "exTr": "Kadeh konuşmasında tökezledi ve oturdu."
+   },
+   {
+    "term": "wiser",
+    "meaning": "daha akıllı, daha olgun",
+    "reading": "/VAY-zır/",
+    "group": "5. bölüm · 80-96 dk",
+    "ex": "He was older but not obviously wiser.",
+    "exTr": "Daha yaşlıydı ama belirgin biçimde daha akıllı değildi."
+   },
+   {
+    "term": "adulthood",
+    "meaning": "yetişkinlik",
+    "reading": "/ı-DALT-hud/",
+    "group": "5. bölüm · 80-96 dk",
+    "ex": "Nobody warns you that adulthood keeps starting over.",
+    "exTr": "Yetişkinliğin sürekli baştan başladığını kimse söylemiyor."
+   },
+   {
+    "term": "judgmental",
+    "meaning": "yargılayıcı",
+    "reading": "/cac-MEN-tıl/",
+    "group": "5. bölüm · 80-96 dk",
+    "ex": "Try not to be judgmental about her taste.",
+    "exTr": "Onun zevki konusunda yargılayıcı olmamaya çalış."
+   }
+  ]
  }
 ];

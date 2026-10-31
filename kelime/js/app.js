@@ -14,32 +14,34 @@
     if (e.data.type === "kk-theme") { w.__embedTheme = e.data.theme; UI.applyTheme(); }
   });
 
-  /* Hazır desteleri ekler. Aynı ad + grup zaten varsa atlar, ilerlemeye dokunmaz. */
+  /* Hazır desteler her açılışta gözden geçirilir: depoya yeni bir deste
+     eklendiyse bu cihaza da iner. Zaten duran desteye ve ilerlemeye dokunmaz,
+     kullanıcının sildiği desteyi geri getirmez. */
   function seedStarter() {
     if (!w.STARTER) return 0;
-    var n = 0;
+    var st = Store.state;
+    if (!st.seeded) st.seeded = {};
+    var ilk = !st.decks.length;
+    var n = 0, degisti = false;
+
     w.STARTER.forEach(function (s) {
-      var var_ = Store.state.decks.some(function (d) {
-        return d.name === s.name && (d.collection || "") === (s.collection || "");
-      });
-      if (var_) return;
+      var ad = s.name;
+      if (st.seeded[ad]) return;                       // bir kez kuruldu, kullanıcı silmişse geri gelmesin
+      var duruyor = st.decks.some(function (d) { return d.name === ad; });
+      if (duruyor) { st.seeded[ad] = 1; degisti = true; return; }   // eski kurulum: işaretle, dokunma
       Store.addDeck(s.name, s.type, s.cards, s.collection);
-      n++;
+      st.seeded[ad] = 1; n++; degisti = true;
     });
-    if (n) Store.save();
+
+    if (n && !ilk) UI.toast(n === 1 ? "Yeni hazır deste eklendi" : n + " yeni hazır deste eklendi");
+    if (ilk && st.decks.length) st.settings.selected = [st.decks[0].id];
+    if (degisti) { st.seededStarter = true; Store.save(); }
     return n;
   }
 
   function boot() {
     Store.load();
-
-    /* ilk açılışta hazır desteler */
-    if (!Store.state.seededStarter && !Store.state.decks.length && w.STARTER) {
-      seedStarter();
-      Store.state.seededStarter = true;
-      Store.state.settings.selected = Store.state.decks.length ? [Store.state.decks[0].id] : [];
-      Store.save();
-    }
+    seedStarter();
 
     UI.applyTheme();
     UI.show("study");
