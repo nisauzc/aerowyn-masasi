@@ -212,7 +212,7 @@
       </span>
     </div>
 
-    <p class="version">Kelime Kutusu · <span id="verText">v1.4</span></p>
+    <p class="version">Kelime Kutusu · <span id="verText">v1.5</span></p>
   </section>
 
 </main>
@@ -247,8 +247,14 @@
         <select id="deckTarget"></select>
       </label>
 
+      <label class="field" id="secWrap">
+        <span>Dil</span>
+        <input type="text" id="deckSec" list="secList" placeholder="İngilizce" autocomplete="off">
+        <datalist id="secList"></datalist>
+      </label>
+
       <label class="field" id="collWrap">
-        <span>Grup (kitap adı)</span>
+        <span>Grup (kitap / konu adı)</span>
         <input type="text" id="deckColl" list="collList" placeholder="Howl's Moving Castle" autocomplete="off">
         <datalist id="collList"></datalist>
       </label>
@@ -305,7 +311,7 @@
       <div class="btn-row">
         <button id="dsAdd" class="pill-btn" type="button">Kelime / cümle ekle</button>
         <button id="dsRename" class="pill-btn" type="button">Adını değiştir</button>
-        <button id="dsGroup" class="pill-btn" type="button">Grubu değiştir</button>
+        <button id="dsGroup" class="pill-btn" type="button">Yerini değiştir</button>
         <button id="dsReset" class="pill-btn" type="button">İlerlemeyi sıfırla</button>
         <button id="dsDelete" class="pill-btn danger" type="button">Desteyi sil</button>
       </div>

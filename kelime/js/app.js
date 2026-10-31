@@ -17,10 +17,26 @@
   /* Hazır desteler her açılışta gözden geçirilir: depoya yeni bir deste
      eklendiyse bu cihaza da iner. Zaten duran desteye ve ilerlemeye dokunmaz,
      kullanıcının sildiği desteyi geri getirmez. */
+  /* Listeden çıkarılan hazır desteler: ilerleme yoksa sessizce kaldırılır,
+     ilerleme varsa dokunulmaz, kullanıcı kendi silsin. */
+  var EMEKLI = ["Kana Okuma"];
+  function retireStarter() {
+    var st = Store.state, n = 0;
+    EMEKLI.forEach(function (ad) {
+      var dk = st.decks.filter(function (d) { return d.name === ad; })[0];
+      if (!dk) return;
+      var calisilmis = dk.cards.some(function (c) { return st.prog[c.id]; });
+      if (calisilmis) return;
+      Store.removeDeck(dk.id); n++;
+    });
+    return n;
+  }
+
   function seedStarter() {
     if (!w.STARTER) return 0;
     var st = Store.state;
     if (!st.seeded) st.seeded = {};
+    retireStarter();
     var ilk = !st.decks.length;
     var n = 0, degisti = false;
 
@@ -79,9 +95,15 @@
     $("#groupSel").onchange = function () { UI.setScope(this.value); };
     $("#reviseSize").onchange = function () { UI.setReviseSize(this.value); };
     $("#deckPicker").onclick = function (e) {
+      var sc = e.target.closest("[data-sec]");
+      if (sc) {
+        Store.selectCollection(null, !sc.classList.contains("on"), sc.dataset.sec);
+        UI.render();
+        return;
+      }
       var g = e.target.closest("[data-coll]");
       if (g) {
-        Store.selectCollection(g.dataset.coll, !g.classList.contains("on"));
+        Store.selectCollection(g.dataset.coll, !g.classList.contains("on"), g.dataset.in);
         UI.render();
         return;
       }
@@ -143,6 +165,7 @@
       if (b && !b.disabled) UI.groupAction(b.dataset.gAct, b.dataset.g);
     };
     $("#deckTarget").onchange = function () { UI.setTarget(this.value); };
+    $("#deckSec").oninput = function () { UI.refreshCollList(); };
 
     /* takip çizelgesi */
     d.querySelectorAll("[data-range]").forEach(function (b) {
@@ -161,13 +184,16 @@
     $("#dsGroup").onclick = function () {
       var dk = Store.deck(UI.currentDeck());
       if (!dk) return;
-      var varOlan = Store.collectionNames().join(", ");
-      var ad = w.prompt("Bu deste hangi grupta olsun?" + (varOlan ? "\nVar olan gruplar: " + varOlan : "") +
+      var diller = Store.sectionNames().join(", ");
+      var dil = w.prompt("Hangi dilin altında olsun?\nVar olanlar: " + diller, dk.section || "");
+      if (dil === null) return;
+      var gruplar = Store.collectionNames().join(", ");
+      var ad = w.prompt("Hangi grupta olsun?" + (gruplar ? "\nVar olan gruplar: " + gruplar : "") +
         "\n(boş bırakırsan gruptan çıkar)", dk.collection || "");
       if (ad === null) return;
-      Store.setCollection(dk.id, ad);
-      $("#dsColl").textContent = dk.collection ? dk.collection : "grupsuz";
-      UI.toast(dk.collection ? dk.collection + " grubuna alındı" : "Gruptan çıkarıldı");
+      Store.setPlace(dk.id, dil, ad);
+      $("#dsColl").textContent = (dk.section || "?") + (dk.collection ? " · " + dk.collection : " · grupsuz");
+      UI.toast((dk.section || "") + (dk.collection ? " · " + dk.collection : "") + " altına alındı");
       UI.render();
     };
     $("#dsReset").onclick = function () {

@@ -147,21 +147,29 @@
       return;
     }
 
-    picker.innerHTML = Store.collections().map(function (g) {
-      var hepsi = g.decks.every(function (dk) { return st.settings.selected.indexOf(dk.id) >= 0; });
-      var baslik = g.name
-        ? '<button type="button" class="coll-head' + (hepsi ? " on" : "") + '" data-coll="' + esc(g.name) + '">' +
-          '<span class="nm">' + esc(g.name) + "</span>" +
-          '<span class="badge">' + g.decks.length + " deste</span></button>"
-        : '<p class="coll-head plain">Tek başına desteler</p>';
-      return '<div class="coll">' + baslik + g.decks.map(function (dk) {
-        var on = st.settings.selected.indexOf(dk.id) >= 0;
-        var dc = Store.counts([dk]);
-        return '<button type="button" class="pick' + (on ? " on" : "") + '" data-deck="' + esc(dk.id) + '">' +
-          '<span class="box">' + (on ? "&#10003;" : "") + "</span>" +
-          '<span class="nm">' + esc(dk.name) + "</span>" +
-          '<span class="badge">' + dc.due + " tekrar · " + dc.nw + " yeni</span></button>";
-      }).join("") + "</div>";
+    picker.innerHTML = Store.tree().map(function (sec) {
+      var tumD = []; sec.groups.forEach(function (g) { tumD = tumD.concat(g.decks); });
+      var secHepsi = tumD.every(function (dk) { return st.settings.selected.indexOf(dk.id) >= 0; });
+      var secBas = '<button type="button" class="sec-head' + (secHepsi ? " on" : "") + '" data-sec="' + esc(sec.name) + '">' +
+        '<span class="nm">' + esc(sec.name || "Diğer") + "</span>" +
+        '<span class="badge">' + tumD.length + " deste</span></button>";
+
+      return '<section class="sec">' + secBas + sec.groups.map(function (g) {
+        var hepsi = g.decks.every(function (dk) { return st.settings.selected.indexOf(dk.id) >= 0; });
+        var baslik = g.name
+          ? '<button type="button" class="coll-head' + (hepsi ? " on" : "") + '" data-coll="' + esc(g.name) + '" data-in="' + esc(sec.name) + '">' +
+            '<span class="nm">' + esc(g.name) + "</span>" +
+            '<span class="badge">' + g.decks.length + " deste</span></button>"
+          : '<p class="coll-head plain">Tek başına desteler</p>';
+        return '<div class="coll">' + baslik + g.decks.map(function (dk) {
+          var on = st.settings.selected.indexOf(dk.id) >= 0;
+          var dc = Store.counts([dk]);
+          return '<button type="button" class="pick' + (on ? " on" : "") + '" data-deck="' + esc(dk.id) + '">' +
+            '<span class="box">' + (on ? "&#10003;" : "") + "</span>" +
+            '<span class="nm">' + esc(dk.name) + "</span>" +
+            '<span class="badge">' + dc.due + " tekrar · " + dc.nw + " yeni</span></button>";
+        }).join("") + "</div>";
+      }).join("") + "</section>";
     }).join("");
 
     $("#scopeRow").hidden = mode === "learn";
@@ -236,13 +244,19 @@
       list.innerHTML = '<div class="empty"><b>Deste yok</b>Yukarıdaki düğmeden CSV yükle.</div>';
       return;
     }
-    list.innerHTML = Store.collections().map(function (g) {
-      var tumKelime = 0, tumBilinen = 0;
-      g.decks.forEach(function (dk) {
-        var c = Store.counts([dk]);
-        tumKelime += c.total; tumBilinen += c.learned + c.marked;
-      });
-      var ustPct = tumKelime ? Math.round((tumBilinen / tumKelime) * 100) : 0;
+    function sayim(ds) {
+      var k = 0, b = 0;
+      ds.forEach(function (dk) { var c = Store.counts([dk]); k += c.total; b += c.learned + c.marked; });
+      return { kelime: k, pct: k ? Math.round(b / k * 100) : 0 };
+    }
+    list.innerHTML = Store.tree().map(function (sec) {
+      var tumD = []; sec.groups.forEach(function (g) { tumD = tumD.concat(g.decks); });
+      var ts = sayim(tumD);
+      var secBas = '<div class="sec-title"><h3>' + esc(sec.name || "Diğer") + "</h3>" +
+        "<small>" + tumD.length + " deste · " + ts.kelime + " kelime · %" + ts.pct + "</small></div>";
+
+      return '<section class="sec-block">' + secBas + sec.groups.map(function (g) {
+      var sm = sayim(g.decks), tumKelime = sm.kelime, ustPct = sm.pct;
       var baslik = g.name
         ? '<div class="coll-title"><b>' + esc(g.name) + "</b>" +
           "<small>" + g.decks.length + " deste · " + tumKelime + " kelime · %" + ustPct + "</small></div>"
@@ -258,6 +272,7 @@
           "<small>" + c.total + " kelime · " + typeLabel(dk.type) + "</small>" +
           '<span class="mini-bar"><i style="width:' + pct + '%"></i></span></span>' +
           '<span class="badge">' + pct + "%</span></div>";
+      }).join("") + "</section>";
       }).join("") + "</section>";
     }).join("");
   }
@@ -382,6 +397,7 @@
   function openSheet() {
     draft = { type: "en-tr", cards: [], target: "" };
     fillDeckTarget();
+    $("#deckSec").value = "İngilizce";
     fillCollList();
     $("#deckColl").value = "";
     $("#deckName").value = "";
@@ -438,17 +454,28 @@
     $("#nameWrap").hidden = !!tgt;
     $("#typeWrap").hidden = !!tgt;
     $("#collWrap").hidden = !!tgt;
+    $("#secWrap").hidden = !!tgt;
     $("#saveDeckBtn").textContent = tgt ? "Desteyi tazele" : "Desteyi kaydet";
   }
 
   /* Var olan grup adları öneri olarak çıksın */
   function fillCollList() {
-    var dl = $("#collList");
-    if (!dl) return;
-    dl.innerHTML = Store.collectionNames().map(function (n) {
+    var dl = $("#collList"), ds = $("#secList");
+    if (ds) ds.innerHTML = Store.sectionNames().map(function (n) {
       return '<option value="' + esc(n) + '"></option>';
     }).join("");
+    if (!dl) return;
+    /* seçili dile ait grupları öner, yoksa hepsini */
+    var sec = $("#deckSec") ? $("#deckSec").value.trim() : "";
+    var agac = Store.tree(), adlar = [];
+    agac.forEach(function (x) {
+      if (sec && x.name !== sec) return;
+      x.groups.forEach(function (g) { if (g.name && adlar.indexOf(g.name) < 0) adlar.push(g.name); });
+    });
+    if (!adlar.length) adlar = Store.collectionNames();
+    dl.innerHTML = adlar.map(function (n) { return '<option value="' + esc(n) + '"></option>'; }).join("");
   }
+  UI.refreshCollList = fillCollList;
 
   UI.setTarget = function (v) {
     draft.target = v || "";
@@ -458,6 +485,7 @@
 
   function setType(t) {
     draft.type = t;
+    if ($("#deckSec")) { $("#deckSec").value = Store.dilFromType(t); fillCollList(); }
     updateCsvHelp();
   }
   UI.setType = setType;
@@ -508,7 +536,8 @@
 
     var name = $("#deckName").value.trim() || "Yeni deste";
     var coll = $("#deckColl").value.trim();
-    Store.addDeck(name, draft.type, draft.cards, coll);
+    var sec = $("#deckSec").value.trim();
+    Store.addDeck(name, draft.type, draft.cards, coll, sec);
     $("#sheet").hidden = true;
     toast(draft.cards.length + " kelime eklendi" + (coll ? " · " + coll : ""));
     show("decks");
@@ -521,7 +550,7 @@
     if (!dk) return;
     openDeckId = id;
     $("#dsTitle").textContent = dk.name;
-    $("#dsColl").textContent = dk.collection ? dk.collection : "grupsuz";
+    $("#dsColl").textContent = (dk.section || "?") + (dk.collection ? " · " + dk.collection : " · grupsuz");
     $("#dsSearch").value = "";
     drawGroups();
     drawWords("");

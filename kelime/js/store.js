@@ -40,14 +40,42 @@
   }
 
   /* Eski kayıtlar: desteler grupsuz kurulmuştu, adından anlaşılanı yerine koy */
+  /* Hazır destelerin dil + grup yerleşimi. Bir kere uygulanır, sonra
+     kullanıcı kendi düzenini kurabilir. */
+  var YERLESIM = {
+    "Howl B1":        ["İngilizce", "Howl's Moving Castle"],
+    "Howl B2":        ["İngilizce", "Howl's Moving Castle"],
+    "Liberal Arts":   ["İngilizce", "Liberal Arts"],
+    "Hiragana":       ["Japonca", "Hiragana"],
+    "Katakana":       ["Japonca", "Katakana"],
+    "Kanji N5":       ["Japonca", "Kanji N5"],
+    "Günlük Japonca": ["Japonca", "Günlük Japonca Konuşma"],
+    "Günlük Konuşma": ["Japonca", "Günlük Japonca Konuşma"]
+  };
+  function dilFromType(t) { return t === "ja-tr" || t === "ja-en" ? "Japonca" : "İngilizce"; }
+
   function migrate() {
     var degisti = false;
     state.decks.forEach(function (dk) {
-      if (typeof dk.collection === "string") return;
-      dk.collection = /^howl/i.test(dk.name) ? "Howl's Moving Castle"
-        : /japonca/i.test(dk.name) ? "Japonca" : "";
-      degisti = true;
+      if (typeof dk.collection !== "string") {
+        dk.collection = /^howl/i.test(dk.name) ? "Howl's Moving Castle" : "";
+        degisti = true;
+      }
+      if (typeof dk.section !== "string") {
+        dk.section = dilFromType(dk.type);
+        degisti = true;
+      }
     });
+    /* hazır desteleri bir kez yeni düzene taşı */
+    if (state.layoutV !== 2) {
+      state.decks.forEach(function (dk) {
+        var y = YERLESIM[dk.name];
+        if (!y) return;
+        if (dk.section !== y[0] || dk.collection !== y[1]) { dk.section = y[0]; dk.collection = y[1]; }
+      });
+      state.layoutV = 2;
+      degisti = true;
+    }
     if (degisti) save();
   }
 
@@ -82,10 +110,11 @@
     };
   }
 
-  function addDeck(name, type, cards, collection) {
+  function addDeck(name, type, cards, collection, section) {
     var id = uid();
     var deck = {
       id: id, name: name, type: type, collection: collection || "",
+      section: section || dilFromType(type),
       created: Date.now(), seq: cards.length,
       cards: cards.map(function (c, i) { return makeCard(id, i, c); })
     };
@@ -113,6 +142,57 @@
 
   function collectionNames() {
     return collections().map(function (g) { return g.name; }).filter(Boolean);
+  }
+
+  /* Dil > grup > deste ağacı. Diller İngilizce, Japonca, sonra diğerleri. */
+  function tree() {
+    var SIRA = ["İngilizce", "Japonca"];
+    var order = [], map = Object.create(null);
+    state.decks.forEach(function (dk) {
+      var s2 = dk.section || "", g = dk.collection || "";
+      if (!map[s2]) { map[s2] = { name: s2, groups: [], gmap: Object.create(null) }; order.push(map[s2]); }
+      var sec = map[s2];
+      if (!sec.gmap[g]) { sec.gmap[g] = { name: g, decks: [] }; sec.groups.push(sec.gmap[g]); }
+      sec.gmap[g].decks.push(dk);
+    });
+    /* gruplar hazır deste listesindeki sırayı izler, sonrakiler eklenme sırasıyla */
+    var gsira = [];
+    (w.STARTER || []).forEach(function (x) {
+      if (x.collection && gsira.indexOf(x.collection) < 0) gsira.push(x.collection);
+    });
+    order.forEach(function (sec) {
+      delete sec.gmap;
+      var adli = sec.groups.filter(function (g) { return g.name; });
+      adli.sort(function (a, b) {
+        var i = gsira.indexOf(a.name), j = gsira.indexOf(b.name);
+        if (i < 0 && j < 0) return 0;
+        if (i < 0) return 1;
+        if (j < 0) return -1;
+        return i - j;
+      });
+      sec.groups = adli.concat(sec.groups.filter(function (g) { return !g.name; }));
+    });
+    order.sort(function (a, b) {
+      var i = SIRA.indexOf(a.name), j = SIRA.indexOf(b.name);
+      if (i < 0) i = a.name ? 90 : 99;
+      if (j < 0) j = b.name ? 90 : 99;
+      return i - j || a.name.localeCompare(b.name, "tr");
+    });
+    return order;
+  }
+
+  function sectionNames() {
+    var out = tree().map(function (s2) { return s2.name; }).filter(Boolean);
+    ["İngilizce", "Japonca"].forEach(function (x) { if (out.indexOf(x) < 0) out.push(x); });
+    return out;
+  }
+
+  function setPlace(id, section, collection) {
+    var dk = deck(id);
+    if (!dk) return;
+    if (section != null) dk.section = String(section).trim();
+    if (collection != null) dk.collection = String(collection).trim();
+    save();
   }
 
   function setCollection(id, name) {
@@ -298,9 +378,12 @@
     return sel.map(deck);
   }
 
-  /* Bir grubun bütün destelerini birden seç ya da bırak */
-  function selectCollection(name, on) {
-    var ids = state.decks.filter(function (d) { return (d.collection || "") === (name || ""); })
+  /* Bir grubun ya da dilin bütün destelerini birden seç ya da bırak */
+  function selectCollection(name, on, section) {
+    var ids = state.decks.filter(function (d) {
+      if (section != null) return (d.section || "") === section && (name == null || (d.collection || "") === name);
+      return (d.collection || "") === (name || "");
+    })
       .map(function (d) { return d.id; });
     var sel = state.settings.selected.filter(function (x) { return ids.indexOf(x) < 0; });
     if (on) sel = sel.concat(ids);
@@ -369,6 +452,7 @@
     addDeck: addDeck, deck: deck, removeDeck: removeDeck, resetDeck: resetDeck,
     mergeIntoDeck: mergeIntoDeck, groups: groups, cardsOf: cardsOf, countCards: countCards,
     collections: collections, collectionNames: collectionNames, setCollection: setCollection,
+    tree: tree, sectionNames: sectionNames, setPlace: setPlace, dilFromType: dilFromType,
     selectCollection: selectCollection,
     resetCards: resetCards, dueToday: dueToday,
     prog: prog, setProg: setProg, selectedDecks: selectedDecks, toggleSelected: toggleSelected,
